@@ -1,10 +1,7 @@
 # Site navigation links
 
-- title: Who's Who
+- title: About Me
   url: /about/
-
-- title: Visit
-  url: /visit/
 
 - title: Resources
   url: /resources/
