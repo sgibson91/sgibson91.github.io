@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: Sarah Gibson
+title: Dr Sarah Gibson
 locale: en_GB
-description: 
+description:
 logo: site-logo.png
 search: true
 url: https://sgibson91.github.io
@@ -38,8 +38,8 @@ repository: sgibson91/sgibson91.github.io
 
 # Site owner
 owner:
-  name: Sarah Gibson
-  avatar:
+  name: Dr Sarah Gibson
+  avatar: profile_pic.jpg
   email: drsarahlgibson@gmail.com
   disqus-shortname:
   twitter: drsarahlgibson
