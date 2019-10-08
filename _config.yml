@@ -1,0 +1,61 @@
+# Site wide configuration
+
+title: Sarah Gibson
+locale: en_GB
+description: 
+logo: site-logo.png
+search: true
+url: https://sgibson91.github.io
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+repository: sgibson91/sgibson91.github.io
+
+# Site owner
+owner:
+  name: Sarah Gibson
+  avatar:
+  email: drsarahlgibson@gmail.com
+  disqus-shortname:
+  twitter: drsarahlgibson
+  facebook: #username
+  github: sgibson91
+  stackexchange: #http://stackoverflow.com/users/123456/username
+  linkedin: drsarahlgibson
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
