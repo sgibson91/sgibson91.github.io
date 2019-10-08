@@ -5,6 +5,8 @@ excerpt: "Drop me a line!"
 search_omit: true
 ---
 
+If you'd like to get in touch with me, I'd be gald to answer any questions!
+
 You can email me at [drsarahlgibson@gmail.com](mailto:drsarahlgibson@gmail.com).
 
 Follow me on Twitter: [@drsarahlgibson](https://twitter.com/drsarahlgibson).
