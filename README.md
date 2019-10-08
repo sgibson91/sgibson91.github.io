@@ -1,2 +1,2 @@
-# sgibson91-github.io
+# sgibson91.github.io
 Website
