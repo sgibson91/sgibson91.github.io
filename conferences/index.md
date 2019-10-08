@@ -2,6 +2,13 @@
 layout: page
 title: Conferences
 excerpt: "Conferences talks/workshops"
+image:
+  path: /images/RSEConUK19.jpeg
+  caption: "Photo from RSE Con UK 2019"
+tags:
+  - talks
+  - workshops
+  - conferences
 ---
 
 Conference | Date | Title | Resources
