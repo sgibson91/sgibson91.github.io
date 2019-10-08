@@ -3,7 +3,7 @@
 ## Installing dependencies
 
 ```bash
-gem install
+bundle install
 ```
 
 ## Locally rendering changes
