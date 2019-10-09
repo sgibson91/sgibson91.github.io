@@ -1,0 +1,22 @@
+# Site navigation links
+
+- title: About Me
+  url: /about/
+
+- title: Projects
+  url: /projects/
+
+- title: Blog
+  url: /blog/
+
+- title: Conferences
+  url: /conferences/
+
+- title: Contact
+  url: /contact/
+
+- title: Search
+  url: /search/
+
+- title: GitHub
+  url: https://github.com/sgibson91
