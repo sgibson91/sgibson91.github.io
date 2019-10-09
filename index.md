@@ -1,6 +1,5 @@
 ---
 title: Welcome!
-excerpt: "Projects Sarah contributes to"
 search_omit: true
 ---
 

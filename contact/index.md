@@ -1,7 +1,6 @@
 ---
 layout: category
 title: Contact
-excerpt: "Drop me a line!"
 image:
   path: /images/email.png
   caption: "Photo by [John Schnobrich](https://unsplash.com/@johnschno?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/email?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"

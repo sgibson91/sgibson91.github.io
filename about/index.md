@@ -1,7 +1,6 @@
 ---
 layout: category
 title: About Me
-excerpt: "An Introduction to Dr Sarah Gibson"
 ---
 
 ## Dr Sarah Gibson
