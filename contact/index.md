@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Contact
 excerpt: "Drop me a line!"
 search_omit: true

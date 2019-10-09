@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Conferences
 excerpt: "Conferences talks/workshops"
 image:

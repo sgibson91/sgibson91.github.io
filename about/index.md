@@ -1,5 +1,4 @@
 ---
-layout: page
 title: About Me
 excerpt: "An Introduction to Dr Sarah Gibson"
 ---
