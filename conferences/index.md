@@ -1,4 +1,5 @@
 ---
+layout: category
 title: Conferences
 excerpt: "Conferences talks/workshops"
 image:
