@@ -3,7 +3,7 @@ layout: category
 title: Conferences
 excerpt: "Conferences talks/workshops"
 image:
-  path: /images/RSEConUK19.jpeg
+  path: /images/RSEConUK19.png
   caption: "Photo from RSE Con UK 2019"
 tags:
   - talks
