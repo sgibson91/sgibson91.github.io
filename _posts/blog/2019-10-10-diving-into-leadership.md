@@ -1,5 +1,12 @@
 ---
+layout: post
 title: "Diving into Leadership to Build Push-Button Code"
+categories: blog
+excerpt: "Sarah's experiences at the Microsoft Reactor Sprint 2019"
+tags: [hackathon, sprint, binder, binderhub, leadership]
+date: 2019-10-10
+share: true
+author: sarah_gibson
 ---
 
 "Hi everyone, I'm Sarah! I'm a Research Data Scientist at the Alan Turing Institute and I'm also an operator of mybinder.org. It's really cool seeing how many people here are interested in BinderHub!"
