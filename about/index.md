@@ -1,6 +1,9 @@
 ---
 layout: category
 title: About Me
+image:
+  path: /images/about.png
+  caption: "Photo by [Graham Holtshausen](https://unsplash.com/@freedomstudios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/galaxy)"
 ---
 
 ## Dr Sarah Gibson
