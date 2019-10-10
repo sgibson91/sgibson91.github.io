@@ -7,7 +7,7 @@ image:
 search_omit: true
 ---
 
-If you'd like to get in touch with me, I'd be gald to answer any questions!
+If you'd like to get in touch with me, I'd be glad to answer any questions!
 
 You can email me at [drsarahlgibson@gmail.com](mailto:drsarahlgibson@gmail.com).
 
