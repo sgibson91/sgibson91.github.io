@@ -3,17 +3,19 @@ layout: post
 title: "Diving into Leadership to Build Push-Button Code"
 categories: blog
 excerpt: "Sarah's experiences at the Microsoft Reactor Sprint 2019"
-tags: [hackathon, sprint, binder, binderhub, leadership]
+tags: [hackathon, sprint, binder, binderhub, leadership, microsoft, azure, cloud]
 date: 2019-10-10
 share: true
 author: sarah_gibson
 ---
 
-"Hi everyone, I'm Sarah! I'm a Research Data Scientist at the Alan Turing Institute and I'm also an operator of mybinder.org. It's really cool seeing how many people here are interested in BinderHub!"
+_"Hi everyone, I'm Sarah! I'm a Research Data Scientist at the Alan Turing Institute and I'm also an operator of mybinder.org. It's really cool seeing how many people here are interested in BinderHub!"_
 
 And it is cool. _Really_ cool! But also a bit scary as a room full of Research Software Engineers (each of them much further on in their careers than I am) suddenly turn to me, eager for the knowledge I was surely about to impart to them.
 
 But let's rewind a bit.
+
+## Joining the Binder community
 
 It's May 2019 and I'm attending the Research Software Reactor sprint jointly hosted by Microsoft and Imperial College London. This is a 3-day hackathon where researchers from different areas (though all with a computing background) come together to collaboratively build cloud-based resources on Microsoft's Azure platform.
 
@@ -35,13 +37,15 @@ Sounds like magic, right? You can even combine Binder with [Jupyter Books](https
 | :---: |
 | A pictorial representation of the different tools constituting BinderHub. This image was created by [Scriberia](http://www.scriberia.co.uk/) for [The Turing Way](https://github.com/alan-turing-institute/the-turing-way) community and is used under a CC-BY licence. [Zenodo record](https://doi.org/10.5281/zenodo.3332808). |
 
-Since BinderHub is a cloud-neutral technology (mybinder.org itself runs on [Google Cloud and OVH.com](https://blog.jupyter.org/the-international-binder-federation-4f6235c1537e)), I previously worked on refining the documentation around deploying BinderHub on Azure and ran workshops teaching people how to use Binder and deploy BinderHub. It was this work that lead to me being invited to join the Binder team. Being a maintainer for an open-source project involves checking the service is still running smoothly and being an active, friendly member of the community - one who can answer questions when they arise.
+Since BinderHub is a cloud-neutral technology (mybinder.org itself runs on [Google Cloud and OVH.com](https://blog.jupyter.org/the-international-binder-federation-4f6235c1537e)), I previously worked on refining the documentation around deploying BinderHub on Azure and ran workshops teaching people how to use Binder and deploy BinderHub. It was this work that lead to me being invited to join the Binder team. Being a maintainer for an open-source project involves checking if the service is still running smoothly and being an active, friendly member of the community - one who can answer questions when they arise.
 
 Now that we've covered a bit of background, let's get back to my slightly uncomfortable moment at the sprint.
 
+## Day 1: An unexpected leadership position
+
 Everybody in the room is now trying to whittle down which projects we should work on - all of which are awesome! The magic of BinderHub is that it covers so many aspects of software engineering tools and practices, such as continuous integration/deployment and [Kubernetes](https://kubernetes.io/). The BinderHub idea is quickly amassing a lot of satellite projects!
 
-"So Sarah, is it OK if I name you leader of 'Team BinderHub'?" My second uncomfortable moment. Gerard Gorman, Senior Lecturer in the Department of Earth Sciences at Imperial and co-organiser of the sprint, has just elected me leader of my first ever hack project. If I'm honest, I'd intended to spend the sprint ironing out some niggles with a colleague. But I've always been a "learn by doing" person so I agree and desperately begin wracking my brain for a project to give my team for the next 3 days.
+_"So Sarah, is it OK if I name you leader of 'Team BinderHub'?"_ My second uncomfortable moment. Gerard Gorman, Senior Lecturer in the Department of Earth Sciences at Imperial and co-organiser of the sprint, has just elected me leader of my first ever hack project. If I'm honest, I'd intended to spend the sprint ironing out some niggles with a colleague. But I've always been a "learn by doing" person so I agree and desperately begin wracking my brain for a project to give my team for the next 3 days.
 
 After a bit of shuffling (where for a while it seemed like most of the attendees would be joining 'Team BinderHub'!), I finally assemble a team. My teammates are: Tania Allard, a Microsoft Developer Advocate; Tim Greaves and Diego Alonso Álvarez, Research Software Engineers at Imperial; and Gerard himself.
 
@@ -51,7 +55,7 @@ Tim is a bash scripting, containerising pro and has a little experience with the
 
 Gerard is a BinderHub enthusiast and is keen to get one deployed as a teaching resource at Imperial. As a starter task, I ask him to read up on how the blue button works.
 
-Diego has never heard of Binder or BinderHub before and is quite confused as to what the rest of the team are so excited about! I suggest that he works through my [Zero to BinderHub](https://bit.ly/zero-to-binderhub-workshop) workshop in order to bring him up to speed with the concepts. This is also the perfect opportunity to get feedback on my workshop if parts are not clear! I encourage him to open an issue describing any problems he comes across or extra information he'd like to see.
+Diego has never heard of Binder or BinderHub before and is quite confused as to what the rest of the team are so excited about! I suggest that he works through my [Zero to BinderHub workshop](https://bit.ly/zero-to-binderhub-workshop) in order to bring him up to speed with the concepts. This is also the perfect opportunity to get feedback on my workshop if parts are not clear! I encourage him to open an issue describing any problems he comes across or extra information he'd like to see.
 
 And just like that, I find I've delegated myself out of a job!
 
@@ -63,6 +67,8 @@ Since starting my position at the Turing, I've come to fully appreciate how fund
 
 Take that, Imposter Syndrome!
 
+## Day 2: The team makes progress
+
 It's the second day of the sprint and 'Team BinderHub' gather again, our enthusiasm not diminished yet!
 
 I very quickly set goals for the day. I want the button to work by the end of the day as I'm hoping the final day can be used to work on an idea Tania has to use [Azure's DevOps Pipelines](https://azure.microsoft.com/en-gb/services/devops/pipelines/) to automatically update the deployed BinderHub as new commits come into the host repo. This would be a very handy feature for those (like me!) maintaining BinderHubs at their own institutions. Anything to automate and reduce the number of commands we have to type!
@@ -73,6 +79,8 @@ Again, I'm managing the documentation, keeping up with changes we make to the co
 
 My Imposter Syndrome is definitely subsiding as I begin to feel more like I understand the skills of my team and we are all making the best use of our time.
 
+## Day 3: Document, document, document
+
 For the third and final day of the sprint we are in a new venue: the Microsoft Reactor. This is a workspace in the Shoreditch area of London where we are offered free pizza and cookies and a DJ to provide the soundtrack to our code. (OK, less an _actual_ DJ, more of a software engineer with Spotify Premium. :stuck_out_tongue_winking_eye:) What I will say though, Microsoft's beverage-making facilities have nothing on the Turing's iPad coffee maker! :wink:
 
 Our goals for the last day? Consolidate and document! Ideally get the button working if possible, but the top priority is to make it as easy as possible for the team (or someone new!) to come along to the repo and finish what we have started.
@@ -80,6 +88,8 @@ Our goals for the last day? Consolidate and document! Ideally get the button wor
 We decide that there isn't enough time left or infrastructure in place to implement the Azure DevOps Pipeline for automatic upgrades; instead, Tania begins working on a tutorial so we can implement it later.
 
 Tim and I end up in a bit of GitHub hell as we realise that the code to create the Kubernetes cluster is in the setup script, not the deploy script. We refactor some parts so that all of the resources are deployed from the deploy script, and this also means that the Dockerfile only needs to find one script to execute. However, this refactoring causes a complicated merge conflict and some of the bug fixes Tim implemented disappear in a squash merge. (This sounded difficult enough to resolve that I've been put off learning about squash merges since!) As team leader, I try to orchestrate whose pull request should be merged first so that all the right code ends up in master.
+
+## What did we learn and do?
 
 By the end of the sprint, we don't quite have a working button deployment, but we do have:
 
@@ -89,17 +99,17 @@ By the end of the sprint, we don't quite have a working button deployment, but w
 
 So what did I learn from those three days?
 
-#### Coding with other people is fun!
+### Coding with other people is fun!
 
 Pair programming is something we try to achieve at the Turing, but it can be difficult to do depending on the project and the time constraints of those working on it.
 
 This was the first time I'd experienced true collaboration. Where I had an idea that I wasn't sure how to implement, and someone with the skills had helped me shape it and realise it. It gave me a sense of community and belonging. I hope I've forged connections with 'Team BinderHub' that will last the duration of our careers and we can work together again.
 
-#### There's a role for everyone in a team and these are equally important
+### There's a role for everyone in a team and these are equally important
 
 Even if it's reviewing code or writing documentation, these are as important (arguably, more so) than the code itself. Code that does what you think it's doing and has been explained well will have a much longer lifespan than code that is difficult to follow, regardless of how clever it is, and poorly documented.
 
-#### I found my strength as a leader
+### I found my strength as a leader
 
 You might remember at the beginning of this blog post I mentioned that I'd never led a hack project before, so I also learned a lot about my leadership capabilities.
 
@@ -107,13 +117,15 @@ I think I did well. I identified the strengths of each of my team members and ga
 
 I also think that it was a good choice for me to not be too involved in the coding aspect of this project. Managing the flow into the repo and updating the documentation as new code came in meant that I managed to maintain an overall perspective of the project and could switch gears as questions came in from different areas. I don't think I could have maintained such a view if I'd been buried in code and I can always learn from the scripts we've developed at a later point.
 
-#### Hackathons are not where projects end
+### Hackathons are not where projects end
 
 While the first 80% of a project to get the infrastructure in place can be achieved in a short amount of time like a hackathon, the last 20% is **hard** and often takes longer. But this extra effort is necessary for the software to be taken up by others.
 
 'Team BinderHub' continued working on this project over Slack and GitHub to finally make our [version 1 release](https://github.com/alan-turing-institute/binderhub-deploy/releases) on [June 11th](https://twitter.com/ixek/status/1138422778040922112) - almost 3 weeks after the end of the sprint!
 
-If you'd like to try the button to deploy your own BinderHub (or contribute a new feature!), the repo can be found here :point_right: [alan-turing-institute/binderhub-deploy](https://github.com/alan-turing-institute/binderhub-deploy)
+If you'd like to try the button to deploy your own BinderHub (or contribute a new feature!), the repo can be found here :point_right: [alan-turing-institute/binderhub-deploy](https://github.com/alan-turing-institute/binderhub-deploy). Look for the button below!
+
+<img src="https://azuredeploy.net/deploybutton.svg" alt="Deploy to Azure button">
 
 #### Thank You! :sparkling_heart:
 
