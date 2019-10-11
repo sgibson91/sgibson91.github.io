@@ -2,6 +2,8 @@
 layout: category
 taxonomy: blog
 entries_layout: grid
+sort_by: date
+sort_order: reverse
 title: Blog
 image:
   path: /images/blog.png

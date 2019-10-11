@@ -2,6 +2,8 @@
 layout: category
 taxonomy: project
 entries_layout: grid
+sort_by: title
+sort_order: forward
 title: Projects
 image:
   path: /images/projects.png
