@@ -139,3 +139,7 @@ I'd like to thank a few people who made this possible:
 - 'Team BinderHub' for coming along on this wild ride with me;
 - The Binder Team for accepting me into the community and giving me the space to develop such projects;
 - and [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way) team who introduced me to Binder and the value of community (and documentation!).
+
+---
+
+_Note: this is cross-posted with [The Alan Turing Institute blog](https://www.turing.ac.uk/research/research-programmes/research-engineering/programme-articles/diving-leadership-build-push-button-code) and the [Jupyter blog](https://blog.jupyter.org/diving-into-leadership-to-build-push-button-code-df2a075c9914)._
