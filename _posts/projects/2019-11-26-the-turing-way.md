@@ -26,3 +26,5 @@ Through the community contributions, the handbook will grow into a 'How-To Guide
 Sarah was a core member of the team that launched _The Turing Way_ and specifically worked on the integration of the book with Binder. She developed and presented two workshops on using Binder ([_Zero-to-Binder_](https://bit.ly/zero-to-binder-tutorial)) and deploying a [BinderHub](https://binderhub.readthedocs.io/en/latest/), the technology that powers Binder ([_Zero-to-BinderHub_](https://bit.ly/zero-to-binderhub-workshop)).
 
 Sarah also contributed new documentation on deploying BinderHubs to Microsoft Azure to the Binder Project. As a result, she was asked to officially join the Binder team as an operator and maintainer of the project and [mybinder.org](https://mybinder.org) website.
+
+**Further reading:** [Turing Impact Story: Changing the culture of data science](https://www.turing.ac.uk/research/impact-stories/changing-culture-data-science)
