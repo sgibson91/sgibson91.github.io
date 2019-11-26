@@ -5,7 +5,9 @@ categories: blog
 excerpt: "Sarah's experiences at the Microsoft Reactor Sprint 2019"
 tags: [hackathon, sprint, binder, binderhub, leadership, microsoft, azure, cloud]
 date: 2019-10-17
-author: sarah_gibson
+author:
+  name: Sarah Gibson
+  picture: /images/profile_pic.jpg
 image:
   path: /images/diving-into-leadership-lg.png
   thumbnail: /images/diving-into-leadership-400x200.png
