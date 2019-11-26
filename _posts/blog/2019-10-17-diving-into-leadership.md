@@ -11,6 +11,7 @@ image:
   path: /images/diving-into-leadership-lg.png
   thumbnail: /images/diving-into-leadership-400x200.png
   caption: "This image was created by [Scriberia](https://www.scriberia.co.uk/) for [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way) community and is used under a CC-BY licence."
+  alt: ""
 ---
 
 _"Hi everyone, I'm Sarah! I'm a Research Data Scientist at the Alan Turing Institute and I'm also an operator of mybinder.org. It's really cool seeing how many people here are interested in BinderHub!"_
