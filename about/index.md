@@ -10,7 +10,7 @@ image:
 
 <img src="/images/profile_pic.jpg" alt="Dr Sarah Gibson" width="50%" align="left" hspace="20" vspace="20">
 
-Sarah Gibson is a _Research Data Scientist_ at [The Alan Turing Institute](https://www.turing.ac.uk/) (London, UK) as a member of the [Research Engineering Group](https://www.turing.ac.uk/research/research-programmes/research-engineering).
+Sarah Gibson is a _Research Software Engineer_ at [The Alan Turing Institute](https://www.turing.ac.uk/) (London, UK) as a member of the [Research Engineering Group](https://www.turing.ac.uk/research/research-programmes/research-engineering).
 She completed her PhD in Astrophysics at the University of Leicester in 2018 and holds an MPhys in Physics with Astrophysics from the University of Hull.
 
 During her PhD, Dr Gibson gained invaluable data science and programming skills analysing astronomical satellite data and building probabalistic models.
