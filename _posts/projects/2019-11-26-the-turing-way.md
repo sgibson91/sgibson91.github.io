@@ -4,6 +4,7 @@ title: The Turing Way
 categories: projects
 excerpt: "A Handbook for Data Science"
 tags: [reproducibility, data-science, community]
+date: 2019-11-26
 author:
   name: Sarah Gibson
   picture: /images/profile_pic.jpg
