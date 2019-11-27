@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "The Turing Way"
+title: The Turing Way
 categories: projects
 excerpt: "A Handbook for Data Science"
 tags: [reproducibility, data-science, community]
-author: sarah_gibson
+date: 2019-11-26
+author:
+  name: Sarah Gibson
+  picture: /images/profile_pic.jpg
 image:
   path: /images/the-turing-way-lg.png
   thumbnail: /images/the-turing-way-400x200.png
