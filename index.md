@@ -1,6 +1,7 @@
 ---
 title: Welcome!
 search_omit: true
+entries_layout: grid
 ---
 
 Hello! :wave:
