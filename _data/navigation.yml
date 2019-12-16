@@ -1,5 +1,8 @@
 # Site navigation links
 
+- title: Home
+  url: /
+
 - title: About
   url: /about/
 
@@ -14,6 +17,9 @@
 
 - title: Media
   url: /media/
+
+- title: Tags
+  url: /tags/
 
 - title: Contact
   url: /contact/
