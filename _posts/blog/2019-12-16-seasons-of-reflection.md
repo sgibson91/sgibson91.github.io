@@ -32,11 +32,47 @@ As we moved into spring, the workshops ramped up!
 [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way) ran **three** workshops in March alone!
 Two for researchers who'd like to use Binder and one for RSEs who may want to run a BinderHub as a service for researchers.
 Preparing for the BinderHub one was particularly challenging as deploying one wasn't something I'd been successful at yet!
-Thankfully, breakthrough was made with enough time to write the workshop.
+Thankfully, a breakthrough was made with enough time to write the workshop.
+
+Next on the list was [Collaborations Workshop 2019](https://software.ac.uk/cw19) hosted by the [Software Sustainability Institute](https://software.ac.uk/).
+This was a fascinating event for me to attend as it was the first time I interacted with open source/research/science concepts outside of Project Binder and _The Turing Way_.
+It was extra special as [we officially launched the book part of _The Turing Way_](https://twitter.com/PHerterich/status/1113090148143714304) at CW19, and [I was invited to join the mybinder.org operating team](https://twitter.com/mybinderteam/status/1141448994821955584) as well!
+
+In May, I attended the [Microsoft Research Software Reactor Sprint](https://research-software-reactor.github.io/blog/rsr0) and lead a team to develop the [One-Click deployment BinderHub](https://github.com/alan-turing-institute/binderhub-deploy)!
+You can read all about it in my blog post ["Diving into Leadership to Build Push-Button Code"]({{ site.baseurl }}{% post_url 2019-10-17-diving-into-leadership %}).
+Then the last event of spring was a [_Turing Way_ Book Dash](https://github.com/alan-turing-institute/the-turing-way/tree/master/workshops/book-dash) :books::dash: during which I wrote _an entire chapter_ :scream: on [BinderHub](https://the-turing-way.netlify.com/binderhub/binderhub.html)!
 
 ## Summer :sunny:
 
+Thankfully, summer involved a lot less travelling and presenting.
+I was able to enjoy some of the good weather :sunglasses:
+However, the hard work didn't stop!
+I was working away to produce the next round of workshops coming up in the autumn!
+I also began working on some very exciting plans for the [Binder Federation](https://blog.jupyter.org/the-international-binder-federation-4f6235c1537e)!
+
 ## Autumn :maple_leaf:
+
+In autumn, I travelled again for some more workshops.
+
+First off was a [trip to Oslo to meet some of the Binder team](https://twitter.com/drsarahlgibson/status/1170405261070221312) in person!
+It was a wonderful experience to be in the same room as this team as we usually collaborate remotely.
+Erik and I worked together to enable HTTPS with `cert-manager` on the Turing's private BinderHub, Hub23.
+Sometimes knowledge is more easily transfered from person to person, rather than through a screen.
+
+Next was [RSE Con UK](https://rse.ac.uk/conf2019/) where I was super busy presenting!
+I was asked to sit on the "RSE Worldwide" panel to discuss collaboration across borders and how we achieve this in the Binder team.
+And I ran my [Zero-to-BinderHub](https://bit.ly/zero-to-binderhub-workshop) workshop again, teaching more people how to deploy BinderHubs on Azure!
+
+After an incredibly busy year, I also managed to take some time off in autumn and go travelling around the east coast of Australia.
+Though I still managed to find time to run an Open Source Dash for the Research Engineering team (this is an afternoon where we work together to contribute to open source projects)!
+
+| ![Horse Riding in Australia](/images/horse_riding.jpg) |
+| :---: |
+| I went horseback riding along Cape Tribulation beach in the Daintree Rainforest area of northern Queensland! The horse's name is Basil :sparkling_heart: |
+
+Overall, I'm really proud of how my presenting skills and confidence in public speaking have improved over 2019.
+Giving workshops and lectures/teaching was never something I imagined I would enjoy or be terribly good at - and yet, I've completely surprised myself at how wrong I was!
+Though absolutely no-one who helped me achieve all of this will be the slightest bit surprised :wink::heart:
 
 I'm very grateful for all the opportunities I've been given this year to learn, grow and share my new knowledge and experiences.
 I can't wait to see what's coming next!
