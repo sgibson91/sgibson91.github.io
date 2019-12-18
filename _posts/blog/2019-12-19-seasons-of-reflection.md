@@ -4,7 +4,7 @@ title: "2019: Seasons of Reflection"
 categories: blog
 excerpt: "Sarah reflects on her accomplishments in 2019"
 tags: [reflection, growth]
-date: 2019-12-16
+date: 2019-12-19
 author:
   name: Sarah Gibson
   picture: /images/profile_pic.jpg
