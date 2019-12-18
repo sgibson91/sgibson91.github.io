@@ -31,7 +31,7 @@ As we moved into spring, the workshops ramped up!
 
 [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way) ran **three** workshops in March alone!
 Two for researchers who'd like to use Binder and one for RSEs who may want to run a BinderHub as a service for researchers.
-Preparing for the BinderHub one was particularly challenging as deploying one wasn't something I'd been successful at yet!
+Preparing for the BinderHub workshop was particularly challenging as deploying one wasn't something I'd been successful at yet!
 Thankfully, a breakthrough was made with enough time to write the workshop.
 
 Next on the list was [Collaborations Workshop 2019](https://software.ac.uk/cw19) hosted by the [Software Sustainability Institute](https://software.ac.uk/).
