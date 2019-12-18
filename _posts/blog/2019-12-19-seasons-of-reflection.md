@@ -14,7 +14,7 @@ image:
   caption: "Photo by [Banter Snaps](https://unsplash.com/@bantersnaps?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/seasons?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
-As 2019 comes to a close, I have spent a full year as a Research Software Engineer at The Alan Turing Institute.
+As 2019 comes to a close, I have spent a full year as a Research Software Engineer (RSE) at The Alan Turing Institute.
 A lot has changed over the last 12 months and I've come a long way - sometimes surprising myself!
 
 ## Winter :snowflake:
