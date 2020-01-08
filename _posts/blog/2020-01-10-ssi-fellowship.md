@@ -29,6 +29,7 @@ Hopefully, I'll get to attend the [European R Users Meeting](https://2020.erum.i
 I also hope to work with [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way) to host a "Train the Trainer"-style do-athon for educators who may want to use Binder for their courses and encourage them the contribute documentation or bug fixes back.
 
 I'm really excited and privileged to be a part of this programme and have the opportunity to collaborate with a great group of Fellows!
+And stay tuned for more blog posts on what I get up to as a Fellow over the next year!
 
 You can see my video application below.
 
