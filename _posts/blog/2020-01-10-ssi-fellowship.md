@@ -18,6 +18,10 @@ So 2020 is off to an incredibly exciting start!
 
 **I have been awarded a Software Sustainability Institute 2020 Fellowship!!!** :tada: :tada: :tada:
 
+<center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We are thrilled to announce the new cohort of <a href="https://twitter.com/SoftwareSaved?ref_src=twsrc%5Etfw">@SoftwareSaved</a> Fellows for 2020! You can find out more about the new cohort here: <a href="https://t.co/WPTePa3hoP">https://t.co/WPTePa3hoP</a><br>Congratulations to the SSI Fellows 2020! <a href="https://twitter.com/hashtag/SSIFellows2020?src=hash&amp;ref_src=twsrc%5Etfw">#SSIFellows2020</a> <a href="https://twitter.com/hashtag/BetterSoftwareBetterResearch?src=hash&amp;ref_src=twsrc%5Etfw">#BetterSoftwareBetterResearch</a> <a href="https://t.co/zX21yvZo3h">pic.twitter.com/zX21yvZo3h</a></p>&mdash; SSI - software.ac.uk (@SoftwareSaved) <a href="https://twitter.com/SoftwareSaved/status/1215572740381372416?ref_src=twsrc%5Etfw">January 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center>
+
 The [Software Sustainability Institute](https://software.ac.uk) (SSI) is an organisation that facilitates the advancement of software in research by cultivating better, more sustainable, research software to enable world-class research (“Better software, better research”).
 Its mission is to become the world-leading hub for research software practice.
 The Institute is based at the Universities of Edinburgh, Manchester, Oxford and Southampton, and draws on a team of experts with a breadth of experience in software development, project and programme management, research facilitation, publicity and community engagement.
