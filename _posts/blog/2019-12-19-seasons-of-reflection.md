@@ -39,7 +39,7 @@ This was a fascinating event for me to attend as it was the first time I interac
 It was extra special as [we officially launched the book part of _The Turing Way_](https://twitter.com/PHerterich/status/1113090148143714304) at CW19, and [I was invited to join the mybinder.org operating team](https://twitter.com/mybinderteam/status/1141448994821955584) as well!
 
 In May, I attended the [Microsoft Research Software Reactor Sprint](https://research-software-reactor.github.io/blog/rsr0) and lead a team to develop the [One-Click deployment BinderHub](https://github.com/alan-turing-institute/binderhub-deploy)!
-You can read all about it in my blog post ["Diving into Leadership to Build Push-Button Code"]({{ site.baseurl }}{% post_url 2019-10-17-diving-into-leadership %}).
+You can read all about it in my blog post ["Diving into Leadership to Build Push-Button Code"]({{ site.baseurl }}{% post_url blog/2019-10-17-diving-into-leadership %}).
 Then the last event of spring was a [_Turing Way_ Book Dash](https://github.com/alan-turing-institute/the-turing-way/tree/master/workshops/book-dash) :books::dash: during which I wrote _an entire chapter_ :scream: on [BinderHub](https://the-turing-way.netlify.com/binderhub/binderhub.html)!
 
 ## Summer :sunny:
