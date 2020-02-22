@@ -1,0 +1,6 @@
+whitelist:
+  - good-to-merge
+blacklist:
+  - wip
+  - do-not-merge
+method: merge
