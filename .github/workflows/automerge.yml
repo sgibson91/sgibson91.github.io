@@ -1,4 +1,4 @@
-name: Merge Pal
+name: MergePal
 
 on:
   status: {}
