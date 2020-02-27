@@ -2,7 +2,7 @@
 layout: post
 title: February 2020 Update
 categories: blog
-excerpt: ### ADD a short description
+excerpt: "See what Sarah's been up to in Jan/Feb"
 tags: [] ### INSERT TAGS IF APPLICABLE
 date: 2020-02-23 ### UPDATE date
 author:
