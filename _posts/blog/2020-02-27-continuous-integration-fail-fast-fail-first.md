@@ -83,3 +83,5 @@ There are some other factors to consider when testing code on HPC systems - such
 Building an effective continuous integration, delivery or analysis pipeline is a balancing act between getting useful information about potential changes, and allowing the developers to maintain focus and work at a good pace. Being selective and risk-focused in the design of your pipeline makes sure your team gets important information as responsively as possible.
 
 _Sarah and Graham would like to acknowledge the very helpful comments from [Tim Powell](https://uk.linkedin.com/in/tim-powell-99411978) concerning testing HPC code._
+
+_This blog was originally posted by the [Software Sustainability Institute](https://software.ac.uk/blog/2020-02-27-continuous-integration-fail-fast-and-fail-first)_
