@@ -8,17 +8,17 @@ Use your best judgement and feel free to propose changes to this document in a P
 
 **Table of Contents**
 
-- [Code of Conduct :purple_heart:](#code-of-conduct)
-- [What should I know before I get started? :question:](#what-should-i-know-before-i-get-started)
-  - [What is it conceptually? 🤔](#what-is-it-conceptually)
-  - [What is it actually? :mag:](#what-is-it-actually)
-- [How can I contribute? :gift:](#how-can-i-contribute)
-  - [Reporting Bugs :bug:](#reporting-bugs)
-  - [Suggesting Blog Posts :memo:](#suggesting-blog-posts)
-  - [Making a Pull Request :arrow_right:](#making-a-pull-request)
-- [Styleguides :art:](#styleguides)
-  - [Markdown styleguide :pencil2:](#markdown-styleguide)
-  - [Git Commit Messages :envelope:](#git-commit-messages)
+- [Code of Conduct :purple_heart:](#code-of-conduct-purple_heart)
+- [What should I know before I get started? :question:](#what-should-i-know-before-i-get-started-question)
+  - [What is it conceptually? 🤔](#what-is-it-conceptually-)
+  - [What is it actually? :mag:](#what-is-it-actually-mag)
+- [How can I contribute? :gift:](#how-can-i-contribute-gift)
+  - [Reporting Bugs :bug:](#reporting-bugs-bug)
+  - [Suggesting Blog Posts :memo:](#suggesting-blog-posts-memo)
+  - [Making a Pull Request :arrow_right:](#making-a-pull-request-arrow_right)
+- [Styleguides :art:](#styleguides-art)
+  - [Markdown styleguide :pencil2:](#markdown-styleguide-pencil2)
+  - [Git Commit Messages :envelope:](#git-commit-messages-envelope)
 
 ---
 
