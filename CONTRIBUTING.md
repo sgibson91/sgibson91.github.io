@@ -19,6 +19,8 @@ Use your best judgement and feel free to propose changes to this document in a P
 - [Styleguides :art:](#styleguides-art)
   - [Markdown styleguide :pencil2:](#markdown-styleguide-pencil2)
   - [Git Commit Messages :envelope:](#git-commit-messages-envelope)
+- [Additional Notes :notebook:](#additional-notes-notebook)
+  - [Issue and Pull Request Labels :label:](#issue-and-pull-request-labels-label)
 
 ---
 
@@ -114,3 +116,19 @@ Here is a list of some recommended emoji types and their meanings:
 
 You can find a full list of emojis suggested by the [gitmoji project](https://gitmoji.carloscuesta.me/).
 
+## Additional Notes :notebook:
+
+### Issue and Pull Request Labels :label:
+
+This repo uses [GitHub labels](https://help.github.com/en/github/managing-your-work-on-github/about-labels) to track and manage issues and pull requests since GitHub can easily be [searched by labels](https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests#search-by-label).
+Here is a list of the most commonly used labels in this repo.
+
+| Name | Description |
+| :--- | :--- |
+| `blog` | Relating to the writing of blog posts |
+| `bug` | Something isn't working |
+| `comms` | Relating to Sarah's contact info or adding press releases to the "Media" page |
+| `project` | Adding a new project page |
+| `speaking` | Adding info about a speaking engagement to the "Speaking" page |
+| `website` | General updates or changes to the website |
+| `wip` | Work in progress |
