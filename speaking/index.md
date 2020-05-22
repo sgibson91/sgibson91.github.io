@@ -34,6 +34,7 @@ Below is a list of talks and workshops that I have presented to date (in reverse
 
 Conference | Date | Title | Resources
 | :--- | :--- | :--- | :--- |
+[Remote ReproHack](https://n8cir.org.uk/events/remote-reprohack/) | 14 May 2020 | Sharing Reproducible Computational Environments with Binder | [Slides](https://doi.org/10.5281/zenodo.3826152)
 [PyData Cambridge Meetup](https://www.meetup.com/PyData-Cambridge-Meetup/events/267902974/) | 29 January 2020 | Reproducible Research: An Introduction to _The Turing Way_ and Binder | [Abstract](https://github.com/alan-turing-institute/the-turing-way/blob/master/conferences/abstracts/pydata_cam_abstract.md) / [Slides](https://doi.org/10.5281/zenodo.3628296) / [Tutorial](https://bit.ly/zero-to-binder-tutorial)
 [RSE Con UK](https://rse.ac.uk/conf2019/) | 17-19 September 2019 | Build a BinderHub for hosting Reproducible Software in the Cloud | [Abstract](https://github.com/alan-turing-institute/the-turing-way/blob/master/conferences/abstracts/RSECon19-BinderHub-workshop-application.md) / [Slides](https://zenodo.org/record/3404774#.XZzZVOdKgWo) / [Workshop](https://bit.ly/zero-to-binderhub-workshop)
 [RSE Con UK](https://rse.ac.uk/conf2019/) | 17-19 September 2019 | RSE Worldwide: Collaborating Across Borders | [Slides](https://zenodo.org/record/3377380#.XZzZ3udKgWo)
