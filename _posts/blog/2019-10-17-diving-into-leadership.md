@@ -30,7 +30,7 @@ So, what is this "Binder" that we're all so excited about?
 
 [Binder](https://mybinder.readthedocs.io/en/latest/) is an amazing resource that can host reproducible and interactive code in a web browser. Great... what does that mean? It means that if I have some scripts or notebooks in a repository (like [this one](https://github.com/binder-examples/requirements)) and I describe the packages in a configuration file (such as [`requirements.txt`](https://github.com/binder-examples/requirements/blob/master/requirements.txt)), then I can go to [mybinder.org](https://mybinder.org), copy the URL of the repository into the form and hit launch. This will begin a series of events culminating in my notebook appearing in a browser window with all of the packages installed, and the code will _just run_.
 
-Sounds like magic, right? You can even combine Binder with [Jupyter Books](https://jupyter.org/jupyter-book/intro.html) to create [interactive documents](https://joergbrech.github.io/Modellbildung-und-Simulation/intro)! Below is a comic explaining how a scientist may use Binder.
+Sounds like magic, right? You can even combine Binder with [Jupyter Books](https://jupyterbook.org) to create [interactive documents](https://joergbrech.github.io/Modellbildung-und-Simulation/intro)! Below is a comic explaining how a scientist may use Binder.
 
 | <img src="https://pbs.twimg.com/media/DwYDGULWkAASgjS.jpg" alt="Binder comic"> |
 | :---: |
