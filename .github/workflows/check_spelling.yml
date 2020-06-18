@@ -1,6 +1,9 @@
 name: Check Spelling
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     paths:
       - '**.md'
