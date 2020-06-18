@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ### Potential blog post topics
-> What have I been up to recently?
+<!-- What have I been up to recently? -->
 
 ### External content
-> Any recent external blog posts, related tweets, etc that may be relevant.
+<!-- Any recent external blog posts, related tweets, etc that may be relevant. -->
