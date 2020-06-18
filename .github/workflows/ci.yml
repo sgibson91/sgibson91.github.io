@@ -1,0 +1,33 @@
+name: Build Site and Test Links
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build-site-test-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        name: Checkout repo
+
+      - uses: actions/cache@v1
+        name: Cache dependencies
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - uses: lemonarc/jekyll-action@1.0.0
+        name: Build site with Jekyll
+
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./_site"
+          arguments: --only-4xx --check-favicon --check-html --assume-extension --empty-alt-ignore
