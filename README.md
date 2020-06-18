@@ -1,6 +1,6 @@
 # sgibson91.github.io
 
-[![Build Status](https://travis-ci.org/sgibson91/sgibson91.github.io.svg?branch=master)](https://travis-ci.org/sgibson91/sgibson91.github.io)
+[![Build Status](https://travis-ci.org/sgibson91/sgibson91.github.io.svg?branch=master)](https://travis-ci.org/sgibson91/sgibson91.github.io) [![Check Spelling](https://github.com/sgibson91/sgibson91.github.io/workflows/Check%20Spelling/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Check+Spelling%22+branch%3Amaster) [![Check file sizes](https://github.com/sgibson91/sgibson91.github.io/workflows/Check%20file%20sizes/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Check+file+sizes%22+branch%3Amaster)
 
 ## Repo Overview
 
