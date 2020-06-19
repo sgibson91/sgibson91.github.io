@@ -8,9 +8,6 @@ on:
     branches:
       - master
 
-env:
-  NOKOGIRI_USE_SYSTEM_LIBRARIES: ${{ true }}
-
 jobs:
   build-site-test-links:
     runs-on: ubuntu-latest
