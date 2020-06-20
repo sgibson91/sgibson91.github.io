@@ -1,4 +1,4 @@
-name: Check Spelling
+name: Spellcheck
 
 on:
   push:
@@ -9,11 +9,10 @@ on:
       - '**.md'
 
 jobs:
-  spelling:
+  spellcheck:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
-      - name: Check Spelling
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Perform Spellcheck
         uses: UnicornGlobal/spellcheck-github-actions@master
