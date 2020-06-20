@@ -22,7 +22,7 @@ To create a new blog post:
   * Update the title by replacing "INSERT TITLE" on line 3 with the title
   * Add an "excerpt". This is a short description that will be seen on the blog landing page or the search page. Try to keep the excerpt one short sentence long.
   * Update the tags by adding them inside the square brackets above and separating with commas
-    * Eg: `[onboarding, data_science]`
+    * For example: `[onboarding, data_science]`
   * Update the date with today's date (or the date you want the post to go live) by replacing the date on line 9.
     * Double check that this is the same date as in the heading.
     * Make sure that the date is formatted as `YYYY-MM-DD`.

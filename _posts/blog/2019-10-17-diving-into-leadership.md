@@ -64,13 +64,13 @@ Diego has never heard of Binder or BinderHub before and is quite confused as to 
 
 And just like that, I find I've delegated myself out of a job!
 
-Now Imposter Syndrome is beginning to creep up on me. Not only is it taking four extra people to pull together my work and make it usable, but I am also unsure how I would assist them in these tasks I'd set them. Especially Tim as the complexity of what I wanted the bash scripts to achieve was what had caused the project to stall in the first place.
+Now Impostor Syndrome is beginning to creep up on me. Not only is it taking four extra people to pull together my work and make it usable, but I am also unsure how I would assist them in these tasks I'd set them. Especially Tim as the complexity of what I wanted the bash scripts to achieve was what had caused the project to stall in the first place.
 
 Except there's one very important aspect of any software project I've not mentioned yet: Documentation!
 
 Since starting my position at the Turing, I've come to fully appreciate how fundamental good documentation is to the success of a project. Clearly written instructions covering the purpose of the project, how to install/run the code, and what kind of inputs/outputs to expect make it much easier for a new person to quickly get to grips with the project. And as result, it's far more likely to be referenced and reused. While my team begin familiarising themselves with the infrastructure and goals of my project, I begin an overhaul of the documentation whilst keeping an eye on the repo to manage incoming issues and pull requests.
 
-Take that, Imposter Syndrome!
+Take that, Impostor Syndrome!
 
 ## Day 2: The team makes progress
 
@@ -82,7 +82,7 @@ I ask Tim to begin working on the deploy script itself, to add tests where neces
 
 Again, I'm managing the documentation, keeping up with changes we make to the code-base and functionality. Similarly, I keep watch over the repo to manage incoming pull requests and merge conflicts and also make a start on the amendments to the BinderHub workshop Diego has compiled.
 
-My Imposter Syndrome is definitely subsiding as I begin to feel more like I understand the skills of my team and we are all making the best use of our time.
+My Impostor Syndrome is definitely subsiding as I begin to feel more like I understand the skills of my team and we are all making the best use of our time.
 
 ## Day 3: Document, document, document
 
@@ -99,7 +99,7 @@ Tim and I end up in a bit of GitHub hell as we realise that the code to create t
 By the end of the sprint, we don't quite have a working button deployment, but we do have:
 
 - a set of streamlined scripts for auto-deployment based on the contents of a JSON file,
-- an ARM template and Dockerfile that will provide the backend to the blue button after some further debugging,
+- an ARM template and Dockerfile that will provide the back-end to the blue button after some further debugging,
 - a plan to move the project forwards after the sprint.
 
 So what did I learn from those three days?

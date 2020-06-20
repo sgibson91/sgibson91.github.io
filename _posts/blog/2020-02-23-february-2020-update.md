@@ -19,13 +19,13 @@ It feels like such a long time since I wrote a blog post but the truth is that I
 So this blog post will be a quick run down on everything I've been up to recently.
 
 At the start of January, I helped organise and run the [Research Software Reactor](https://research-software-reactor.github.io/) with [Tania Allard](https://twitter.com/ixek) and [Gerard Gorman](https://twitter.com/gerardjgorman).
-Our topic was "[DevOps for better software and research reproduciblility](https://research-software-reactor.github.io/blog/devops4rse)".
+Our topic was "[DevOps for better software and research reproducibility](https://research-software-reactor.github.io/blog/devops4rse)".
 We had around 30 attendees come together at the Turing Institute for 2 days and learn about [GitHub Actions](https://github.com/features/actions) for automating their workflows.
 The aim was to produce reproducible software to support gold-standard research.
 
 Later on in January, I was invited to a [PyData Cambridge Meetup](https://www.meetup.com/PyData-Cambridge-Meetup/) to talk about how [_The Turing Way_](https://the-turing-way.netlify.com/introduction/introduction) and [Binder](https://jupyter.org/binder) advocate for reproducible research.
 I also ran my [Zero-to-Binder tutorial](https://bit.ly/zero-to-binder-python) with the attendees.
-I received a lot of lovely feedback about how having an intereactive session as part of the talk was really fun!
+I received a lot of lovely feedback about how having an interactive session as part of the talk was really fun!
 
 <center><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The first <a href="https://twitter.com/PyDataCambridge?ref_src=twsrc%5Etfw">@PyDataCambridge</a> <a href="https://twitter.com/hashtag/meetup?src=hash&amp;ref_src=twsrc%5Etfw">#meetup</a> in 2020: <a href="https://twitter.com/drsarahlgibson?ref_src=twsrc%5Etfw">@drsarahlgibson</a> from <a href="https://twitter.com/turinginst?ref_src=twsrc%5Etfw">@turinginst</a> on <a href="https://twitter.com/hashtag/TuringWay?src=hash&amp;ref_src=twsrc%5Etfw">#TuringWay</a> and <a href="https://twitter.com/mybinderteam?ref_src=twsrc%5Etfw">@mybinderteam</a> <a href="https://t.co/CwBYSA6QK5">pic.twitter.com/CwBYSA6QK5</a></p>&mdash; PyData Cambridge (@PyDataCambridge) <a href="https://twitter.com/PyDataCambridge/status/1222607971227709444?ref_src=twsrc%5Etfw">January 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
 

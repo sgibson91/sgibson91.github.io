@@ -57,7 +57,7 @@ In autumn, I travelled again for some more workshops.
 First off was a [trip to Oslo to meet some of the Binder team](https://twitter.com/drsarahlgibson/status/1170405261070221312) in person!
 It was a wonderful experience to be in the same room as this team as we usually collaborate remotely.
 Erik and I worked together to enable HTTPS with `cert-manager` on the Turing's private BinderHub, Hub23.
-Sometimes knowledge is more easily transfered from person to person, rather than through a screen.
+Sometimes knowledge is more easily transferred from person to person, rather than through a screen.
 
 Next was [RSE Con UK](https://rse.ac.uk/conf2019/) where I was super busy presenting!
 I was asked to sit on the "RSE Worldwide" panel to discuss collaboration across borders and how we achieve this in the Binder team.
