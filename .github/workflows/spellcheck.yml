@@ -5,8 +5,8 @@ on:
     branches:
       - master
   pull_request:
-    paths:
-      - '**.md'
+    branches:
+     - master
 
 jobs:
   spellcheck:
