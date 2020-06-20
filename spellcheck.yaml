@@ -9,6 +9,10 @@ matrix:
     output: wordlist.dic
     encoding: utf-8
   pipeline:
+  - pyspelling.filters.context:
+      delimiters:
+        - open: '<blockquote>'
+          close: '</blockquote>'
   - pyspelling.filters.markdown:
       markdown_extensions:
       - markdown.extensions.extra:
