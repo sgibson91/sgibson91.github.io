@@ -136,3 +136,7 @@ uk
 ok
 socio
 sexualised
+licence
+license
+visualising
+BetterSoftwareBetterResearch
