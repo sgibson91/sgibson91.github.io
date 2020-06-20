@@ -17,9 +17,11 @@ reproducibility
 turing
 BinderHub
 BinderHubs
+binderhub
 mybinder
 gitter
 HelmUpgradeBot
+helmupgradebot
 holdgraf
 henchbot
 vm
@@ -41,6 +43,7 @@ readme
 CLIs
 OKPy
 DevOps
+devops
 dockerfile
 shoreditch
 spotify
@@ -54,6 +57,7 @@ mybinderteam
 turinginst
 ainsworth
 SSI
+ssi
 SSIFellows
 SoftwareSaved
 rachaelevelyn
@@ -88,7 +92,11 @@ gitmoji
 www
 faq
 Github
-repro
+github
+repo
+Repo
 jpg
 greaves
 npch
+webpage
+webpages
