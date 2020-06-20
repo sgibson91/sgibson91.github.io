@@ -16,8 +16,8 @@ Use your best judgement and feel free to propose changes to this document in a P
   - [Reporting Bugs :bug:](#reporting-bugs-bug)
   - [Suggesting Blog Posts :memo:](#suggesting-blog-posts-memo)
   - [Making a Pull Request :arrow_right:](#making-a-pull-request-arrow_right)
-- [Styleguides :art:](#styleguides-art)
-  - [Markdown styleguide :pencil2:](#markdown-styleguide-pencil2)
+- [Style Guides :art:](#style-guides-art)
+  - [Markdown style guide :pencil2:](#markdown-style-guide-pencil2)
   - [Git Commit Messages :envelope:](#git-commit-messages-envelope)
 - [Additional Notes :notebook:](#additional-notes-notebook)
   - [Issue and Pull Request Labels :label:](#issue-and-pull-request-labels-label)
@@ -41,7 +41,7 @@ As a result, Sarah reserves the right to have final say on any content that will
 
 ### What is it actually? :mag:
 
-This is a personal webpage built by [Jekyll](https://jekyllrb.com/), hosted by [GitHub Pages](https://pages.github.com/) and implements the [So Simple](https://github.com/mmistakes/so-simple-theme) Jekyll theme for styling. 
+This is a personal webpage built by [Jekyll](https://jekyllrb.com/), hosted by [GitHub Pages](https://pages.github.com/) and implements the [So Simple](https://github.com/mmistakes/so-simple-theme) Jekyll theme for styling.
 
 ## How can I contribute? :gift:
 
@@ -83,9 +83,9 @@ You've opened your Pull Request! :tada:
 
 Sarah will then review your contribution and, providing tests pass, will merge it!
 
-## Styleguides :art:
+## Style Guides :art:
 
-### Markdown styleguide :pencil2:
+### Markdown style guide :pencil2:
 
 The webpages are written in Markdown syntax and are automatically transformed into HTML by Jekyll.
 

@@ -2,13 +2,17 @@ matrix:
 - name: Markdown
   expect_match: false
   apsell:
-    mode: en
+    mode: en_gb
   dictionary:
     wordlists:
     - wordlist.txt
     output: wordlist.dic
     encoding: utf-8
   pipeline:
+  - pyspelling.filters.context:
+      delimiters:
+        - open: '<blockquote>'
+          close: '</blockquote>'
   - pyspelling.filters.markdown:
       markdown_extensions:
       - markdown.extensions.extra:

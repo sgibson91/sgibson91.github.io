@@ -74,7 +74,7 @@ We should say that it is possible to run a job launched by CI on a HPC system, h
 
 More often than not, it's the model generation or simulation scripts that take the most time and power to run, whereas the analysis scripts that produce the results for the paper are much smaller and can be run locally. So we might save model and/or data artefacts in our repository with our code and perform CA on this last step. In the meantime, the larger simulation code runs on a schedule on HPC facilities to produce model/data artefacts.
 
-In an ideal world, the simulation code would be written such that it has a test case which can be run to test functionality and usage. This is often a smaller simulation that sacrifices resolution in order to test functionality within a reasonable timeframe.
+In an ideal world, the simulation code would be written such that it has a test case which can be run to test functionality and usage. This is often a smaller simulation that sacrifices resolution in order to test functionality within a reasonable time-frame.
 
 There are some other factors to consider when testing code on HPC systems - such as billing, user logins, scheduling and queuing - which we won't cover here.
 
