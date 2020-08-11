@@ -46,7 +46,7 @@ And lastly, I incorporated by hobby into my open source work by creating a cross
 
 The attendees loved this little thank you gift for their hard work and will hopefully provide something relaxing to do after an intense day book dashing!
 
-You'll be able to find out more about what we got up to during the Book Dash later next week as we are supporting the [UCU Strike](https://www.ucu.org.uk/article/10621/UCU-announces-14-strike-days-at-74-UK-universities-in-February-and-March) by respecting the [digital picket line](https://medium.com/@lewisspurgin/never-cross-a-digital-picket-line-58c4249095c6).
+You'll be able to find out more about what we got up to during the Book Dash later next week as we are supporting the [UCU Strike](https://www.ucu.org.uk/article/10621/UCU-announces-14-strike-days-at-74-UK-universities-in-February-and-March) by respecting the digital picket line ~~https://medium.com/@lewisspurgin/never-cross-a-digital-picket-line-58c4249095c6~~ (Update 2020-08-11: Medium account deactivated by user).
 
 So that's everything I've been up to over the last month or two.
 It's been jam-packed but incredibly fun and rewarding :sparkling_heart:
