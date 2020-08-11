@@ -1,6 +1,6 @@
 # sgibson91.github.io
 
-[![Build Site and Test Links](https://github.com/sgibson91/sgibson91.github.io/workflows/Build%20Site%20and%20Test%20Links/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Build+Site+and+Test+Links%22+branch%3Amaster) [![Check Spelling](https://github.com/sgibson91/sgibson91.github.io/workflows/Check%20Spelling/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Check+Spelling%22+branch%3Amaster) [![Check file sizes](https://github.com/sgibson91/sgibson91.github.io/workflows/Check%20file%20sizes/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Check+file+sizes%22+branch%3Amaster)
+[![Build Site and Test Links](https://github.com/sgibson91/sgibson91.github.io/workflows/Build%20Site%20and%20Test%20Links/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Build+Site+and+Test+Links%22+branch%3Agh-pages) [![Check Spelling](https://github.com/sgibson91/sgibson91.github.io/workflows/Check%20Spelling/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Check+Spelling%22+branch%3Agh-pages) [![Check file sizes](https://github.com/sgibson91/sgibson91.github.io/workflows/Check%20file%20sizes/badge.svg)](https://github.com/sgibson91/sgibson91.github.io/actions?query=workflow%3A%22Check+file+sizes%22+branch%3Agh-pages)
 
 ## Repo Overview
 
