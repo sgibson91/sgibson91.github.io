@@ -3,10 +3,10 @@ name: Spellcheck
 on:
   push:
     branches:
-      - master
+      - gh-pages
   pull_request:
     branches:
-      - master
+      - gh-pages
 
 jobs:
   spellcheck:
@@ -14,5 +14,6 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v2
+        
       - name: Perform Spellcheck
         uses: UnicornGlobal/spellcheck-github-actions@master
