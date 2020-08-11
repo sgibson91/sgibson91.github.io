@@ -3,10 +3,10 @@ name: Build Site and Test Links
 on:
   push:
     branches:
-      - master
+      - gh-pages
   pull_request:
     branches:
-      - master
+      - gh-pages
 
 jobs:
   build-site-test-links:
