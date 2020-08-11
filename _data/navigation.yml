@@ -18,11 +18,11 @@
 - title: Media
   url: /media/
 
-- title: Tags
-  url: /tags/
-
 - title: Contact
   url: /contact/
+
+- title: CV
+  url: https://sgibson91.github.io/cv/
 
 - title: GitHub
   url: https://github.com/sgibson91

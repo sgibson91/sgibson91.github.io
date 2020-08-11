@@ -25,3 +25,4 @@ __More information:__
 - GitHub: [@sgibson91](https://github.com/sgibson91)
 - Twitter: [@drsarahlgibson](https://twitter.com/drsarahlgibson)
 - Email: [drsarahlgibson@gmail.com](mailto:drsarahlgibson@gmail.com) or [sgibson@turing.ac.uk](mailto:sgibson@turing.ac.uk)
+- [CV](https://sgibson91.github.io/cv/)
