@@ -34,6 +34,8 @@ Below is a list of talks and workshops that I have presented to date (in reverse
 
 Conference | Date | Title | Resources
 | :--- | :--- | :--- | :--- |
+[JuliaCon 2020](https://juliacon.org/2020/) | 29-31 July 2020 | Project Binder and the Julia Community: How can we help each other (lightning talk) / Project Binder and the Julia Community: Planning for the Future (BoF) | [Abstract and Video (lightning talk)](https://live.juliacon.org/talk/GVFYUF) / [Abstract (BoF)](https://live.juliacon.org/talk/QF8BC7) / [Slides](https://doi.org/10.5281/zenodo.3956320)
+[EuroPython 2020](https://ep2020.europython.eu/) | 23-26 July 2020 | Sharing Reproducible Python Environments with Binder | [Abstract](https://ep2020.europython.eu/talks/BqQBN6J-sharing-reproducible-python-environments-with-binder/) / [Slides](https://doi.org/10.5281/zenodo.3937310)
 [e-Rum 2020](https://2020.erum.io) | 17-20 June 2020 | Supporting R in the Binder Community | [Abstract](https://github.com/sgibson91/ssi-fellowship/blob/main/talks/abstracts/eRum2020.md) / [Slides](https://doi.org/10.5281/zenodo.3895699)
 [CogX](https://cogx.co) | 8-10 June 2020 | Sharing Reproducible Analyses with Binder at Scale | [Slides](https://doi.org/10.5281/zenodo.3885704)
 [Remote ReproHack](https://n8cir.org.uk/events/remote-reprohack/) | 14 May 2020 | Sharing Reproducible Computational Environments with Binder | [Slides](https://doi.org/10.5281/zenodo.3826152)
