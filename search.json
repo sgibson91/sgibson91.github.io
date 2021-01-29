@@ -1,25 +1,129 @@
----
-sitemap: false
----
-
 [
-{% for post in site.posts %}
-  {% if post.title != null and post.title != empty and post.search_omit != true %}
-    {% if forloop.index > 1 %},{% endif %}{
-      "title"            : {{ post.title | jsonify }},
-      "link"            : "/{{ post.url }}",
-      "excerpt"        : "{{ post.excerpt | markdownify | strip_html | strip_newlines | escape_once | remove: '\[' | remove: '\]' | remove: '\(' | remove: '\)' }}"
-    }
-  {% endif %}
-{% endfor %}
 
-{% for page in site.pages %}
-  {% if page.layout != 'none' and page.layout != 'none' and page.title != null and page.title != empty and page.search_omit != true %}
-    {% if forloop.index > 1 %},{% endif %}{
-      "title"            : {{ page.title | jsonify }},
-      "link"            : "/{{ page.url | replace: 'index.html', '' }}",
-      "excerpt"        : "{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}"
+  
+    {
+      "title"            : "Continuous Integration: Fail Fast and Fail First",
+      "link"            : "//blog/continuous-integration-fail-fast-fail-first/",
+      "excerpt"        : "How to industry and academia take advantage of shared tools"
     }
-  {%endif%}
-{% endfor %}
+  
+
+  
+    ,{
+      "title"            : "February 2020 Update",
+      "link"            : "//blog/february-2020-update/",
+      "excerpt"        : "See what Sarah’s been up to in Jan/Feb"
+    }
+  
+
+  
+    ,{
+      "title"            : "Software Sustainability Fellowship 2020",
+      "link"            : "//blog/ssi-fellowship/",
+      "excerpt"        : "So 2020 is off to an incredibly exciting start!"
+    }
+  
+
+  
+    ,{
+      "title"            : "2019: Seasons of Reflection",
+      "link"            : "//blog/seasons-of-reflection/",
+      "excerpt"        : "Sarah reflects on her accomplishments in 2019"
+    }
+  
+
+  
+    ,{
+      "title"            : "The Turing Way",
+      "link"            : "//projects/the-turing-way/",
+      "excerpt"        : "A Handbook for Data Science"
+    }
+  
+
+  
+    ,{
+      "title"            : "HelmUpgradeBot",
+      "link"            : "//projects/helm-upgrade-bot/",
+      "excerpt"        : "A Bot to manage BinderHubs"
+    }
+  
+
+  
+    ,{
+      "title"            : "Binder",
+      "link"            : "//projects/binder/",
+      "excerpt"        : "Turn a git repo into a collection of interactive notebooks"
+    }
+  
+
+  
+    ,{
+      "title"            : "Diving into Leadership to Build Push-Button Code",
+      "link"            : "//blog/diving-into-leadership/",
+      "excerpt"        : "Sarah’s experiences at the Microsoft Reactor Sprint 2019"
+    }
+  
+
+
+
+  
+
+  
+
+  
+    ,{
+      "title"            : "Blog",
+      "link"            : "//blog/",
+      "excerpt"        : ""
+    }
+  
+
+  
+
+  
+    ,{
+      "title"            : "Media",
+      "link"            : "//media/",
+      "excerpt"        : ""
+    }
+  
+
+  
+    ,{
+      "title"            : "About Dr Sarah Gibson",
+      "link"            : "//about/",
+      "excerpt"        : ""
+    }
+  
+
+  
+    ,{
+      "title"            : "Speaking",
+      "link"            : "//speaking/",
+      "excerpt"        : ""
+    }
+  
+
+  
+    ,{
+      "title"            : "Projects",
+      "link"            : "//projects/",
+      "excerpt"        : ""
+    }
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 ]

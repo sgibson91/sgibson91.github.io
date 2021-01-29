@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.1.3
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>HelmUpgradeBot</title>
+    <meta name="description" content="A Bot to manage BinderHubs">
+    <link rel="canonical" href="https://sgibson91.github.io/projects/helm-upgrade-bot/">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="alternate" type="application/atom+xml" title="Dr Sarah Gibson" href="/feed.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  <!--Icons-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#9f00a7">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+  <body class="layout--post  helmupgradebot">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">Menu</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul>
+<li><a href="/">Home</a></li>
+<li><a href="/about/">About</a></li>
+<li><a href="/projects/">Projects</a></li>
+<li><a href="/blog/">Blog</a></li>
+<li><a href="/speaking/">Speaking</a></li>
+<li><a href="/media/">Media</a></li>
+<li><a href="/contact/">Contact</a></li>
+<li><a href="https://sgibson91.github.io/cv/">CV</a></li>
+<li><a href="https://github.com/sgibson91">GitHub</a></li>
+</ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+
+
+    <header class="masthead">
+  <div class="wrap">
+    
+      <a href="/" class="site-logo" rel="home" title="Dr Sarah Gibson">
+        <img src="/images/site-logo.png" class="site-logo-img animated fadeInDown" alt="Dr Sarah Gibson">
+      </a>
+    
+    
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+  
+  
+  
+
+  <div class="page-image">
+    <img src="/images/helmupgradebot-lg.png" class="entry-feature-image u-photo" alt="HelmUpgradeBot">
+    
+      <div class="page-image-caption">
+<p>Image created by <a href="https://github.com/choldgraf">Chris Holdgraf</a></p>
+</div>
+    
+  </div>
+
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">HelmUpgradeBot
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author">
+<img src="/images/profile_pic.jpg" class="author-avatar u-photo" alt="Sarah Gibson"><div class="author-info">
+<div class="author-name">
+        <span class="p-name">Sarah Gibson</span>
+      </div>
+    <time class="page-date dt-published" datetime="2019-11-26T00:00:00+00:00"><a class="u-url" href="">November 26, 2019</a>
+</time>
+
+  </div>
+</div>
+
+        
+  <h3 class="page-taxonomies-title">Categories</h3>
+  <ul class="page-taxonomies">
+<li class="page-taxonomy">projects</li>
+  </ul>
+
+
+        
+  <h3 class="page-taxonomies-title">Tags</h3>
+  <ul class="page-taxonomies">
+<li class="page-taxonomy">reproducibility</li>
+<li class="page-taxonomy">binderhub</li>
+<li class="page-taxonomy">automation</li>
+  </ul>
+
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>While managing <a href="https://binderhub.readthedocs.io/en/latest/">BinderHubs</a>, I found that there were a lot of things I had to deal with manually and, inevitably, I failed to keep on top of them.
+Most notably, the two biggest problems I faced were <em>i)</em> keeping my BinderHub up-to-date with the latest software released by the Binder team, and <em>ii)</em> keeping the size of the image registry manageable and within budget.</p>
+
+<p>Hence I developed <a href="https://github.com/HelmUpgradeBot">HelmUpgradeBot</a>!</p>
+
+<h2 id="keeping-software-up-to-date">Keeping software up-to-date</h2>
+
+<p>The first problem I wanted to solve was the manual updates I had to perform to keep my BinderHub up-to-date with the software the Binder team releases, packaged as a <a href="https://jupyterhub.github.io/helm-chart/">Helm Chart</a>.
+Thankfully, this was a problem that had already been solved for <a href="https://mybinder.org">mybinder.org</a>!</p>
+
+<p><a href="https://github.com/henchc">Chris Hench</a> had already written <a href="https://github.com/henchbot/mybinder.org-upgrades">henchbot</a> to deploy updates to mybinder.org, <em>and</em> had written <a href="https://blog.jupyter.org/automating-mybinder-org-dependency-upgrades-in-10-steps-bb5e38542059">a blog post</a> describing the process of creating it.
+All I needed to do was tweak the code for my specific set-up - specifically, interacting with Azure resources.</p>
+
+<p><a href="https://github.com/HelmUpgradeBot/hub23-deploy-upgrades/">Check out the code for Helm Chart upgrades.</a></p>
+
+<h2 id="interacting-with-azure">Interacting with Azure</h2>
+
+<p>The trick with the Helm Chart upgrades was running the bot from a place that could interact with the Azure resources I had set up to support my BinderHub - namely, the <a href="https://azure.microsoft.com/en-gb/services/key-vault/">Key Vault</a>, which was where I chose to store my Personal Access Token rather than parse it as an environment variable (as in the henchbot example).</p>
+
+<p>I needed to run this from a server that could scrape the Helm Chart page at regular intervals.
+The solution that made most sense was to create a Virtual Machine in Azure and assign it a <a href="https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview#how-a-system-assigned-managed-identity-works-with-an-azure-vm">Managed System Identity</a> with enough permissions to read from the Key Vault.
+The bot could then login to Azure using the identity of the VM it was running on, and retrieve the PAT from the Key Vault.
+Once I had perfected this section of the code, it was just a matter of following Chris’s blog post to code the interactions with GitHub (for example, create a fork and pull request) and then deploy the code as a <a href="https://crontab.guru/">cron job</a> on the Azure VM to perform a daily check for updates.</p>
+
+<h2 id="cleaning-up-artifacts">Cleaning up artifacts</h2>
+
+<p>One thing that BinderHubs produce is a <em>lot</em> of Docker images.
+If you’re using a private Docker registry, such as <a href="https://azure.microsoft.com/en-gb/services/container-registry/">Azure Container Registry</a>, then the size (and hence the cost!) can soar very quickly.
+So I wanted to apply what I’d learned deploying the Helm Chart upgrades to automatically clean out my Docker registry at regular intervals.</p>
+
+<p><a href="https://github.com/HelmUpgradeBot/DockerCleanUp/">Check out the code for cleaning a Docker registry.</a></p>
+
+<p>I already had a basis for how to deploy such a code:</p>
+
+<p><img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20"> Programmatically interacting with Azure login</p>
+
+<p><img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20"> Virtual Machines with access to cloud resources</p>
+
+<p><img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20"> Writing cron expressions</p>
+
+<p>Next, I began to investigate how to <a href="https://docs.microsoft.com/en-us/cli/azure/acr?view=azure-cli-latest">programmatically interact with the Docker registry</a> itself.</p>
+
+<p>I wanted to sort the images both by age and size since large images will obviously fill the repository up more quickly, and older images are less likely to be actively used or have been rebuilt under a different tag.
+I achieved this by scraping the manifests of the repositories and images within the registry and creating a dataframe to sort the images.</p>
+
+<p>I also created an “aggressive” mode which would activate when the total size of the registry exceeds a pre-set, tuneable limit.
+This would then delete the largest images in order to bring the size under the prescribed limit.</p>
+
+<p>Currently, this bot runs monthly to check the size of the registry isn’t growing too large.</p>
+
+        </div>
+
+        
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+    <a class="page-previous" href="/projects/binder/">
+      <h4 class="page-pagination-label">Previous</h4>
+      <span class="page-pagination-title">
+        <i class="fas fa-arrow-left"></i> Binder
+
+      </span>
+    </a>
+  
+
+  
+    <a class="page-next" href="/projects/the-turing-way/">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        The Turing Way
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="copyright">
+    
+      <p>© 2021 Dr Sarah Gibson. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+<!-- MathJax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  </body>
+
+</html>
