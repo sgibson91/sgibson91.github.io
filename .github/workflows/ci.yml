@@ -3,15 +3,14 @@ name: CI Tests
 on:
   push:
     branches:
-      - gh-pages
+      - main
   pull_request:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   checkfilesize:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
