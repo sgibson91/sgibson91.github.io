@@ -60,6 +60,7 @@ jobs:
         with:
           directory: "./_site"
           arguments: --only-4xx --check-favicon --check-html --assume-extension --empty-alt-ignore --disable-external
+        continue-on-error: true
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
