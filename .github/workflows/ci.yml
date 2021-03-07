@@ -51,13 +51,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Build site with Jekyll
-        uses: lemonarc/jekyll-action@1.0.0
+      - name: Build site with Hugo
+        uses: lowply/build-hugo@v0.79.0
 
       - name: Check HTML
         uses: chabad360/htmlproofer@master
         with:
-          directory: "./_site"
+          directory: "./public"
           arguments: --only-4xx --check-favicon --check-html --assume-extension --empty-alt-ignore --disable-external
         continue-on-error: true
 
@@ -67,5 +67,5 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: _site
+          FOLDER: public
           CLEAN: true
