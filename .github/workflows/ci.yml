@@ -43,14 +43,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Cache dependencies
-        uses: actions/cache@v1
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
       - name: Build site with Hugo
         uses: lowply/build-hugo@v0.79.0
 
