@@ -2,7 +2,6 @@
 title: "February 2020 Update"
 date: 2020-02-23T00:00:00Z
 tags: ["update"]
-draft: true
 ---
 
 Hello friends! :wave:

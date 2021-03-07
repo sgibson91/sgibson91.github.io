@@ -1,7 +1,6 @@
 ---
 title: "Home"
 date: 2021-03-07T19:50:11Z
-draft: true
 ---
 
 Hello! :wave:

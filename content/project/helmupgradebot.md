@@ -3,7 +3,6 @@ title: "HelmUpgradeBot"
 description: "A Bot to manage BinderHubs"
 date: 2019-07-05T00:00:00Z
 tags: ["reproducibility", "binderhub", "automation"]
-draft: true
 ---
 
 

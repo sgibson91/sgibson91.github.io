@@ -2,7 +2,6 @@
 title: "Speaking"
 date: 2021-03-07T19:42:32Z
 tags: ["conferences", "talks", "workshops"]
-draft: true
 ---
 
 I have spoken on reproducible research and open source collaboration at high profile software conferences in the UK.

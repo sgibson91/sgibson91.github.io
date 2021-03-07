@@ -1,7 +1,6 @@
 ---
 title: "About Dr Sarah Gibson"
 date: 2021-03-07T19:37:44Z
-draft: true
 ---
 
 {{< figure src="/images/profile_pic.jpg" alt="Dr Sarah Gibson" width="25%" align="left" hspace="20" vspace="20" >}}

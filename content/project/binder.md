@@ -3,7 +3,6 @@ title: "Binder"
 description: "Turn a git repo into a colelction of interactive notebooks"
 date: 2019-03-31T00:00:00Z
 tags: ["reproducibility", "cloud", "community", "open-source"]
-draft: true
 ---
 
 [Binder](https://mybinder.readthedocs.io/en/latest/) is a project that allows users to create custom computing environments that can be shared and used by many remote users. It is powered by [BinderHub](https://binderhub.readthedocs.io/en/latest/), which is an open-source tool that deploys the Binder service in the cloud.
