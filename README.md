@@ -4,23 +4,23 @@
 
 ## Repo Overview
 
-* Blog posts are hosted in `_posts/blog`
-* Project pages are hosted in `_posts/project`
+* Blog posts are hosted in `content/blog`
+* Project pages are hosted in `content/project`
 
 ## Building the website locally
 
-You need to have [ruby](https://www.ruby-lang.org/en/documentation/installation/) and [bundler](https://bundler.io/) installed.
+You need to have [Hugo](https://gohugo.io/) installed.
 
-### Installing dependencies
+### Installing Hugo with Homebrew
 
 ```bash
-bundle install
+brew install hugo
 ```
 
 ### Locally rendering changes
 
 ```bash
-bundle exec jekyll serve --livereload
+hugo server -D
 ```
 
 ## Contributing
@@ -29,4 +29,4 @@ Please read the [Contributing Guidelines](./CONTRIBUTING.md) and [Code of Conduc
 
 ## Attribution
 
-Thank you to [Michael Rose](https://github.com/mmistakes) for their [So Simple](https://github.com/mmistakes/so-simple-theme) Jekyll theme.
+Thank you to the maintainers of the [Anatole](https://themes.gohugo.io/anatole/) Hugo theme.
