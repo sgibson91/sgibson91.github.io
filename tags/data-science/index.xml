@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>data-science on </title>
-    <link>https://sgibson91.github.io/tags/data-science/</link>
-    <description>Recent content in data-science on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Turing Way</title>
-      <link>https://sgibson91.github.io/project/turing-way/</link>
-      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://sgibson91.github.io/project/turing-way/</guid>
-      <description>The Turing Way is an online handbook - and global community - dedicated to fostering gold-standard reproducible research.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>data-science on</title><link>https://sgibson91.github.io/tags/data-science/</link><description>Recent content in data-science on</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Mon, 31 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml"/><item><title>The Turing Way</title><link>https://sgibson91.github.io/project/turing-way/</link><pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate><guid>https://sgibson91.github.io/project/turing-way/</guid><description>The Turing Way is an online handbook - and global community - dedicated to fostering gold-standard reproducible research.
 It&amp;rsquo;s a cultural movement with the potential to transform data science.
- There is a crisis of reproducibility in science. &amp;lsquo;Publish-or-perish&amp;rsquo; incentives and excessive data secrecy stifles progress and wastes resources: siloed science is slow science.
-The Turing Way is an evolving online &amp;lsquo;handbook&amp;rsquo; on how to conduct world-leading, reproducible research in academic data science and AI with the goal of making reproducible science &amp;ldquo;too easy not to do&amp;rdquo;.</description>
-    </item>
-    
-  </channel>
-</rss>
+There is a crisis of reproducibility in science. &amp;lsquo;Publish-or-perish&amp;rsquo; incentives and excessive data secrecy stifles progress and wastes resources: siloed science is slow science.
+The Turing Way is an evolving online &amp;lsquo;handbook&amp;rsquo; on how to conduct world-leading, reproducible research in academic data science and AI with the goal of making reproducible science &amp;ldquo;too easy not to do&amp;rdquo;.</description></item></channel></rss>

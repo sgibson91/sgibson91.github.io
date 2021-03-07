@@ -1,22 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>automation on </title>
-    <link>https://sgibson91.github.io/tags/automation/</link>
-    <description>Recent content in automation on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>HelmUpgradeBot</title>
-      <link>https://sgibson91.github.io/project/helmupgradebot/</link>
-      <pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sgibson91.github.io/project/helmupgradebot/</guid>
-      <description>While managing BinderHubs, I found that there were a lot of things I had to deal with manually and, inevitably, I failed to keep on top of them. Most notably, the two biggest problems I faced were i) keeping my BinderHub up-to-date with the latest software released by the Binder team, and ii) keeping the size of the image registry manageable and within budget.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>automation on</title><link>https://sgibson91.github.io/tags/automation/</link><description>Recent content in automation on</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Fri, 05 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>HelmUpgradeBot</title><link>https://sgibson91.github.io/project/helmupgradebot/</link><pubDate>Fri, 05 Jul 2019 00:00:00 +0000</pubDate><guid>https://sgibson91.github.io/project/helmupgradebot/</guid><description>While managing BinderHubs, I found that there were a lot of things I had to deal with manually and, inevitably, I failed to keep on top of them. Most notably, the two biggest problems I faced were i) keeping my BinderHub up-to-date with the latest software released by the Binder team, and ii) keeping the size of the image registry manageable and within budget.
 Hence I developed HelmUpgradeBot!
-Keeping software up-to-date The first problem I wanted to solve was the manual updates I had to perform to keep my BinderHub up-to-date with the software the Binder team releases, packaged as a Helm Chart.</description>
-    </item>
-    
-  </channel>
-</rss>
+Keeping software up-to-date The first problem I wanted to solve was the manual updates I had to perform to keep my BinderHub up-to-date with the software the Binder team releases, packaged as a Helm Chart.</description></item></channel></rss>
