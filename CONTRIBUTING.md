@@ -41,7 +41,7 @@ As a result, Sarah reserves the right to have final say on any content that will
 
 ### What is it actually? :mag:
 
-This is a personal webpage built by [Jekyll](https://jekyllrb.com/), hosted by [GitHub Pages](https://pages.github.com/) and implements the [So Simple](https://github.com/mmistakes/so-simple-theme) Jekyll theme for styling.
+This is a personal webpage built by [Hugo](https://gohugo.io/), hosted by [GitHub Pages](https://pages.github.com/) and implements the [Anatole](https://themes.gohugo.io/anatole/) Hugo theme for styling.
 
 ## How can I contribute? :gift:
 
@@ -131,4 +131,4 @@ Here is a list of the most commonly used labels in this repo.
 | `project` | Adding a new project page |
 | `speaking` | Adding info about a speaking engagement to the "Speaking" page |
 | `website` | General updates or changes to the website |
-| `wip` | Work in progress |
+| `work-in-progress` | Work in progress |
