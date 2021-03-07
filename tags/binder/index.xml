@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>binder on </title>
+    <link>https://sgibson91.github.io/tags/binder/</link>
+    <description>Recent content in binder on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/binder/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Sustainability Institute Fellowship 2020</title>
+      <link>https://sgibson91.github.io/blog/ssi-fellowship/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgibson91.github.io/blog/ssi-fellowship/</guid>
+      <description>So 2020 is off to an incredibly exciting start!
+I have been awarded a Software Sustainability Institute 2020 Fellowship!!! 🎉 🎉 🎉
+We are thrilled to announce the new cohort of @SoftwareSaved Fellows for 2020! You can find out more about the new cohort here: https://t.co/WPTePa3hoP
+Congratulations to the SSI Fellows 2020! #SSIFellows2020 #BetterSoftwareBetterResearch pic.twitter.com/zX21yvZo3h
+&amp;mdash; The Software Sustainability Institute (@SoftwareSaved) January 10, 2020  The Software Sustainability Institute (SSI) is an organisation that facilitates the advancement of software in research by cultivating better, more sustainable, research software to enable world-class research (“Better software, better research”).</description>
+    </item>
+    
+    <item>
+      <title>Diving Into Leadership to Build Push-Button Code</title>
+      <link>https://sgibson91.github.io/blog/diving-into-leadership/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgibson91.github.io/blog/diving-into-leadership/</guid>
+      <description>&amp;ldquo;Hi everyone, I&amp;rsquo;m Sarah! I&amp;rsquo;m a Research Data Scientist at the Alan Turing Institute and I&amp;rsquo;m also an operator of mybinder.org. It&amp;rsquo;s really cool seeing how many people here are interested in BinderHub!&amp;quot;
+And it is cool. Really cool! But also a bit scary as a room full of Research Software Engineers (each of them much further on in their careers than I am) suddenly turn to me, eager for the knowledge I was surely about to impart to them.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>devops on </title>
+    <link>https://sgibson91.github.io/tags/devops/</link>
+    <description>Recent content in devops on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous Integration: Fail Fast and Fail First</title>
+      <link>https://sgibson91.github.io/blog/continuous-integration/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sgibson91.github.io/blog/continuous-integration/</guid>
+      <description>Sarah and Graham have different career backgrounds - Sarah having come through academia whereas Graham earned his stripes in industry. However in their current roles, they often find themselves using the same tools, for example Continuous Integration. They have written this blog post to identify how academia and industry may use Continuous Integration in different ways, and what they might learn from one another.
+What is Continuous Integration and why do we use it?</description>
+    </item>
+    
+  </channel>
+</rss>

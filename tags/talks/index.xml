@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talks on </title>
+    <link>https://sgibson91.github.io/tags/talks/</link>
+    <description>Recent content in talks on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 07 Mar 2021 19:42:32 +0000</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Speaking</title>
+      <link>https://sgibson91.github.io/speaking/</link>
+      <pubDate>Sun, 07 Mar 2021 19:42:32 +0000</pubDate>
+      
+      <guid>https://sgibson91.github.io/speaking/</guid>
+      <description>I have spoken on reproducible research and open source collaboration at high profile software conferences in the UK. I am also comfortable and experienced at leading workshops/tutorials for all ranges of abilities.
+I am always happy to attend and speak at conferences, and I really enjoy sharing my knowledge with new audiences. I am grateful to all the conference organisers who have done a wonderful job hosting me so far. 👐</description>
+    </item>
+    
+  </channel>
+</rss>
