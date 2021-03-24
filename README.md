@@ -17,10 +17,26 @@ You need to have [Hugo](https://gohugo.io/) installed.
 brew install hugo
 ```
 
+### Creating new content
+
+Make sure this command is run from the root of the directory.
+
+```bash
+hugo new path/to/new-content.md
+```
+
 ### Locally rendering changes
 
 ```bash
 hugo server -D
+```
+
+## Updating the theme
+
+To pull in any upstream changes to the theme being used as a git submodule, run the following.
+
+```bash
+git submodule update --remote
 ```
 
 ## Contributing
