@@ -1,7 +1,7 @@
 ---
 title: "Collaborations Workshop 2021"
 date: 2021-04-15T19:13:50+01:00
-draft: true
+draft: false
 ---
 
 At the end of March 2021, I attended the Collaborations Workshop hosted by the Software Sustainability Institute.
