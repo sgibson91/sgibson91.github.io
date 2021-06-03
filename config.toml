@@ -51,36 +51,30 @@ url = "https://www.linkedin.com/in/drsarahlgibson/"
   url = "/"
 
   [[menu.main]]
-  name = "About"
-  weight = 200
-  identifier = "about"
-  url = "/about/"
-
-  [[menu.main]]
   name = "Projects"
-  weight = 300
+  weight = 200
   identifier = "project"
   url = "/project/"
 
   [[menu.main]]
   name = "Blog"
-  weight = 400
+  weight = 300
   identifier = "blog"
   url = "/blog/"
 
   [[menu.main]]
   name = "Speaking"
-  weight = 500
+  weight = 400
   identifier = "speaking"
   url = "/speaking/"
 
   [[menu.main]]
   name = "Media"
-  weight = 600
+  weight = 500
   identifier = "media"
   url = "/media/"
 
   [[menu.main]]
   name = "CV"
-  weight = 700
+  weight = 600
   url = "https://sgibson91.github.io/cv/"
