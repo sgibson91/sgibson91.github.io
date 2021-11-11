@@ -8,7 +8,7 @@ So 2020 is off to an incredibly exciting start!
 
 **I have been awarded a Software Sustainability Institute 2020 Fellowship!!!** :tada: :tada: :tada:
 
-{{< tweet 1215572740381372416 >}}
+{{< tweet user="SoftwareSaved" id="1215572740381372416" >}}
 
 The [Software Sustainability Institute](https://software.ac.uk) (SSI) is an organisation that facilitates the advancement of software in research by cultivating better, more sustainable, research software to enable world-class research (“Better software, better research”).
 Its mission is to become the world-leading hub for research software practice.
