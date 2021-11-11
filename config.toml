@@ -51,12 +51,6 @@ url = "https://www.linkedin.com/in/drsarahlgibson/"
   url = "/"
 
   [[menu.main]]
-  name = "Projects"
-  weight = 200
-  identifier = "project"
-  url = "/project/"
-
-  [[menu.main]]
   name = "Blog"
   weight = 300
   identifier = "blog"
