@@ -26,8 +26,9 @@ Some of the most enjoyable conferences I've attended have implemented these prac
 
 Below is a list of talks and workshops that I have presented to date (in reverse chronological order) with links to the slides or workshop materials where available.
 
-Conference | Date | Title | Resources
+Event | Date | Title | Resources
 | :--- | :--- | :--- | :--- |
+[SSI Fellowship 2022 Launch Webinar](https://software.ac.uk/fellowship-programme/2022/webinar) | 23rd September 2021 | My Journey as an SSI Fellow | [Slides](https://docs.google.com/presentation/d/1T5wEiE1NsADtojuraPxuJnwOFwGmzm9QdLVlB-2Vt3U/edit?usp=sharing)
 [Compute research school, Lund University](https://compute.lu.se) | 22nd and 26th March 2021 | The Turing Way: Reproducible Research and Beyond | [Slides](https://doi.org/10.5281/zenodo.4625923) / [Tutorial](http://bit.ly/zero-to-binder-python)
 [Remote ReproHack](https://openworking.wordpress.com/2020/08/05/remote-reprohacking/) | 9 March 2021 | Sharing Reproducible Computational Environments with Binder | [Slides](https://doi.org/10.5281/zenodo.3826151)
 [SSI Research Software Camp](https://software.ac.uk/RSCamp-research-accessibility) | 22 Feb - 5 Mar 2021 | Boost your Research Reproducibility with Binder | [Intro Slides](https://doi.org/10.5281/zenodo.4570595) / [Why you need a computational environment](https://doi.org/10.5281/zenodo.4573145) / [Tutorial](http://bit.ly/zero-to-binder-python)
