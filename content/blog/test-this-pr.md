@@ -1,6 +1,6 @@
 ---
 title: "How I automated authorised cloud deployments from Pull Requests with GitHub Actions"
-date: 2021-11-04T13:34:14Z
+date: 2021-11-22T19:35:00Z
 draft: False
 ---
 
