@@ -63,6 +63,8 @@ When triggered, `test-this-pr` uses a small Python script that queries the GitHu
 
 This script is wrapped up into a Dockerfile, which allows GitHub Actions to run the action using it's docker runner.
 
+{{< figure src="https://user-images.githubusercontent.com/44771837/142857688-e2d23b26-f8d7-4140-bdc5-318fe3d2e4a0.png" alt="An example of the `test-this-pr` workflow in action." caption="An example of the `test-this-pr` workflow in action." height=400 >}}
+
 ## Extra configuration needed to use this action
 
 There were a few extra pieces I configured that couldn't (and shouldn't!) be implemented in the `test-this-pr` action, but contribute to the overall workflow.
