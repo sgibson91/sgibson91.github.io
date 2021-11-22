@@ -4,6 +4,8 @@ date: 2021-11-04T13:34:14Z
 draft: False
 ---
 
+> This blog was originally posted on the Jupyter blog: <https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32>
+
 I recently did some work on the mybinder.org deployment infrastructure to solve a problem with testing Pull Requests before deployment.
 It had not been possible to test Pull Requests on our staging deployment because our automated workflows don't have access to secrets.
 This resulted in my writing the [`test-this-pr` action](https://github.com/sgibson91/test-this-pr-action) and this blog is a retrospective of what I learned over that process.
