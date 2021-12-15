@@ -28,8 +28,9 @@ Below is a list of talks and workshops that I have presented to date (in reverse
 
 Event | Date | Title | Resources
 | :--- | :--- | :--- | :--- |
-[SSI Fellowship 2022 Launch Webinar](https://software.ac.uk/fellowship-programme/2022/webinar) | 23rd September 2021 | My Journey as an SSI Fellow | [Slides](https://docs.google.com/presentation/d/1T5wEiE1NsADtojuraPxuJnwOFwGmzm9QdLVlB-2Vt3U/edit?usp=sharing)
-[Compute research school, Lund University](https://compute.lu.se) | 22nd and 26th March 2021 | The Turing Way: Reproducible Research and Beyond | [Slides](https://doi.org/10.5281/zenodo.4625923) / [Tutorial](http://bit.ly/zero-to-binder-python)
+[AGU Fall Meeting 2021](https://www.agu.org/Fall-Meeting) | 13-17 December 2021 | From Zero to Binder | [Slides and Video](https://doi.org/10.5281/zenodo.5767615)
+[SSI Fellowship 2022 Launch Webinar](https://software.ac.uk/fellowship-programme/2022/webinar) | 23 September 2021 | My Journey as an SSI Fellow | [Slides](https://docs.google.com/presentation/d/1T5wEiE1NsADtojuraPxuJnwOFwGmzm9QdLVlB-2Vt3U/edit?usp=sharing)
+[Compute research school, Lund University](https://compute.lu.se) | 22 and 26 March 2021 | The Turing Way: Reproducible Research and Beyond | [Slides](https://doi.org/10.5281/zenodo.4625923) / [Tutorial](http://bit.ly/zero-to-binder-python)
 [Remote ReproHack](https://openworking.wordpress.com/2020/08/05/remote-reprohacking/) | 9 March 2021 | Sharing Reproducible Computational Environments with Binder | [Slides](https://doi.org/10.5281/zenodo.3826151)
 [SSI Research Software Camp](https://software.ac.uk/RSCamp-research-accessibility) | 22 Feb - 5 Mar 2021 | Boost your Research Reproducibility with Binder | [Intro Slides](https://doi.org/10.5281/zenodo.4570595) / [Why you need a computational environment](https://doi.org/10.5281/zenodo.4573145) / [Tutorial](http://bit.ly/zero-to-binder-python)
 [JuliaCon 2020](https://juliacon.org/2020/) | 29-31 July 2020 | Project Binder and the Julia Community: How can we help each other (lightning talk) / Project Binder and the Julia Community: Planning for the Future (BoF) | [Abstract and Video (lightning talk)](https://live.juliacon.org/talk/GVFYUF) / [Abstract (BoF)](https://live.juliacon.org/talk/QF8BC7) / [Slides](https://doi.org/10.5281/zenodo.3956320)
