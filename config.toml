@@ -38,8 +38,13 @@ url = "https://orcid.org/0000-0003-0356-2765"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
-title = "Linkedin"
+title = "LinkedIn"
 url = "https://www.linkedin.com/in/drsarahlgibson/"
+
+[[params.socialIcons]]
+icon = "fas fa-calendar"
+title = "Calendar"
+url = "https://calendly.com/sgibson-2i2c"
 
 ## Menu items
 [menu]
