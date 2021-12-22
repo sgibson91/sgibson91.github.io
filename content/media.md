@@ -6,7 +6,7 @@ tags: ["media"]
 
 A collection of external media posts that discuss projects that Sarah is involved in or that have interviewed Sarah directly (in reverse chronological order).
 
-- [Society of Research Sofware Engineering: Career Case Study](https://society-rse.org/careers/case-studies/Sarah-Gibson/)
+- [Society of Research Software Engineering: Career Case Study](https://society-rse.org/careers/case-studies/Sarah-Gibson/)
 - [Mouse vs Python: PyDev of the Week](https://www.blog.pythonlibrary.org/2021/11/08/pydev-of-the-week-sarah-gibson/)
 - [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast), Episode #15 - [Reproducible Data Science: How hard can it be?](https://open.spotify.com/episode/1OVxFUA5UyIfMSCd842wjD?si=wxRI8YovR52aiA38y-LMyQ)
 - [CogX 2020 Tools, Practices, and Systems panel](https://www.youtube.com/watch?v=yjtLKjTHCI0)
