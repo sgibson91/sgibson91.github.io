@@ -13,9 +13,9 @@ But let's rewind a bit.
 
 ## Joining the Binder community
 
-It's May 2019 and I'm attending the Research Software Reactor sprint jointly hosted by Microsoft and Imperial College London. This is a 3-day hackathon where researchers from different areas (though all with a computing background) come together to collaboratively build cloud-based resources on Microsoft's Azure platform.
+It's May 2019 and I'm attending the Research Software Reactor sprint jointly hosted by Microsoft and Imperial College London. This is a three day hackathon where researchers from different areas (though all with a computing background) come together to collaboratively build cloud-based resources on Microsoft's Azure platform.
 
-As for me, I'm only 6 months into my role at the Turing, having graduated from my PhD in Astrophysics at the start of the year. Also, my role as a "Binder Operator" is barely 2 months old... which is why I'm starting to feel nervous about the amount of interest in the room! This also happens to be the second hackathon I've attended _ever_, so the adrenaline is high.
+As for me, I'm only six months into my role at the Turing, having graduated from my PhD in Astrophysics at the start of the year. Also, my role as a "Binder Operator" is barely two months old... which is why I'm starting to feel nervous about the amount of interest in the room! This also happens to be the second hackathon I've attended _ever_, so the adrenaline is high.
 
 So, what is this "Binder" that we're all so excited about?
 
@@ -41,7 +41,7 @@ Now that we've covered a bit of background, let's get back to my slightly uncomf
 
 Everybody in the room is now trying to whittle down which projects we should work on - all of which are awesome! The magic of BinderHub is that it covers so many aspects of software engineering tools and practices, such as continuous integration/deployment and [Kubernetes](https://kubernetes.io/). The BinderHub idea is quickly amassing a lot of satellite projects!
 
-_"So Sarah, is it OK if I name you leader of 'Team BinderHub'?"_ My second uncomfortable moment. Gerard Gorman, Senior Lecturer in the Department of Earth Sciences at Imperial and co-organiser of the sprint, has just elected me leader of my first ever hack project. If I'm honest, I'd intended to spend the sprint ironing out some niggles with a colleague. But I've always been a "learn by doing" person so I agree and desperately begin wracking my brain for a project to give my team for the next 3 days.
+_"So Sarah, is it OK if I name you leader of 'Team BinderHub'?"_ My second uncomfortable moment. Gerard Gorman, Senior Lecturer in the Department of Earth Sciences at Imperial and co-organiser of the sprint, has just elected me leader of my first ever hack project. If I'm honest, I'd intended to spend the sprint ironing out some niggles with a colleague. But I've always been a "learn by doing" person so I agree and desperately begin wracking my brain for a project to give my team for the next three days.
 
 After a bit of shuffling (where for a while it seemed like most of the attendees would be joining 'Team BinderHub'!), I finally assemble a team. My teammates are: Tania Allard, a Microsoft Developer Advocate; Tim Greaves and Diego Alonso Álvarez, Research Software Engineers at Imperial; and Gerard himself.
 

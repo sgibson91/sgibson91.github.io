@@ -30,7 +30,7 @@ The solution that made most sense was to create a Virtual Machine in Azure and a
 The bot could then login to Azure using the identity of the VM it was running on, and retrieve the PAT from the Key Vault.
 Once I had perfected this section of the code, it was just a matter of following Chris's blog post to code the interactions with GitHub (for example, create a fork and pull request) and then deploy the code as a [cron job](https://crontab.guru/) on the Azure VM to perform a daily check for updates.
 
-## Cleaning up artifacts
+## Cleaning up artefacts
 
 One thing that BinderHubs produce is a _lot_ of Docker images.
 If you're using a private Docker registry, such as [Azure Container Registry](https://azure.microsoft.com/en-gb/services/container-registry/), then the size (and hence the cost!) can soar very quickly.
@@ -51,7 +51,7 @@ Next, I began to investigate how to [programmatically interact with the Docker r
 I wanted to sort the images both by age and size since large images will obviously fill the repository up more quickly, and older images are less likely to be actively used or have been rebuilt under a different tag.
 I achieved this by scraping the manifests of the repositories and images within the registry and creating a dataframe to sort the images.
 
-I also created an "aggressive" mode which would activate when the total size of the registry exceeds a pre-set, tuneable limit.
+I also created an "aggressive" mode which would activate when the total size of the registry exceeds a pre-set, tunable limit.
 This would then delete the largest images in order to bring the size under the prescribed limit.
 
 Currently, this bot runs monthly to check the size of the registry isn't growing too large.
