@@ -17,4 +17,4 @@ matrix:
       ignores:
       - code
       - pre
-      - [src]
+      - '[src]'
