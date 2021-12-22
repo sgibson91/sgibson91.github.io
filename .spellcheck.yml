@@ -17,3 +17,4 @@ matrix:
       ignores:
       - code
       - pre
+      - iframe
