@@ -177,3 +177,5 @@ PyDev
 youtube
 azuredeploy
 deploybutton
+svg
+api
