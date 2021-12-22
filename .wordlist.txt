@@ -175,3 +175,5 @@ org's
 JupyterHub
 PyDev
 youtube
+azuredeploy
+deploybutton
