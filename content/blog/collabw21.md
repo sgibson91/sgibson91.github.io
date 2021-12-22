@@ -43,7 +43,7 @@ These are my highlights from what I was able to attend, which unfortunately wasn
 
 ## Closing Remarks
 
-This is the 3rd consecutive Collaborations Workshop I've attended (2nd one remotely) and I always find the atmosphere to be energising and full of creative potential.
+This is the 3rd consecutive Collaborations Workshop I've attended (second one remotely) and I always find the atmosphere to be energising and full of creative potential.
 I really enjoy hearing about all of the initiatives that are being worked on to push forward research software, such the [Hidden REF](https://hidden-ref.org/) and [FAIR4RS](https://github.com/force11/FAIR4RS), and connecting with other RSEs and complementary roles from across the UK (and further afield!) to collaboratively address remaining issues in the community.
-If you've not been before, I would really recommend attending bext year!
+If you've not been before, I would really recommend attending next year!
 (Which will hopefully be in Belfast :crossed_fingers:)
