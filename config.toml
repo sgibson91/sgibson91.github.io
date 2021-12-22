@@ -5,13 +5,13 @@ enableEmoji = true
 
 [params]
 title = "Dr Sarah Gibson"
-author = "Sarah Gibson"
-description = "A collection of projects Sarah contributes to"
+author = "Dr Sarah Gibson"
+description = "Open Software - Open Infrastrastructure - Open Science"
 profilePicture = "images/profile_pic.jpg"
 keywords = ""
 favicon = "favicons/"
 mainSections = ["blog"]
-images = ["images/site-feature-image.png"]
+images = ["images/profile_pic.jpg"]
 doNotLoadAnimations = false
 
 ## Social links
