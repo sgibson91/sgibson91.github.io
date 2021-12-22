@@ -105,7 +105,7 @@ All I needed to do was tweak the code for my specific set-up - specifically, int
 The solution that made most sense was to create a Virtual Machine in Azure and assign it a <a href=https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview#how-a-system-assigned-managed-identity-works-with-an-azure-vm>Managed System Identity</a> with enough permissions to read from the Key Vault.
 The bot could then login to Azure using the identity of the VM it was running on, and retrieve the PAT from the Key Vault.
 Once I had perfected this section of the code, it was just a matter of following Chris&rsquo;s blog post to code the interactions with GitHub (for example, create a fork and pull request) and then deploy the code as a <a href=https://crontab.guru/>cron job</a> on the Azure VM to perform a daily check for updates.</p>
-<h2 id=cleaning-up-artifacts>Cleaning up artifacts</h2>
+<h2 id=cleaning-up-artefacts>Cleaning up artefacts</h2>
 <p>One thing that BinderHubs produce is a <em>lot</em> of Docker images.
 If you&rsquo;re using a private Docker registry, such as <a href=https://azure.microsoft.com/en-gb/services/container-registry/>Azure Container Registry</a>, then the size (and hence the cost!) can soar very quickly.
 So I wanted to apply what I&rsquo;d learned deploying the Helm Chart upgrades to automatically clean out my Docker registry at regular intervals.</p>
@@ -117,7 +117,7 @@ So I wanted to apply what I&rsquo;d learned deploying the Helm Chart upgrades to
 <p>Next, I began to investigate how to <a href="https://docs.microsoft.com/en-us/cli/azure/acr?view=azure-cli-latest">programmatically interact with the Docker registry</a> itself.</p>
 <p>I wanted to sort the images both by age and size since large images will obviously fill the repository up more quickly, and older images are less likely to be actively used or have been rebuilt under a different tag.
 I achieved this by scraping the manifests of the repositories and images within the registry and creating a dataframe to sort the images.</p>
-<p>I also created an &ldquo;aggressive&rdquo; mode which would activate when the total size of the registry exceeds a pre-set, tuneable limit.
+<p>I also created an &ldquo;aggressive&rdquo; mode which would activate when the total size of the registry exceeds a pre-set, tunable limit.
 This would then delete the largest images in order to bring the size under the prescribed limit.</p>
 <p>Currently, this bot runs monthly to check the size of the registry isn&rsquo;t growing too large.</p>
 </div>
