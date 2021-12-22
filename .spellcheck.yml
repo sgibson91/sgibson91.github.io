@@ -8,5 +8,5 @@ matrix:
     - .wordlist.txt
     encoding: utf-8
   sources:
-  - '**/*.md'
+  - 'content/**/*.md'
   default_encoding: utf-8
