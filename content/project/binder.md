@@ -1,6 +1,6 @@
 ---
 title: "Binder"
-description: "Turn a git repo into a colelction of interactive notebooks"
+description: "Turn a git repo into a collection of interactive notebooks"
 date: 2019-03-31T00:00:00Z
 tags: ["reproducibility", "cloud", "community", "open-source"]
 ---
