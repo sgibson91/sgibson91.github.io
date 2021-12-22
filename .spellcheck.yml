@@ -1,29 +1,19 @@
 matrix:
 - name: Markdown
-  expect_match: false
   apsell:
-    mode: en_gb
+    lang: en
+    d: en_GB
   dictionary:
     wordlists:
     - wordlist.txt
-    output: wordlist.dic
     encoding: utf-8
   pipeline:
-  - pyspelling.filters.context:
-      delimiters:
-        - open: '<blockquote>'
-          close: '</blockquote>'
   - pyspelling.filters.markdown:
-      markdown_extensions:
-      - markdown.extensions.extra:
   - pyspelling.filters.html:
-      comments: true
-      attributes:
-      - title
-      - alt
-      ignores:
-      - ':matches(code, pre)'
-      - 'code'
-      - 'pre'
+    comments: false
+    ignores:
+    - code
+    - pre
   sources:
   - '**/*.md'
+  default_encoding: utf-8
