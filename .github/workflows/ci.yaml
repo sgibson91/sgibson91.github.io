@@ -28,15 +28,6 @@ jobs:
             echo "No large files found!"
           fi
 
-  spellcheck:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v2
-
-      - name: Perform Spellcheck
-        uses: UnicornGlobal/spellcheck-github-actions@master
-
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
