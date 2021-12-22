@@ -35,7 +35,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Perform Spellcheck
-        uses: UnicornGlobal/spellcheck-github-actions@master
+        uses: rojopolis/spellcheck-github-actions@0.20.0
 
   build-and-deploy:
     runs-on: ubuntu-latest
