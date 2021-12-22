@@ -6,7 +6,7 @@ enableEmoji = true
 [params]
 title = "Dr Sarah Gibson"
 author = "Dr Sarah Gibson"
-description = "Open Software - Open Infrastrastructure - Open Science"
+description = "Open Software - Open Infrastructure - Open Science"
 profilePicture = "images/profile_pic.jpg"
 keywords = ""
 favicon = "favicons/"
