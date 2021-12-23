@@ -1,6 +1,7 @@
 ---
 title: "Home"
 date: 2021-03-07T19:50:11Z
+mainSectionsTitle: "Read the latest blog posts here"
 ---
 
 Sarah Gibson is an Open Source Infrastructure Engineer at [2i2c](https://2i2c.org), an open source contributor and advocate.
@@ -15,4 +16,4 @@ You can connect further with Sarah on twitter: [@drsarahlgibson](https://twitter
 
 {{< feeds >}}
 
-### Read the latest blog posts :point_down: :point_down: :point_down:
+---
