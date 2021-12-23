@@ -55,28 +55,28 @@ url = "https://calendly.com/sgibson-2i2c"
   [[menu.main]]
   name = "Home"
   identifier = "home"
-  weight = 100
+  weight = 1
   url = "/"
 
   [[menu.main]]
   name = "Blog"
-  weight = 300
+  weight = 2
   identifier = "blog"
   url = "/blog/"
 
   [[menu.main]]
   name = "Speaking"
-  weight = 400
+  weight = 3
   identifier = "speaking"
   url = "/speaking/"
 
   [[menu.main]]
   name = "Media"
-  weight = 500
+  weight = 4
   identifier = "media"
   url = "/media/"
 
   [[menu.main]]
   name = "CV"
-  weight = 600
+  weight = 5
   url = "https://sgibson91.github.io/cv/"
