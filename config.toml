@@ -13,6 +13,9 @@ favicon = "favicons/"
 mainSections = ["blog"]
 images = ["images/profile_pic.jpg"]
 doNotLoadAnimations = false
+copyright = "2019-{{ YEAR }}"
+contentratio = 0.8
+readMore = true
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
