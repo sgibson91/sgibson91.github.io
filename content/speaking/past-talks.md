@@ -9,6 +9,8 @@ I also leading workshops and tutorials on Binder for all ranges of abilities bot
 I am always happy to attend and speak at conferences, and I really enjoy sharing my knowledge with new audiences.
 I am grateful to all the conference organisers who have done a wonderful job hosting me so far. :open_hands:
 
+If you would like me to speak at your event, please make sure to read my [speaker rider]({{< relref "/speaking/speaker-rider" >}}) before contacting me.
+
 ## List of Previous Talks and Workshops
 
 Below is a list of talks and workshops that I have presented to date (in reverse chronological order) with links to the slides or workshop materials where available.
