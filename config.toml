@@ -1,21 +1,21 @@
 baseURL = "https://sgibson91.github.io/"
+enableEmoji = true
 languageCode = "en-gb"
 theme = "anatole"
-enableEmoji = true
 
 [params]
-title = "Dr Sarah Gibson"
 author = "Dr Sarah Gibson"
-description = "Open Software - Open Infrastructure - Open Science"
-profilePicture = "images/profile_pic.jpg"
-keywords = ""
-favicon = "favicons/"
-mainSections = ["blog"]
-images = ["images/profile_pic.jpg"]
-doNotLoadAnimations = false
-copyright = "2019-{{ YEAR }}"
 contentratio = 0.8
+copyright = "2019-{{ YEAR }}"
+description = "Open Software - Open Infrastructure - Open Science"
+doNotLoadAnimations = false
+favicon = "favicons/"
+images = ["images/profile_pic.jpg"]
+keywords = ""
+mainSections = ["blog"]
+profilePicture = "images/profile_pic.jpg"
 readMore = true
+title = "Dr Sarah Gibson"
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
