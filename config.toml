@@ -1,21 +1,21 @@
 baseURL = "https://sgibson91.github.io/"
+enableEmoji = true
 languageCode = "en-gb"
 theme = "anatole"
-enableEmoji = true
 
 [params]
-title = "Dr Sarah Gibson"
 author = "Dr Sarah Gibson"
-description = "Open Software - Open Infrastructure - Open Science"
-profilePicture = "images/profile_pic.jpg"
-keywords = ""
-favicon = "favicons/"
-mainSections = ["blog"]
-images = ["images/profile_pic.jpg"]
-doNotLoadAnimations = false
-copyright = "2019-{{ YEAR }}"
 contentratio = 0.8
+copyright = "2019-{{ YEAR }}"
+description = "Open Software - Open Infrastructure - Open Science"
+doNotLoadAnimations = false
+favicon = "favicons/"
+images = ["images/profile_pic.jpg"]
+keywords = ""
+mainSections = ["blog"]
+profilePicture = "images/profile_pic.jpg"
 readMore = true
+title = "Dr Sarah Gibson"
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
@@ -55,28 +55,28 @@ url = "https://calendly.com/sgibson-2i2c"
   [[menu.main]]
   name = "Home"
   identifier = "home"
-  weight = 100
+  weight = 1
   url = "/"
 
   [[menu.main]]
   name = "Blog"
-  weight = 300
+  weight = 2
   identifier = "blog"
   url = "/blog/"
 
   [[menu.main]]
   name = "Speaking"
-  weight = 400
+  weight = 3
   identifier = "speaking"
   url = "/speaking/"
 
   [[menu.main]]
   name = "Media"
-  weight = 500
+  weight = 4
   identifier = "media"
   url = "/media/"
 
   [[menu.main]]
   name = "CV"
-  weight = 600
+  weight = 5
   url = "https://sgibson91.github.io/cv/"
