@@ -4,7 +4,7 @@ tags: ["conferences", "talks", "workshops"]
 ---
 
 I have spoken on reproducible research and open source collaboration at high profile software conferences in the UK and globally for virtual conferences.
-I also leading workshops and tutorials on Binder for all ranges of abilities both in-person and remotely.
+I also lead workshops and tutorials on Binder for all ranges of abilities both in-person and remotely.
 
 I am always happy to attend and speak at conferences, and I really enjoy sharing my knowledge with new audiences.
 I am grateful to all the conference organisers who have done a wonderful job hosting me so far. :open_hands:
