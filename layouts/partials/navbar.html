@@ -20,11 +20,11 @@
           {{ $active := eq $url .URL }}
           {{ if .HasChildren }}
             <li>
-              <ul class="sm-nav" aria-label="Submenu switcher">
+              <ul class="sl-nav" aria-label="Submenu switcher">
                 <li>
-                  <input type="checkbox" id="submenupicker" aria-label="switch submenu" hidden />
-                  <label for="submenupicker">{{ .Name }}</label>
-                  <label for="submenupicker"><i class="fa fa-angle-down" aria-hidden="true"></i></label>
+                  <input type="checkbox" id="languagepicker" aria-label="switch submenu" hidden />
+                  <label for="languagepicker">{{ .Name }}</label>
+                  <label for="languagepicker"><i class="fa fa-angle-down" aria-hidden="true"></i></label>
                   <div class="triangle"></div>
 
                   <ul class="dropdown">
