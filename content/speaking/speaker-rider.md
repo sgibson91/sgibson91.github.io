@@ -1,10 +1,8 @@
 ---
 title: "Speaker Rider"
 author: "Sarah Gibson"
-toc: true
+layout: "single-lastmod"
 ---
-
-_Last Updated: 2021-12-28_
 
 ## :question: What is a Speaker Rider?
 
