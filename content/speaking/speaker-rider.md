@@ -43,7 +43,7 @@ These are my expectations of hosting when I return (date TBD).
 ### Accommodation expenses
 
 - UK conferences: Full length of the conference, minus workshops/auxiliary events (unless I am participating in those)
-- International conferences: One (1) full day of lodging before the conference + full length of conference and workshops/auxiliary events (if I'm participating) + evening that I speak (if not suring the main conference)
+- International conferences: One (1) full day of lodging before the conference + full length of conference and workshops/auxiliary events (if I'm participating) + evening that I speak (if not during the main conference)
 - Provide the option to purchase all travel and accommodation on behalf of the speaker.
   While I opt to book my own travel arrangements, forcing the "reimbursement model" (where the speaker pays, then is reimbursed later) is exclusionary to folks who lack the disposable funds to do so.
 
@@ -51,7 +51,7 @@ These are my expectations of hosting when I return (date TBD).
 
 ### Streaming
 
-- Provide the option to pre-record remote talks, especially for events in very different timezones
+- Provide the option to pre-record remote talks, especially for events in very different time zones
 - For live sessions, ensuring there is a back-up plan and run-of-show prior with tech check, etc.
 - Q&A sessions need to be moderated by someone trained on your Code of Conduct ([see below section]({{< relref "#code-of-conduct-coc" >}})) with strict no harassment policies
 
@@ -151,7 +151,7 @@ If you are reaching out to me to speak at your event, I expect _at minimum_ not 
 If you are interested in having me speak, please provide the following:
 
 - Confirmation you have read this rider
-- Conference name, website, date of events, location, timezone (if remote)
+- Conference name, website, date of events, location, time zone (if remote)
 - Budget for speaker honorarium
 - What you are interested in having me speak about
 
