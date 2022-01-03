@@ -11,10 +11,11 @@ description = "Open Software - Open Infrastructure - Open Science"
 doNotLoadAnimations = false
 favicon = "favicons/"
 images = ["images/profile_pic.jpg"]
-keywords = ""
+indexDateFormat = "2006-01-02"
 mainSections = ["blog"]
 profilePicture = "images/profile_pic.jpg"
 readMore = true
+singleDateFormat = "2006-01-02"
 title = "Dr Sarah Gibson"
 
 ## Social links
