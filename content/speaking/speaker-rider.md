@@ -52,18 +52,18 @@ These are my expectations of hosting when I return (date TBD).
 
 - Provide the option to pre-record remote talks, especially for events in very different time zones
 - For live sessions, ensuring there is a back-up plan and run-of-show prior with tech check, etc.
-- Q&A sessions need to be moderated by someone trained on your Code of Conduct ([see below section](#pencil-code-of-conduct)) with strict no harassment policies
+- Q&A sessions need to be moderated by someone trained on your Code of Conduct ([see below section]({{< relref "/speaking/speaker-rider#pencil-code-of-conduct" >}})) with strict no harassment policies
 
 ### :speaking_head: Chat spaces
 
-- Chat spaces must have conference moderators who are trained to follow your Code of conduct ([see below section](#pencil-code-of-conduct))
+- Chat spaces must have conference moderators who are trained to follow your Code of conduct ([see below section]({{< relref "/speaking/speaker-rider#pencil-code-of-conduct" >}}))
 
 ## :money_with_wings: Pay-to-Speak Events
 
 I will not accept invitations to speak at Pay-to-Speak conferences.
 
 If you are new to Pay-to-Speak, this is where it ends up costing a speaker money to present at a conference.
-This is often specifically focussed on travel and accommodation, though I have also experienced conferences that did not cover registration or abstract submission fees ([see section below](#moneybag-speaker-honorarium)) as an _invited_ speaker.
+This is often specifically focussed on travel and accommodation, though I have also experienced conferences that did not cover registration or abstract submission fees ([see section below]({{< relref "/speaking/speaker-rider#moneybag-speaker-honorarium" >}})) as an _invited_ speaker.
 
 If you are reaching out to me to speak at your event, I expect _at minimum_ not to lose money in the process.
 
@@ -74,7 +74,7 @@ If you are reaching out to me to speak at your event, I expect _at minimum_ not 
 ### :ticket: Ticket to full conference
 
 - While I would expect this is a given, that has not always been my experience!
-  See [Pay-to-Speak Events](#money_with_wings-pay-to-speak-events).
+  See [Pay-to-Speak Events]({{< relref "/speaking/speaker-rider#money_with_wings-pay-to-speak-events" >}}).
 
 ## :building_construction: Conference Logistics
 
