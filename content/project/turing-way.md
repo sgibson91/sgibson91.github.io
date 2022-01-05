@@ -2,6 +2,7 @@
 title: "The Turing Way"
 date: 2018-12-31T00:00:00Z
 tags: ["reproducibility", "data-science", "community", "open-source"]
+draft: true
 ---
 
 
