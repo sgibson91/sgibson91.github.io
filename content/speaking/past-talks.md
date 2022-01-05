@@ -1,6 +1,6 @@
 ---
 title: "Past Talks and Workshops"
-tags: ["conferences", "talks", "workshops"]
+layout: "single-lastmod"
 ---
 
 I have spoken on reproducible research and open source collaboration at high profile software conferences in the UK and globally for virtual conferences.
