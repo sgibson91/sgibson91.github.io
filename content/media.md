@@ -1,7 +1,6 @@
 ---
 title: "Media"
 date: 2021-03-07T19:45:11Z
-tags: ["media"]
 ---
 
 A collection of external media posts that discuss projects that Sarah is involved in or that have interviewed Sarah directly (in reverse chronological order).
