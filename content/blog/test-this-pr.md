@@ -1,7 +1,12 @@
 ---
 title: "How I automated authorised cloud deployments from Pull Requests with GitHub Actions"
 date: 2021-11-22T19:35:00Z
-draft: False
+tags:
+  - devops
+  - continuous-integration
+  - continuous-deployment
+  - binder
+  - github-actions
 ---
 
 > This blog was originally posted on the Jupyter blog: <https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32>

@@ -2,7 +2,10 @@
 title: "Continuous Integration: Fail Fast and Fail First"
 description: "How to industry and academia take advantage of shared tools"
 date: 2020-02-27T00:00:00Z
-tags: ["continuous-integration", "tools", "devops"]
+tags:
+  - continuous-integration
+  - tools
+  - devops
 ---
 
 Sarah and Graham have different career backgrounds - Sarah having come through academia whereas Graham earned his stripes in industry. However in their current roles, they often find themselves using the same tools, for example Continuous Integration. They have written this blog post to identify how academia and industry may use Continuous Integration in different ways, and what they might learn from one another.
