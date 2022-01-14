@@ -1,0 +1,29 @@
+name: Autoupdate the Website Theme
+
+on:
+  schedule:
+    - cron: "0 0 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  autoupdate-theme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Run git submodule command
+        run: |
+          git submodule update --remote
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Update anatole theme
+          branch: update-theme
+          title: Update website theme
+          body: "Automated update of git submodule that contains the website theme"
+          labels: website
