@@ -1,0 +1,20 @@
+name: Automatically Tweet about new Blog Posts
+
+on: [pull_request]
+
+jobs:
+  auto-tweet-blogs:
+    runs-on: ubuntu-latest
+    environment: auto-tweet
+    steps:
+      - run: |
+          echo ${{ toJSON(github.event) }}
+
+      # - name: Send tweet
+      #   uses: ethomson/send-tweet-action@v1.0.0
+      #   with:
+      #     status: "✨ New blog post! ✨\n\n{{ title }}\n\n{{ url }}"
+      #     consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+      #     consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+      #     access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      #     access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
