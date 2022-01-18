@@ -5,7 +5,7 @@ on: [pull_request]
 jobs:
   auto-tweet-blogs:
     runs-on: ubuntu-latest
-    environment: auto-tweet
+    # environment: auto-tweet
     steps:
       - run: |
           echo ${{ toJSON(github.event) }}
