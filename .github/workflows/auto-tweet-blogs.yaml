@@ -1,6 +1,9 @@
 name: Automatically Tweet about new Blog Posts
 
-on: [pull_request]
+on:
+  push:
+    branches:
+      - "auto-tweet-blogs"
 
 jobs:
   auto-tweet-blogs:
