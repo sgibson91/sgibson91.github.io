@@ -21,12 +21,9 @@ jobs:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: |
-          echo "ADDED_FILES=${{ steps.changed-files.outputs.added }}" >> $GITHUB_ENV
-
       - name: Isolate filename
         run: |
-          echo ${ADDED_FILE##*/}
+          echo ${${{ steps.changed-files.outputs.added }}##*/}
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
