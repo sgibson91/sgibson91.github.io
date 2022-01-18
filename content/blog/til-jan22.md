@@ -22,3 +22,9 @@ series: ["Things I've Learned"]
   git checkout --theirs conflicting_filename  # To keep the file from the incoming branch
   ```
   Note that behaviour can change depending on which branch is checked out and whether a merge or rebase is being performed, so I recommend to double-check online!
+- That the second `---` in YAML delimits as if what follows it is another YAML file.
+  This can cause issues for command line YAML parsers like `yq` and made pulling the front matter from my Markdown files a little trickier than expected!
+- How to automatically tweet out new blog posts when they are merged into `main`
+- How to use a GitHub App to generate tokens in GitHub Action workflows.
+  The tokens can then be used to securely workaround the fact that GitHub Action workflows can't be triggered by events that were authorised by the `GITHUB_TOKEN` in another workflow.
+  There is a nice write-up that helped me [here](https://github.com/peter-evans/create-pull-request/blob/main/docs/concepts-guidelines.md#authenticating-with-github-app-generated-tokens).
