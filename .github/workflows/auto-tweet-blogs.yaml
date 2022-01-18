@@ -36,7 +36,7 @@ jobs:
       - name: Generate URL
         run: |
           for filename in ${{ steps.changed-files.outputs.added_modified }}; do
-            if [[ $filename == */content/blog/*.md ]]; then
+            if [[ $filename == *.md ]]; then
               echo "FULL_MD_FILENAME=$filename" >> $GITHUB_ENV
               MD_FILENAME=$(echo $filename | awk -F'/' '{printf $NF}')
               FILENAME=${MD_FILENAME%%.md}
