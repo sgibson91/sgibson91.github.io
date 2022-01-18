@@ -22,7 +22,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - run: |
-          for filename in "${{ steps.changed-files.outputs.added_modified }}"; do
+          for filename in ${{ steps.changed-files.outputs.added_modified }}; do
             echo ${filename}
           done
 
