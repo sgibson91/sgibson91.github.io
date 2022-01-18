@@ -1,0 +1,62 @@
+name: Automatically Tweet about new Blog Posts
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - "content/blog/**"
+
+jobs:
+  auto-tweet-blogs:
+    runs-on: ubuntu-latest
+    environment: auto-tweet
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2.1.0
+
+      - name: Setup Python
+        uses: actions/setup-python@v2.3.1
+        with:
+          python-version: '3.x'
+
+      - name: Install yq
+        run: |
+          python -m pip install -U pip yq
+
+      - name: Analyse changed files
+        uses: jitterbit/get-changed-files@v1
+        id: changed-files
+        with:
+          format: space-delimited
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate URL
+        run: |
+          for filename in ${{ steps.changed-files.outputs.added_modified }}; do
+            if [[ $filename == *.md ]]; then
+              echo "FULL_MD_FILENAME=$filename" >> $GITHUB_ENV
+              MD_FILENAME=$(echo $filename | awk -F'/' '{printf $NF}')
+              FILENAME=${MD_FILENAME%%.md}
+              echo "URL=https://${{ github.event.repository.name }}/blog/${FILENAME}/" >> $GITHUB_ENV
+            fi
+          done
+
+      - name: Read YAML frontmatter
+        run: |
+          echo "TITLE=$(sed -n '/---/,/---/p' ${{ env.FULL_MD_FILENAME }} | sed '$d' | python -m yq -r '.title')" >> $GITHUB_ENV
+
+      - name: Compile tweet content
+        run: |
+          echo "TWEET_CONTENT=✨ New blog post! ✨\n\n${{ env.TITLE }}\n\n${{ env.URL }}" >> $GITHUB_ENV
+
+      #=== Uncomment this when we're sure the workflow works! ===#
+      # - name: Send tweet
+      #   uses: ethomson/send-tweet-action@v1.0.0
+      #   with:
+      #     status: "✨ New blog post! ✨\n\n{{ title }}\n\n{{ url }}"
+      #     consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+      #     consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+      #     access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+      #     access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
