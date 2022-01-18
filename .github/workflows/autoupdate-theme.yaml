@@ -8,12 +8,20 @@ on:
 jobs:
   autoupdate-theme:
     runs-on: ubuntu-latest
+    environment: github-app-token
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
           submodules: true
+
+      - name: Generate token
+        id: generate_token
+        uses: tibdex/github-app-token@v1.5.0
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
 
       - name: Run git submodule command
         run: |
@@ -27,3 +35,4 @@ jobs:
           title: Update website theme
           body: "Automated update of git submodule that contains the website theme"
           labels: website
+          token: ${{ steps.generate_token.outputs.token }}
