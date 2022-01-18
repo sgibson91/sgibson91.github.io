@@ -23,7 +23,7 @@ jobs:
 
       - name: Isolate filename
         run: |
-          echo ${{ steps.changed-files.outputs.added }} | basename
+          basename ${{ steps.changed-files.outputs.added }}
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
