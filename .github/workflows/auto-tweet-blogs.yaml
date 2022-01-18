@@ -21,9 +21,11 @@ jobs:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Isolate filename
+      - name: Generate URL
         run: |
-          echo "${{ steps.changed-files.outputs.added_modified }}" | awk -F'/' '{printf $NF}'
+          YAML_FILENAME=$("${{ steps.changed-files.outputs.added_modified }}" | awk -F'/' '{printf $NF}')
+          HTML_FILENAME=$(echo '${YAML_FILENAME}' | sed 's/yaml/html/g')
+          echo '${HTML_FILENAME}'
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
