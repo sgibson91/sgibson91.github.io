@@ -23,7 +23,11 @@ jobs:
 
       - run: |
           for filename in ${{ steps.changed-files.outputs.added_modified }}; do
-            echo ${filename}
+            if [[ $filename == *.md ]]; then
+              MD_FILENAME=$(echo $filename | awk -F'/' '{printf $NF}')
+              FILENAME=${MD_FILENAME%%.md}
+              echo "URL=https://${{ github.event.repository.name }}/blog/${FILENAME}/" >> $GITHUB_ENV
+            fi
           done
 
       # - name: Generate URL
@@ -32,7 +36,7 @@ jobs:
       #     FILENAME=${MD_FILENAME%%.md}
       #     echo "URL=https://${{ github.event.repository.name }}/blog/${FILENAME}/" >> $GITHUB_ENV
 
-      # - run: echo ${{ env.URL }}
+      - run: echo ${{ env.URL }}
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
