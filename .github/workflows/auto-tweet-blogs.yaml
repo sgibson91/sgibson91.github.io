@@ -45,10 +45,9 @@ jobs:
         run: |
           echo "TITLE=$(sed -n '/---/,/---/p' ${{ env.FULL_MD_FILENAME }} | sed '$d' | python -m yq -r '.title')" >> $GITHUB_ENV
 
-      - run: |
-          echo ${{ env.URL }}
-          echo ${{ env.FULL_MD_FILENAME }}
-          echo ${{ env.TITLE }}
+      - name: Compile tweet content
+        run: |
+          echo "TWEET_CONTENT=✨ New blog post! ✨\n\n${{ env.TITLE }}\n\n${{ env.URL }}" >> $GITHUB_ENV
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
