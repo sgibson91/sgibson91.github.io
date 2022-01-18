@@ -23,7 +23,7 @@ jobs:
 
       - name: Isolate filename
         run: |
-          echo "${{ steps.changed-files.outputs.added }}" | awk -F'/' '{printf $NF}'
+          echo "${{ steps.changed-files.outputs.added_modified }}" | awk -F'/' '{printf $NF}'
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
