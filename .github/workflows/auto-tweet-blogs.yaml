@@ -9,27 +9,24 @@ jobs:
   auto-tweet-blogs:
     runs-on: ubuntu-latest
     # environment: auto-tweet
+
     steps:
-      - uses: actions/checkout@v2.1.0
-      - uses: jitterbit/get-changed-files@v1
-        id: abc
+      - name: Checkout repo
+        uses: actions/checkout@v2.1.0
+
+      - name: Analyse changed files
+        uses: jitterbit/get-changed-files@v1
+        id: changed-files
         with:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Printing
+
+      - run: |
+          echo ::set-env name=ADDED_FILES::${{ steps.changed-files.outputs.added }}
+
+      - name: Isolate filename
         run: |
-          echo "All:"
-          echo "${{ steps.abc.outputs.all }}"
-          echo "Added:"
-          echo "${{ steps.abc.outputs.added }}"
-          echo "Removed:"
-          echo "${{ steps.abc.outputs.removed }}"
-          echo "Renamed:"
-          echo "${{ steps.abc.outputs.renamed }}"
-          echo "Modified:"
-          echo "${{ steps.abc.outputs.modified }}"
-          echo "Added+Modified:"
-          echo "${{ steps.abc.outputs.added_modified }}"
+          echo ${ADDED_FILE##*/}
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
