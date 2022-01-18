@@ -23,9 +23,9 @@ jobs:
 
       - name: Generate URL
         run: |
-          YAML_FILENAME=$("${{ steps.changed-files.outputs.added_modified }}" | awk -F'/' '{printf $NF}')
-          HTML_FILENAME='${YAML_FILENAME/%yaml/html}'
-          echo '${HTML_FILENAME}'
+          YAML_FILENAME=$(sudo "${{ steps.changed-files.outputs.added_modified }}" | awk -F'/' '{printf $NF}')
+          HTML_FILENAME=${YAML_FILENAME/%yaml/html}
+          echo ${HTML_FILENAME}
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
