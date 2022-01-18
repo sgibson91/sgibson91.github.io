@@ -21,22 +21,20 @@ jobs:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: |
+      - name: Generate URL
+        run: |
           for filename in ${{ steps.changed-files.outputs.added_modified }}; do
             if [[ $filename == *.md ]]; then
+              echo "FULL_MD_FILENAME=$filename" >> $GITHUB_ENV
               MD_FILENAME=$(echo $filename | awk -F'/' '{printf $NF}')
               FILENAME=${MD_FILENAME%%.md}
               echo "URL=https://${{ github.event.repository.name }}/blog/${FILENAME}/" >> $GITHUB_ENV
             fi
           done
 
-      # - name: Generate URL
-      #   run: |
-      #     MD_FILENAME=$(echo "${{ steps.changed-files.outputs.added_modified }}" | awk -F'/' '{printf $NF}')
-      #     FILENAME=${MD_FILENAME%%.md}
-      #     echo "URL=https://${{ github.event.repository.name }}/blog/${FILENAME}/" >> $GITHUB_ENV
-
-      - run: echo ${{ env.URL }}
+      - name: Read YAML frontmatter
+        run: |
+          sed -n '/---/,/---/p' ${{ env.FULL_MD_FILENAME }}
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
