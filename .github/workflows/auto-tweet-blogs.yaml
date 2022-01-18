@@ -25,7 +25,9 @@ jobs:
         run: |
           YAML_FILENAME=$(echo "${{ steps.changed-files.outputs.added_modified }}" | awk -F'/' '{printf $NF}')
           HTML_FILENAME=${YAML_FILENAME/%yaml/html}
-          echo ${HTML_FILENAME}
+          echo "URL=https://${{ github.event.repository.name }}/blog/${HTML_FILENAME}" >> $GITHUB_ENV
+
+      - run: echo ${{ env.URL }}
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
