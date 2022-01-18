@@ -22,7 +22,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - run: |
-          echo ::set-env name=ADDED_FILES::${{ steps.changed-files.outputs.added }}
+          echo "ADDED_FILES=${{ steps.changed-files.outputs.added }}"" >> $GITHUB_ENV
 
       - name: Isolate filename
         run: |
