@@ -34,7 +34,7 @@ jobs:
 
       - name: Read YAML frontmatter
         run: |
-          sed -n '/---/,/---/p' ${{ env.FULL_MD_FILENAME }}
+          sed -n '/---/,/---/p' ${{ env.FULL_MD_FILENAME }} | yq .title
 
       # - name: Send tweet
       #   uses: ethomson/send-tweet-action@v1.0.0
