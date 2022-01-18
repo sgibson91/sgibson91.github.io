@@ -23,7 +23,7 @@ jobs:
 
       - run: |
           for filename in "${{ steps.changed-files.outputs.added_modified }}"; do
-            echo $filename
+            echo ${filename}
           done
 
       # - name: Generate URL
