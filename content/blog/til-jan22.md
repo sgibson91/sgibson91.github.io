@@ -7,7 +7,7 @@ series: ["Things I've Learned"]
 ---
 
 - Nested build matrices are not (yet?) supported in GitHub Actions, but you can explicitly define a set of matrix parameters using YAML array syntax.
-  See an example [here](https://github.com/sgibson91/testing-gh-actions/blob/main/.github/workflows/includes-matrix-with-list.yaml).
+  See an example [here](https://github.com/sgibson91/testing-gh-actions/blob/3a0fec6d59c933646e6c6b673e37cadf1dafb3a2/.github/workflows/includes-matrix-with-list.yaml).
 - A pattern I often use to update my working branch with the default branch is:
   ```bash
   git checkout main
