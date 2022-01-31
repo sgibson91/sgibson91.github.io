@@ -33,7 +33,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate URL
-        if: ${{ ! -z steps.changed-files.outputs.added }}
+        if: ${{ steps.changed-files.outputs.added != "" }}
         run: |
           for filename in ${{ steps.changed-files.outputs.added }}; do
             if [[ $filename == content/blog/*.md ]]; then
