@@ -32,15 +32,10 @@ jobs:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: |
-          echo "ADDED"
-          echo "${{ steps.changed-files.outputs.added }}"
-          echo "MODIFIED"
-          echo "${{ steps.changed-files.outputs.modified }}"
-
       - name: Generate URL
+        if: ${{ ! -z steps.changed-files.outputs.added }}
         run: |
-          for filename in ${{ steps.changed-files.outputs.added_modified }}; do
+          for filename in ${{ steps.changed-files.outputs.added }}; do
             if [[ $filename == content/blog/*.md ]]; then
               echo "FULL_MD_FILENAME=$filename" >> $GITHUB_ENV
               MD_FILENAME=$(echo $filename | awk -F'/' '{printf $NF}')
@@ -50,14 +45,17 @@ jobs:
           done
 
       - name: Read YAML frontmatter
+        if: ${{ steps.changed-files.outputs.added != "" }}
         run: |
           echo "TITLE=$(sed -n '/---/,/---/p' ${{ env.FULL_MD_FILENAME }} | sed '$d' | python -m yq -r '.title')" >> $GITHUB_ENV
 
       - name: Compile tweet content
+        if: ${{ steps.changed-files.outputs.added != "" }}
         run: |
           echo "TWEET_CONTENT=✨ New blog post! ✨\n\n${{ env.TITLE }}\n\n${{ env.URL }}" >> $GITHUB_ENV
 
       - name: Echo tweet content
+        if: ${{ steps.changed-files.outputs.added != "" }}
         run: |
           echo ${{ env.TWEET_CONTENT }}
 
