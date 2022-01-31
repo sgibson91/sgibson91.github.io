@@ -32,12 +32,6 @@ jobs:
           format: space-delimited
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - run: |
-          echo "ADDED"
-          echo "${{ steps.changed-files.outputs.added }}"
-          echo "MODIFIED"
-          echo "${{ steps.changed-files.outputs.modified }}"
-
       - name: Generate URL
         run: |
           for filename in ${{ steps.changed-files.outputs.added_modified }}; do
