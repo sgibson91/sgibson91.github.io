@@ -54,17 +54,12 @@ jobs:
         run: |
           echo "TWEET_CONTENT=✨ New blog post! ✨\n\n${{ env.TITLE }}\n\n${{ env.URL }}" >> $GITHUB_ENV
 
-      - name: Echo tweet content
+      - name: Send tweet
         if: ${{ steps.changed-files.outputs.added != '' }}
-        run: |
-          echo ${{ env.TWEET_CONTENT }}
-
-      #=== Uncomment this when we're sure the workflow works! ===#
-      # - name: Send tweet
-      #   uses: ethomson/send-tweet-action@v1.0.0
-      #   with:
-      #     status: "✨ New blog post! ✨\n\n{{ title }}\n\n{{ url }}"
-      #     consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-      #     consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
-      #     access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-      #     access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+        uses: ethomson/send-tweet-action@v1.0.0
+        with:
+          status: ${{ env.TWEET_CONTENT }}
+          consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+          consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
