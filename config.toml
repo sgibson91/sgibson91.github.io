@@ -5,8 +5,8 @@ theme = "anatole"
 
 [params]
 author = "Dr Sarah Gibson"
-contentratio = 0.8
-copyright = "2019-{{ YEAR }}"
+contentratio = 0.75
+copyright = "Dr Sarah Gibson, 2019-{{ YEAR }}"
 description = "Open Software - Open Infrastructure - Open Science"
 doNotLoadAnimations = false
 favicon = "favicons/"
@@ -76,6 +76,27 @@ url = "https://calendly.com/sgibson-2i2c"
   weight = 4
   identifier = "speaking"
   url = "/speaking/"
+
+  [[menu.main]]
+  name = "Past Talks"
+  weight = 1
+  identifier = "past-talks"
+  url = "/speaking/past-talks/"
+  parent = "speaking"
+
+  [[menu.main]]
+  name = "Speaker Rider"
+  weight = 2
+  identifier = "speaker-rider"
+  url = "/speaking/speaker-rider/"
+  parent = "speaking"
+
+  [[menu.main]]
+  name = "Pricing"
+  weight = 3
+  identifier = "pricing"
+  url = "/speaking/pricing/"
+  parent = "speaking"
 
   [[menu.main]]
   name = "Media"
