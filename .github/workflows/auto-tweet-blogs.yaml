@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2.1.0
+        uses: actions/checkout@v2.4.0
 
       - name: Setup Python
-        uses: actions/setup-python@v2.3.1
+        uses: actions/setup-python@v2.3.2
         with:
           python-version: '3.x'
 
@@ -33,8 +33,9 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate URL
+        if: ${{ steps.changed-files.outputs.added != '' }}
         run: |
-          for filename in ${{ steps.changed-files.outputs.added_modified }}; do
+          for filename in ${{ steps.changed-files.outputs.added }}; do
             if [[ $filename == content/blog/*.md ]]; then
               echo "FULL_MD_FILENAME=$filename" >> $GITHUB_ENV
               MD_FILENAME=$(echo $filename | awk -F'/' '{printf $NF}')
@@ -44,23 +45,21 @@ jobs:
           done
 
       - name: Read YAML frontmatter
+        if: ${{ steps.changed-files.outputs.added != '' }}
         run: |
           echo "TITLE=$(sed -n '/---/,/---/p' ${{ env.FULL_MD_FILENAME }} | sed '$d' | python -m yq -r '.title')" >> $GITHUB_ENV
 
       - name: Compile tweet content
+        if: ${{ steps.changed-files.outputs.added != '' }}
         run: |
           echo "TWEET_CONTENT=✨ New blog post! ✨\n\n${{ env.TITLE }}\n\n${{ env.URL }}" >> $GITHUB_ENV
 
-      - name: Echo tweet content
-        run: |
-          echo ${{ env.TWEET_CONTENT }}
-
-      #=== Uncomment this when we're sure the workflow works! ===#
-      # - name: Send tweet
-      #   uses: ethomson/send-tweet-action@v1.0.0
-      #   with:
-      #     status: "✨ New blog post! ✨\n\n{{ title }}\n\n{{ url }}"
-      #     consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-      #     consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
-      #     access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-      #     access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      - name: Send tweet
+        if: ${{ steps.changed-files.outputs.added != '' }}
+        uses: ethomson/send-tweet-action@v1.0.0
+        with:
+          status: ${{ env.TWEET_CONTENT }}
+          consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+          consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}

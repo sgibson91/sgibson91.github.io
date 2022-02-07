@@ -14,6 +14,10 @@ Whether you're looking to strike up new collaborations or promote your freshly p
 
 I put together a tutorial for building a blog site from scratch using [Hugo](https://gohugo.io/) and [GitHub Pages](https://pages.github.com/) - the same tools I use to host this site!
 
+> :information: **The website has moved!**
+>
+> This lesson has now been transferred to the [Carpentries Incubator](https://carpentries-incubator.org/) and can be found here: [carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/](https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/)
+
 - :sparkles: You can find the written instructions here: [sgibson91.github.io/blogging-with-hugo-and-github-pages/](https://sgibson91.github.io/blogging-with-hugo-and-github-pages/)
 - :sparkles: You can also follow along with the YouTube video below.
   I go quite fast :rocket: so feel free to pause and rewind as much as you need!
