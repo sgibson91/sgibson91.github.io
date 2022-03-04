@@ -3,7 +3,7 @@
 Dr Sarah Gibson
 |
 How I automated authorised cloud deployments from Pull Requests with GitHub Actions
-</title><meta charset=utf-8><meta name=generator content="Hugo 0.93.0"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+</title><meta charset=utf-8><meta name=generator content="Hugo 0.93.1"><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name=description content="
       Open Software - Open Infrastructure - Open Science
 
@@ -126,7 +126,7 @@ animated fadeInDown">
 </li></ul></ul></nav></div></header><div class="post
 animated fadeInDown">
 <div class=post__content>
-<h1>How I automated authorised cloud deployments from Pull Requests with GitHub Actions</h1><blockquote>
+<h1>How I Automated Authorised Cloud Deployments From Pull Requests With GitHub Actions</h1><blockquote>
 <p>This blog was originally posted on the Jupyter blog: <a href=https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32>https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32</a></p></blockquote><p>I recently did some work on the mybinder.org deployment infrastructure to solve a problem with testing Pull Requests before deployment.
 It had not been possible to test Pull Requests on our staging deployment because our automated workflows don&rsquo;t have access to secrets.
 This resulted in my writing the <a href=https://github.com/sgibson91/test-this-pr-action><code>test-this-pr</code> action</a> and this blog is a retrospective of what I learned over that process.</p><h2 id=what-was-the-problem-we-were-trying-to-solve>What was the problem we were trying to solve?</h2><p>It is generally considered best practice to have a staging environment when running complex applications or platforms that have a large userbase, such as mybinder.org.
