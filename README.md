@@ -28,7 +28,7 @@ hugo new path/to/new-content.md
 ### Locally rendering changes
 
 ```bash
-hugo server -D
+hugo serve --enableGitInfo -DF
 ```
 
 ## Updating the theme
@@ -36,7 +36,7 @@ hugo server -D
 To pull in any upstream changes to the theme being used as a git submodule, run the following.
 
 ```bash
-git submodule update --remote
+git submodule update --remote --merge
 ```
 
 ## Contributing
