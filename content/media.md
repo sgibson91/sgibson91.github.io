@@ -5,6 +5,8 @@ layout: "single-lastmod"
 
 A collection of external media posts that discuss projects that Sarah is involved in or that have interviewed Sarah directly (in reverse chronological order).
 
+- [Jupyter Distinguished Contributor 2022 cohort announcement](https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68)
+  - [Cross-posted by the SSI](https://www.software.ac.uk/news/ssi-fellow-sarah-gibson-recognised-jupyter-distinguished-contributor)
 - [Society of Research Software Engineering: Career Case Study](https://society-rse.org/careers/case-studies/Sarah-Gibson/)
 - [Mouse vs Python: PyDev of the Week](https://www.blog.pythonlibrary.org/2021/11/08/pydev-of-the-week-sarah-gibson/)
 - [The Turing Podcast](https://www.turing.ac.uk/news/turing-podcast), Episode #15 - [Reproducible Data Science: How hard can it be?](https://open.spotify.com/episode/1OVxFUA5UyIfMSCd842wjD?si=wxRI8YovR52aiA38y-LMyQ)
