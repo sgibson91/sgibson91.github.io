@@ -45,10 +45,10 @@ icon = "fab fa-linkedin"
 title = "LinkedIn"
 url = "https://www.linkedin.com/in/drsarahlgibson/"
 
-[[params.socialIcons]]
-icon = "fas fa-calendar"
-title = "Calendar"
-url = "https://calendly.com/sgibson-2i2c"
+# [[params.socialIcons]]
+# icon = "fas fa-calendar"
+# title = "Calendar"
+# url = "https://calendly.com/sgibson91"
 
 ## Menu items
 [menu]
