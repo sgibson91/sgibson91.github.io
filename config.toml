@@ -79,40 +79,40 @@ url = "https://www.linkedin.com/in/drsarahlgibson/"
 
   [[menu.main]]
   name = "Past Talks"
-  weight = 1
+  weight = 3
   identifier = "past-talks"
-  url = "/speaking/past-talks/"
-  parent = "speaking"
+  url = "/past-talks/"
+#  parent = "speaking"
 
   [[menu.main]]
   name = "Speaker Rider"
-  weight = 2
+  weight = 4
   identifier = "speaker-rider"
-  url = "/speaking/speaker-rider/"
-  parent = "speaking"
+  url = "/speaker-rider/"
+#  parent = "speaking"
 
   [[menu.main]]
   name = "Pricing"
-  weight = 3
+  weight = 5
   identifier = "pricing"
-  url = "/speaking/pricing/"
-  parent = "speaking"
+  url = "/pricing/"
+#  parent = "speaking"
 
   [[menu.main]]
   name = "Media"
-  weight = 5
+  weight = 6
   identifier = "media"
   url = "/media/"
 
   [[menu.main]]
   name = "Tags"
-  weight = 6
+  weight = 7
   identifier = "tags"
   url = "/tags/"
 
   [[menu.main]]
   name = "CV"
-  weight = 7
+  weight = 8
   url = "https://sgibson91.github.io/cv/"
 
 [taxonomies]
