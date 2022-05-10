@@ -7,3 +7,6 @@
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Ignore experimental features
+layouts/partials/navbar.html
