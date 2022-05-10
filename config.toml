@@ -65,11 +65,11 @@ url = "https://www.linkedin.com/in/drsarahlgibson/"
   identifier = "blog"
   url = "/blog/"
 
-  [[menu.main]]
-  name = "Post Series"
-  weight = 3
-  identifier = "series"
-  url = "/series/"
+#  [[menu.main]]
+#  name = "Post Series"
+#  weight = 3
+#  identifier = "series"
+#  url = "/series/"
 
   [[menu.main]]
   name = "Speaking"
