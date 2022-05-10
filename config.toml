@@ -71,11 +71,11 @@ url = "https://www.linkedin.com/in/drsarahlgibson/"
 #  identifier = "series"
 #  url = "/series/"
 
-#  [[menu.main]]
-#  name = "Speaking"
-#  weight = 4
-#  identifier = "speaking"
-#  url = "/speaking/"
+  [[menu.main]]
+  name = "Speaking"
+  weight = 4
+  identifier = "speaking"
+  url = "/speaking/"
 
   [[menu.main]]
   name = "Past Talks"
