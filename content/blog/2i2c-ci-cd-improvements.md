@@ -5,7 +5,7 @@ summary: ""
 date: 2022-05-12T11:51:52+01:00
 tags: []
 categories: [updates]
-draft: true
+draft: false
 ---
 
 > This blog was [originally posted by 2i2c](https://2i2c.org/blog/2022/ci-cd-improvements/) and represents a project Sarah lead and developed.
