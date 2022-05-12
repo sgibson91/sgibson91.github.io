@@ -123,9 +123,15 @@ nametags
 disableist
 ethnical
 github.io
+jupyterhubs
+deployer
+holdgraf
  - CODE_OF_CONDUCT.md
 i
 o
  - content/project/helmupgradebot.md
 _i
 _
+ - content/blog/2i2c-ci-cd-improvements.md
+github.com
+2i2c-org
