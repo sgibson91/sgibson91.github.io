@@ -3,9 +3,12 @@ title: "Tech update: Multiple JupyterHubs, multiple clusters, one repository."
 subtitle: "How we optimised and parallelised deployments of multiple JupyterHubs across multiple clusters in GitHub."
 summary: ""
 date: 2022-05-12T11:51:52+01:00
-tags: []
-categories: [updates]
-draft: true
+tags:
+  - continuous-integration
+  - continuous-deployment
+  - github-actions
+  - devops
+draft: false
 ---
 
 > This blog was [originally posted by 2i2c](https://2i2c.org/blog/2022/ci-cd-improvements/) and represents a project Sarah lead and developed.
@@ -21,7 +24,7 @@ We hope that it helps other organizations make similar improvements to their own
 ## Our problem
 
 2i2c's problem is similar to that of many large organizations that have independent sub-communities within them.
-We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs _independently_ because their user communities are not necessarily related, and because we want communities to [be able to replicate their infrastructure on their own](/right-to-replicate).
+We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs _independently_ because their user communities are not necessarily related, and because we want communities to [be able to replicate their infrastructure on their own](https://2i2c.org/right-to-replicate).
 
 A year ago, we built the first version of our deployment infrastructure at [github.com/2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure).
 Over the last year of operation, we identified a number of major shortcomings:
@@ -96,7 +99,7 @@ Here are the major jobs in this workflow, and what each does:
 ## Concluding Remarks
 
 We think that this is a nice balance of infrastructure complexity and flexibility.
-It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community's [Right to Replicate](/right-to-replicate) their infrastructure.
+It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community's [Right to Replicate](https://2i2c.org/right-to-replicate) their infrastructure.
 It allows us to remove the interdependence of deploy jobs that do not _need_ to be dependent, which makes our deploys more efficient.
 Finally, it allows us to make _targeted deploys_ more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also [reduces our carbon footprint by reducing unnecessary GitHub Action time](https://github.blog/2021-04-22-environmental-sustainability-github/)).
 
@@ -104,4 +107,4 @@ We hope that this is a useful resource for others to follow if they also maintai
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to [manage a hub for your community](https://2i2c.org/service/), please [send us an email](mailto:hello@2i2c.org).
 
-_**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](/about/team.md), and this post was edited by [Chris Holdgraf](/author/chris-holdgraf)._
+_**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](https://2i2c.org/about/team.md), and this post was edited by [Chris Holdgraf](https://2i2c.org/author/chris-holdgraf)._
