@@ -1,4 +1,18 @@
 portfolioitems:
   - title: Communities
+    portfolioitem:
+      - name: "The Turing Way"
+        image: "https://the-turing-way.netlify.app/_static/logo.jpg"
+        link: "https://the-turing-way.netlify.app"
+        linktext: "Visit project website"
+        description: |
+          The Turing Way is a handbook to reproducible, ethical and collaborative
+          data science. The Turing Way project is open source, open collaboration,
+          and community-driven. We involve and support a diverse community of
+          contributors to make data science accessible, comprehensible and
+          effective for everyone. Our goal is to provide all the information that
+          researchers and data scientists in academia, industry and the public
+          sector need to ensure that the projects they work on are easy to
+          reproduce and reuse.
   - title: Coding Projects
   - title: Lessons
