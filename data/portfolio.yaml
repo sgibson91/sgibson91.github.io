@@ -14,6 +14,31 @@ portfolioitems:
           researchers and data scientists in academia, industry and the public
           sector need to ensure that the projects they work on are easy to
           reproduce and reuse.
+      - name: "JupyterHub"
+        image: "https://jupyterhub.readthedocs.io/en/stable/_static/logo.png"
+        link: "https://jupyterhub.readthedocs.io/en/stable/"
+        linktext: "Visit project website"
+        description: |
+          JupyterHub is the best way to serve Jupyter Notebooks for multiple users.
+          It can be used in a class of students, a corporate data science group
+          or scientific research group. It is a multi-user Hub that spawns,
+          manages, and proxies multiple instances of the single-user Jupyter
+          Notebook server.
+        tags:
+          - "infrastructure"
+          - "open-source"
+      - name: "Binder"
+        image: "https://mybinder.readthedocs.io/en/latest/_static/favicon.png"
+        link: "https://mybinder.readthedocs.io/en/latest/"
+        linktext: "Visit project website"
+        description: |
+          Binder allows you to create custom computing environments that can be
+          shared and used by many remote users.
+        tags:
+          - "infrastructure"
+          - "open-source"
+          - "reproducibility"
+          - "computational environments"
   - title: "Coding Projects"
   - title: "Lessons"
     portfolioitem:
@@ -26,7 +51,7 @@ portfolioitems:
           - "website"
       - name: "Cross-Stitch Carpentry"
         link: "https://sgibson91.github.io/cross-stitch-carpentry/"
-        linktext: 'Visit lesson website'
+        linktext: "Visit lesson website"
         description: |
           Explore cross-stitching as a hobby for programmers and data scientists,
           bringing mindfulness into our everyday life and boosting mental health.
