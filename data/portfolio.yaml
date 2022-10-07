@@ -1,5 +1,5 @@
 portfolioitems:
-  - title: Communities
+  - title: "Communities"
     portfolioitem:
       - name: "The Turing Way"
         image: "https://the-turing-way.netlify.app/_static/logo.jpg"
@@ -14,5 +14,25 @@ portfolioitems:
           researchers and data scientists in academia, industry and the public
           sector need to ensure that the projects they work on are easy to
           reproduce and reuse.
-  - title: Coding Projects
-  - title: Lessons
+  - title: "Coding Projects"
+  - title: "Lessons"
+    portfolioitem:
+      - name: "Blogging with Hugo and GitHub Pages"
+        link: "https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages"
+        linktext: "Visit lesson website"
+        description: "Carpentries Incubator lesson to learn how to build blog sites with Hugo and GitHub Pages"
+        tags:
+          - "blog"
+          - "website"
+      - name: "Cross-Stitch Carpentry"
+        link: "https://sgibson91.github.io/cross-stitch-carpentry/"
+        linktext: 'Visit lesson website'
+        description: |
+          Explore cross-stitching as a hobby for programmers and data scientists,
+          bringing mindfulness into our everyday life and boosting mental health.
+        tags:
+          - "cross-stitch"
+          - "embroidery"
+          - "crafting"
+          - "mental-health"
+          - "mindfulness"
