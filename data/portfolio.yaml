@@ -7,23 +7,23 @@ portfolioitems:
         linktext: "Visit project website"
         description: |
           The Turing Way is a handbook to reproducible, ethical and collaborative
-          data science. The Turing Way project is open source, open collaboration,
-          and community-driven. We involve and support a diverse community of
-          contributors to make data science accessible, comprehensible and
-          effective for everyone. Our goal is to provide all the information that
-          researchers and data scientists in academia, industry and the public
-          sector need to ensure that the projects they work on are easy to
-          reproduce and reuse.
+          data science. Sarah is part of the core team and maintains the
+          infrastructure powering the book, including: Jupyter Book, Netlify,
+          and various GitHub Actions workflows.
+        tags:
+          - "community"
+          - "best-practices"
+          - "data-science"
+          - "ethical-research"
+          - "collaboration"
       - name: "JupyterHub"
         image: "https://jupyterhub.readthedocs.io/en/stable/_static/logo.png"
         link: "https://jupyterhub.readthedocs.io/en/stable/"
         linktext: "Visit project website"
         description: |
-          JupyterHub is the best way to serve Jupyter Notebooks for multiple users.
-          It can be used in a class of students, a corporate data science group
-          or scientific research group. It is a multi-user Hub that spawns,
-          manages, and proxies multiple instances of the single-user Jupyter
-          Notebook server.
+          JupyterHub is a computational platform to serve Jupyter Notebooks for
+          multiple users. Sarah is a member of the team council and serves as
+          the first Community Strategic Lead for the project.
         tags:
           - "infrastructure"
           - "open-source"
@@ -33,19 +33,32 @@ portfolioitems:
         linktext: "Visit project website"
         description: |
           Binder allows you to create custom computing environments that can be
-          shared and used by many remote users.
+          shared and used by many remote users. Sarah is part of the operating
+          team that keeps mybinder.org online as well as developing new
+          federation members.
         tags:
           - "infrastructure"
           - "open-source"
           - "reproducibility"
-          - "computational environments"
+          - "computational-environments"
+      - name: "Software Sustainability Institute Fellowship"
+        image: "https://software.ac.uk/themes/ssi/images/ssi_logo_with_name-small2.png"
+        link: "https://github.com/sgibson91/ssi-fellowship"
+        linktext: "Visit Fellowship website"
+        description: |
+          Sarah was awarded a Fellowship from the SSI to support community
+          efforts within the Binder project.
+        status: "Ongoing"
+        start: "2020"
   - title: "Coding Projects"
   - title: "Lessons"
     portfolioitem:
       - name: "Blogging with Hugo and GitHub Pages"
         link: "https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages"
         linktext: "Visit lesson website"
-        description: "Carpentries Incubator lesson to learn how to build blog sites with Hugo and GitHub Pages"
+        description: |
+          Carpentries Incubator lesson to learn how to build blog sites with Hugo
+          and GitHub Pages
         tags:
           - "blog"
           - "website"
