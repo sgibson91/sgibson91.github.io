@@ -50,6 +50,19 @@ portfolioitems:
           efforts within the Binder project.
         status: "Ongoing"
         start: "2020"
+      - name: "Open Life Science"
+        image: "https://openlifesci.org/images/logo.png"
+        link: "https://openlifesci.org/"
+        linktext: "Visit project website"
+        description: |
+          Open Life Science is a mentorship programme for those interested in
+          applying open principles in their work and becoming open science
+          ambassadors in their communities. Sarah has served as a mentor and
+          expert in multiple rounds of the programme.
+        tags:
+          - "mentorship"
+          - "open-leadership"
+          - "community-building"
   - title: "Coding Projects"
   - title: "Lessons"
     portfolioitem:
