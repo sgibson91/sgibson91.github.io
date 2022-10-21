@@ -78,7 +78,7 @@ Here are the major jobs in this workflow, and what each does:
    - A **human-readable table** including information on _why_ a given deployment requires an upgrade (using the excellent [Rich library](https://github.com/Textualize/rich)).
    - **JSON outputs** that can be interpreted by GitHub Actions as sets of matrix jobs to run.
 
-   {{< figure src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_lanczos_3.png" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
+   {{< figure src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_q75_h2_lanczos_3.webp" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
 2. `upgrade-support-and-staging`: Update the support and staging Helm charts on each cluster. These are "shared infrastructure" Helm charts that control services that are shared across all hubs.
    - Accepts the JSON list described above to determine what to do next
    - Parallelises over clusters
@@ -89,7 +89,7 @@ Here are the major jobs in this workflow, and what each does:
    - If a staging/support hub deploy fails, removes any jobs for the corresponding cluster.
    - Allows production deploys to continue on _other clusters_.
 
-   {{< figure src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_lanczos_3.png" title="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster's staging/support job does not fail." >}}
+   {{< figure src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_q75_h2_lanczos_3.webp" title="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster's staging/support job does not fail." >}}
 
 4. `upgrade-prod-hubs`: Deploy updates to each production hub.
    - Accepts the JSON list described above to determine what to do next
@@ -107,4 +107,4 @@ We hope that this is a useful resource for others to follow if they also maintai
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to [manage a hub for your community](https://2i2c.org/service/), please [send us an email](mailto:hello@2i2c.org).
 
-_**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](https://2i2c.org/about/team.md), and this post was edited by [Chris Holdgraf](https://2i2c.org/author/chris-holdgraf)._
+_**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](https://2i2c.org/team), and this post was edited by [Chris Holdgraf](https://2i2c.org/author/chris-holdgraf)._

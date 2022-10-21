@@ -112,7 +112,7 @@ It's not the worst situation in the world as I have email filters set up, but al
 
 This is also why `ok-to-test` recommend setting up a GitHub App  for authorisation, so you don't have to sacrifice your own account and all the notifications that come with it!
 
-However, this "actions triggering actions" scenario could be smoothed out by using the upcoming [Reusable Workflows](https://docs.github.com/en/actions/learn-github-actions/reusing-workflows) beta.
+However, this "actions triggering actions" scenario could be smoothed out by using the upcoming [Reusable Workflows](https://docs.github.com/en/actions/using-workflows/reusing-workflows) beta.
 
 ### Building Actions with Dockerfiles
 

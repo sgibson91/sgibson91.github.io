@@ -18,7 +18,7 @@ I put together a tutorial for building a blog site from scratch using [Hugo](htt
 >
 > This lesson has now been transferred to the [Carpentries Incubator](https://carpentries-incubator.org/) and can be found here: [carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/](https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/)
 
-- :sparkles: You can find the written instructions here: [sgibson91.github.io/blogging-with-hugo-and-github-pages/](https://sgibson91.github.io/blogging-with-hugo-and-github-pages/)
+- :sparkles: You can find the written instructions here: ~~sgibson91.github.io/blogging-with-hugo-and-github-pages/~~ [carpentries-incubator/blogging-with-hugo-and-github-pages](https://github.com/carpentries-incubator/blogging-with-hugo-and-github-pages)
 - :sparkles: You can also follow along with the YouTube video below.
   I go quite fast :rocket: so feel free to pause and rewind as much as you need!
 
