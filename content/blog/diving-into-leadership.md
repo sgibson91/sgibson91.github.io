@@ -29,7 +29,7 @@ So, what is this "Binder" that we're all so excited about?
 
 [Binder](https://mybinder.readthedocs.io/en/latest/) is an amazing resource that can host reproducible and interactive code in a web browser. Great... what does that mean? It means that if I have some scripts or notebooks in a repository (like [this one](https://github.com/binder-examples/requirements)) and I describe the packages in a configuration file (such as [`requirements.txt`](https://github.com/binder-examples/requirements/blob/master/requirements.txt)), then I can go to [mybinder.org](https://mybinder.org), copy the URL of the repository into the form and hit launch. This will begin a series of events culminating in my notebook appearing in a browser window with all of the packages installed, and the code will _just run_.
 
-Sounds like magic, right? You can even combine Binder with [Jupyter Books](https://jupyterbook.org) to create [interactive documents](https://joergbrech.github.io/Modellbildung-und-Simulation/intro)! Below is a comic explaining how a scientist may use Binder.
+Sounds like magic, right? You can even combine Binder with [Jupyter Books](https://jupyterbook.org) to create interactive documents! Below is a comic explaining how a scientist may use Binder.
 
 | {{< figure src="https://pbs.twimg.com/media/DwYDGULWkAASgjS.jpg" alt="Binder comic" >}} |
 | :---: |
@@ -129,7 +129,7 @@ While the first 80% of a project to get the infrastructure in place can be achie
 
 If you'd like to try the button to deploy your own BinderHub (or contribute a new feature!), the repo can be found here :point_right: [alan-turing-institute/binderhub-deploy](https://github.com/alan-turing-institute/binderhub-deploy). Look for the button below!
 
-{{< figure src="https://azuredeploy.net/deploybutton.svg" alt="Deploy to Azure button" >}}
+{{< figure src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/HEAD/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg" alt="Deploy to Azure button" >}}
 
 #### Thank You! :sparkling_heart:
 
@@ -142,4 +142,4 @@ I'd like to thank a few people who made this possible:
 
 ---
 
-_Note: this is cross-posted with [The Alan Turing Institute blog](https://www.turing.ac.uk/research/research-programmes/research-engineering/programme-articles/diving-leadership-build-push-button-code) and the [Jupyter blog](https://blog.jupyter.org/diving-into-leadership-to-build-push-button-code-df2a075c9914)._
+_Note: this is cross-posted with [The Alan Turing Institute blog](https://www.turing.ac.uk/news/diving-leadership-build-push-button-code) and the [Jupyter blog](https://blog.jupyter.org/diving-into-leadership-to-build-push-button-code-df2a075c9914)._

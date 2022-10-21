@@ -30,10 +30,22 @@ jobs:
         run: hugo --minify --enableGitInfo
 
       - name: Check HTML
-        uses: chabad360/htmlproofer@v1.1
+        uses: anishathalye/proof-html@v1
         with:
           directory: "./public"
-          arguments: '--only-4xx --assume-extension --disable-external --ignore-empty-alt --checks "html", "favicon", "Links", "Images", "Scripts"'
+          check_external_hash: false
+          check_img_http: false
+          check_opengraph: false
+          empty_alt_ignore: true
+          enforce_https: false
+          url_ignore_re: |
+            linkedin.com
+            2020.erum.io
+            live.juliacon.org
+            rse.ac.uk
+            cogx.co
+            turing.ac.uk
+            docs.github.com
         continue-on-error: ${{ github.event_name == 'push' }}
 
       - name: Deploy to GitHub Pages
