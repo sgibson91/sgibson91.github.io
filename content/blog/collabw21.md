@@ -36,7 +36,7 @@ The central themes of [CollabW21](https://software.ac.uk/cw21), hosted online fr
 
 Some of the highlights included:
 
-- an inspiring [keynote on Diversity and Inclusion](https://youtu.be/8viA4y1pz_8?t=1943) from [Dr Chonnettia Jones](https://www.msfhr.org/chonnettia-jones)
+- an inspiring [keynote on Diversity and Inclusion](https://youtu.be/8viA4y1pz_8?t=1943) from [Dr Chonnettia Jones](https://linkedin.com/in/chonnettiajones)
 - an unbelievably brave panel discussion on [Disability and Accessibility in Research Software](https://www.youtube.com/watch?v=65a8c06VHOY)
 - an interactive survey from the Society of Research Software Engineering geared towards assessing the RSE landscape and how they can help define and support different career paths ([session 1.2](https://software.ac.uk/cw21/mini-workshops-and-demo-sessions))
 - a fantastic pub quiz hosted in GatherTown

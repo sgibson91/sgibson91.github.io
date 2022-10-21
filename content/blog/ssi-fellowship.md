@@ -21,7 +21,7 @@ The Institute is based at the Universities of Edinburgh, Manchester, Oxford and 
 Every year, the SSI runs a [fellowship programme](https://software.ac.uk/programmes-and-events/fellowship-programme) that provides funding for researchers who want to improve how research software is used in their domains/areas of work.
 
 I plan to use my Fellowship to nurture the Binder community, particularly those who use Julia and R languages, and develop an on-ramp process for onboarding new [mybinder.org](https://mybinder.org) operators.
-Hopefully, I'll get to attend the [European R Users Meeting](https://2020.erum.io/) and [JuliaCon](https://juliacon.org/2020/) and listen to the hopes and dreams of these sections of our community for Binder.
+Hopefully, I'll get to attend the [European R Users Meeting](http://2020.erum.io/) and [JuliaCon](https://juliacon.org/2020/) and listen to the hopes and dreams of these sections of our community for Binder.
 I also hope to work with [_The Turing Way_](https://github.com/alan-turing-institute/the-turing-way) to host a "Train the Trainer"-style do-athon for educators who may want to use Binder for their courses and encourage them the contribute documentation or bug fixes back.
 
 I'm really excited and privileged to be a part of this programme and have the opportunity to collaborate with a great group of Fellows!
