@@ -43,6 +43,9 @@ jobs:
             2020.erum.io
             live.juliacon.org
             rse.ac.uk
+            cogx.co
+            turing.ac.uk
+            docs.github.com
         continue-on-error: ${{ github.event_name == 'push' }}
 
       - name: Deploy to GitHub Pages
