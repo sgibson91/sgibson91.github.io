@@ -33,8 +33,9 @@ jobs:
         uses: anishathalye/proof-html@v1
         with:
           directory: "./public"
-          external_only: true
+          check_img_http: false
           check_opengraph: false
+          empty_alt_ignore: true
         continue-on-error: ${{ github.event_name == 'push' }}
 
       - name: Deploy to GitHub Pages
