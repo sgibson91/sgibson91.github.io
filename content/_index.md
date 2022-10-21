@@ -9,7 +9,7 @@ She holds more than two years of experience as a Research Engineer at a national
 
 Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner.
 Sarah holds a [Fellowship](https://software.ac.uk/programmes-and-events/fellowship-programme) with the [Software Sustainability Institute](https://software.ac.uk) and advocates for best software practices in research.
-She is a member of the [mybinder.org operating team](https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team) and maintains infrastructure supporting a global community in sharing reproducible computational environments.
+She is a member of the [mybinder.org operating team](https://jupyterhub-team-compass.readthedocs.io/en/latest/team/index.html) and maintains infrastructure supporting a global community in sharing reproducible computational environments.
 She has also mentored projects through two cohorts of the [Open Life Science programme](https://openlifesci.org), imparting lived experience of her skills participating and leading in open science projects.
 
 You can connect further with Sarah on twitter: [@drsarahlgibson](https://twitter.com/drsarahlgibson) and follow her work on GitHub: [@sgibson91](https://github.com/sgibson91).
