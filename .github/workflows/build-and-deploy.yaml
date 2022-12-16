@@ -30,7 +30,7 @@ jobs:
         run: hugo --minify --enableGitInfo
 
       - name: Check HTML
-        uses: anishathalye/proof-html@v1
+        uses: anishathalye/proof-html@v2
         with:
           directory: "./public"
           check_external_hash: false
