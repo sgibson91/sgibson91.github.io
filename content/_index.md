@@ -14,6 +14,4 @@ She has also mentored projects through two cohorts of the [Open Life Science pro
 
 You can follow Sarah's work on GitHub: [@sgibson91](https://github.com/sgibson91).
 
-{{< feeds >}}
-
 ---
