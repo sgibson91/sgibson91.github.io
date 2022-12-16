@@ -25,10 +25,10 @@ icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/sgibson91"
 
-[[params.socialIcons]]
-icon = "fab fa-twitter"
-title = "Twitter"
-url = "https://twitter.com/drsarahlgibson"
+# [[params.socialIcons]]
+# icon = "fab fa-twitter"
+# title = "Twitter"
+# url = "https://twitter.com/drsarahlgibson"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
