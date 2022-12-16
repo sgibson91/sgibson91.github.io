@@ -12,8 +12,6 @@ Sarah holds a [Fellowship](https://software.ac.uk/programmes-and-events/fellowsh
 She is a member of the [mybinder.org operating team](https://jupyterhub-team-compass.readthedocs.io/en/latest/team/index.html) and maintains infrastructure supporting a global community in sharing reproducible computational environments.
 She has also mentored projects through two cohorts of the [Open Life Science programme](https://openlifesci.org), imparting lived experience of her skills participating and leading in open science projects.
 
-You can connect further with Sarah on twitter: [@drsarahlgibson](https://twitter.com/drsarahlgibson) and follow her work on GitHub: [@sgibson91](https://github.com/sgibson91).
-
-{{< feeds >}}
+You can follow Sarah's work on GitHub: [@sgibson91](https://github.com/sgibson91).
 
 ---
