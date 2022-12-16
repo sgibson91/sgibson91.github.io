@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   linkcheck:
@@ -32,6 +38,8 @@ jobs:
             --verbose
             --no-progress
             public/**/*.html
+          # Fail action on broken links in Pull Requests
+          fail: ${{ github.event_name == 'pull_request' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
