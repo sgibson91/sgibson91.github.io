@@ -4,6 +4,7 @@ pull_request_rules:
       - check-success=checkfilesize
       - check-success=build-and-deploy
       - check-success=spellcheck
+      - check-success=linkcheck
       - label!=work-in-progress
     actions:
       merge:
