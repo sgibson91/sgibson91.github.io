@@ -1,0 +1,39 @@
+name: Check for broken links
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris:actions-hugo@v2
+        with:
+          hugo-version: "latest"
+ 
+      - name: Build
+        run: hugo --minify --enableGitInfo
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1.5.4
+        with:
+          args: --verbose --no-progress public/**/*.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue from file
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Linkcheck Report
+          content-filepath: ./lychee/out.md
+          labels: bug, website
