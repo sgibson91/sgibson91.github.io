@@ -26,7 +26,12 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v1.5.4
         with:
-          args: --verbose --no-progress public/**/*.html
+          # Exclude linkedin.com: Returns "too many requests" error
+          args: |
+            --exclude https://linkedin.com \  
+            --verbose \
+            --no-progress \
+            public/**/*.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
