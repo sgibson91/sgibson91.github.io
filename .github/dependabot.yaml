@@ -4,15 +4,9 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "00:00"
-      timezone: "Europe/London"
+      interval: "monthly"
   # Maintain dependencies for git submodules
   - package-ecosystem: "gitsubmodule"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "00:00"
-      timezone: "Europe/London"
+      interval: "monthly"
