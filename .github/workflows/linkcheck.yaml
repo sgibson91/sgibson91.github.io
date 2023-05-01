@@ -30,7 +30,7 @@ jobs:
         run: hugo --minify --enableGitInfo
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v1.6.1
+        uses: lycheeverse/lychee-action@v1.7.0
         with:
           # Exclude linkedin.com: Returns "too many requests" error
           args: >-
