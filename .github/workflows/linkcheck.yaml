@@ -43,10 +43,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create issue from file
-        if: env.lychee_exit_code != 0
-        uses: peter-evans/create-issue-from-file@v4
-        with:
-          title: Linkcheck Report
-          content-filepath: ./lychee/out.md
-          labels: bug, website
+      # - name: Create issue from file
+      #   if: env.lychee_exit_code != 0
+      #   uses: peter-evans/create-issue-from-file@v4
+      #   with:
+      #     title: Linkcheck Report
+      #     content-filepath: ./lychee/out.md
+      #     labels: bug, website
