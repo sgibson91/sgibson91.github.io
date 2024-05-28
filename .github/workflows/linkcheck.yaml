@@ -45,7 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create issue from file
+      - name: Add lychee failures to issue
         if: failure()
         uses: peter-evans/create-issue-from-file@v5
         with:
@@ -53,3 +53,11 @@ jobs:
           content-filepath: ./lychee/out.md
           labels: bug, website
           issue-number: 232
+
+      - name: Clear issue when there are no lychee failures
+        if: success()
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: 2321496400
+          body: |
+            **No broken links found!**
