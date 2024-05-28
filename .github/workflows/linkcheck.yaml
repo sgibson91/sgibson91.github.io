@@ -33,8 +33,9 @@ jobs:
         uses: lycheeverse/lychee-action@v1
         with:
           # Exclude linkedin.com: Returns "too many requests" error
+          # Exclude turing.ac.uk: Always returns a 403
           args: >-
-            --exclude https://linkedin.com
+            --exclude https://linkedin.com https://www.turing.ac.uk
             --verbose
             --no-progress
             public/**/*.html
