@@ -45,7 +45,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create issue from file
-        if: env.lychee_exit_code != 0
+        if: failure()
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Linkcheck Report
