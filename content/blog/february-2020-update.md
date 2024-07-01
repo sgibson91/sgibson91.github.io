@@ -22,8 +22,6 @@ I received a lot of lovely feedback about how having an interactive session as p
 I kicked off February by travelling up to Manchester to attend the [SSI](https://software.ac.uk/) Inaugural Fellows Meeting.
 It was really wonderful to meet all the other [Fellows](https://software.ac.uk/about/fellows) in person, hear about our goals and figure out how to work together to achieve them.
 
-{{< tweet user="rachaelevelyn" id="1227174339298107392" >}}
-
 In my free time, I visited the [Top Secret](https://www.sciencemuseum.org.uk/see-and-do/top-secret) exhibition at the [Science Museum](https://www.sciencemuseum.org.uk/).
 This exhibit explored ciphers and codebreaking through history, including the incredible work done by [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) and others at [Bletchley Park](https://en.wikipedia.org/wiki/Bletchley_Park) during the Second World War.
 
