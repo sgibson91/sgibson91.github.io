@@ -3,7 +3,6 @@
 ## Repo Overview
 
 * Blog posts are hosted in `content/blog`
-* Project pages are hosted in `content/project`
 
 ## Building the website locally
 
