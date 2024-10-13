@@ -86,6 +86,12 @@ url = "https://linkedin.com/in/drsarahlgibson/"
   weight = 6
   url = "https://sgibson91.github.io/cv/"
 
+  [[menu.footer]]
+  name = "License"
+  weight = 1
+  identifier = "license"
+  url = "/license/"
+
 [taxonomies]
 series = "series"
 tag = "tags"
