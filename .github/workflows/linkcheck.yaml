@@ -46,7 +46,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create issue from file
-        if: failure()
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: Linkcheck Report
