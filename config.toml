@@ -17,6 +17,8 @@ profilePicture = "images/profile_pic.jpg"
 readMore = true
 singleDateFormat = "2006-01-02"
 title = "Dr Sarah Gibson"
+oldContentWarning = true
+oldContentDuration = 365
 
 ## Social links
 # use 'fab' when brand icons, use 'fas' when standard solid icons.
