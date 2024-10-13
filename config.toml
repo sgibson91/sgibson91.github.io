@@ -5,7 +5,7 @@ theme = "anatole"
 
 [params]
 author = "Dr Sarah Gibson"
-contentratio = 0.75
+contentratio = 0.65
 copyright = "Dr Sarah Gibson, 2019-{{ YEAR }}"
 description = "Open Software - Open Infrastructure - Open Science"
 doNotLoadAnimations = false
