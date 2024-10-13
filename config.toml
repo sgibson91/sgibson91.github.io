@@ -65,45 +65,6 @@ url = "https://linkedin.com/in/drsarahlgibson/"
   identifier = "blog"
   url = "/blog/"
 
-#  [[menu.main]]
-#  name = "Post Series"
-#  weight = 3
-#  identifier = "series"
-#  url = "/series/"
-
-  [[menu.main]]
-  name = "Speaking"
-  weight = 4
-  identifier = "speaking"
-  url = "/speaking/"
-
-  [[menu.main]]
-  name = "Past Talks"
-  weight = 1
-  identifier = "past-talks"
-  url = "/speaking/past-talks/"
-  parent = "speaking"
-
-  [[menu.main]]
-  name = "Speaker Rider"
-  weight = 2
-  identifier = "speaker-rider"
-  url = "/speaking/speaker-rider/"
-  parent = "speaking"
-
-  [[menu.main]]
-  name = "Pricing"
-  weight = 3
-  identifier = "pricing"
-  url = "/speaking/pricing/"
-  parent = "speaking"
-
-  [[menu.main]]
-  name = "Media"
-  weight = 5
-  identifier = "media"
-  url = "/media/"
-
   [[menu.main]]
   name = "Tags"
   weight = 6
