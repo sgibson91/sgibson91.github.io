@@ -58,7 +58,7 @@ jobs:
         if: success()
         uses: peter-evans/create-or-update-comment@v4
         with:
-          comment-id: "I_kwDODLvqHs6KXzlQ"
+          comment-id: I_kwDODLvqHs6KXzlQ
           body: |
             **No broken links found!**
           edit-mode: replace
