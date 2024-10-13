@@ -1,7 +1,5 @@
 # sgibson91.github.io
 
-![CI Tests](https://github.com/sgibson91/sgibson91.github.io/workflows/CI%20Tests/badge.svg)
-
 ## Repo Overview
 
 * Blog posts are hosted in `content/blog`
