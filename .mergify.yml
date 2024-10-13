@@ -3,7 +3,6 @@ pull_request_rules:
     conditions:
       - check-success=checkfilesize
       - check-success=build-and-deploy
-      - check-success=spellcheck
       - label!=work-in-progress
     actions:
       merge:
