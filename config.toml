@@ -70,14 +70,20 @@ url = "https://linkedin.com/in/drsarahlgibson/"
   url = "/blog/"
 
   [[menu.main]]
+  name = "Portfolio"
+  weight = 3
+  identifier = "portfolio"
+  url = "/portfolio/"
+
+  [[menu.main]]
   name = "Tags"
-  weight = 6
+  weight = 4
   identifier = "tags"
   url = "/tags/"
 
   [[menu.main]]
   name = "CV"
-  weight = 7
+  weight = 6
   url = "https://sgibson91.github.io/cv/"
 
 [taxonomies]
