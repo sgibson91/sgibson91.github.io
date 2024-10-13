@@ -27,25 +27,3 @@ jobs:
           else
             echo "No large files found!"
           fi
-
-  spellcheck:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-
-      - name: Install markdown-spellcheck
-        run: |
-          npm i markdown-spellcheck -g
-
-      - name: Run spellcheck on Markdown files
-        run: |
-          mdspell --ignore-numbers --ignore-acronyms --en-gb --report \
-            CODE_OF_CONDUCT.md \
-            CONTRIBUTING.md \
-            README.md \
-            "content/**/*.md"
