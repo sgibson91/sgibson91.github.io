@@ -29,11 +29,6 @@ icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/sgibson91"
 
-# [[params.socialIcons]]
-# icon = "fab fa-twitter"
-# title = "Twitter"
-# url = "https://twitter.com/drsarahlgibson"
-
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
@@ -48,11 +43,6 @@ url = "https://orcid.org/0000-0003-0356-2765"
 icon = "fab fa-linkedin"
 title = "LinkedIn"
 url = "https://linkedin.com/in/drsarahlgibson/"
-
-# [[params.socialIcons]]
-# icon = "fas fa-calendar"
-# title = "Calendar"
-# url = "https://calendly.com/sgibson91"
 
 ## Menu items
 [menu]
