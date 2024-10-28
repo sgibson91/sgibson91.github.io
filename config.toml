@@ -50,18 +50,18 @@ url = "https://linkedin.com/in/drsarahlgibson/"
   [[menu.main]]
   name = "Home"
   identifier = "home"
-  weight = 1
+  weight = 100
   url = "/"
 
   [[menu.main]]
   name = "Blog"
-  weight = 2
+  weight = 200
   identifier = "blog"
   url = "/blog/"
 
   [[menu.main]]
   name = "Portfolio"
-  weight = 3
+  weight = 300
   identifier = "portfolio"
   url = "/portfolio/"
 
@@ -79,13 +79,13 @@ url = "https://linkedin.com/in/drsarahlgibson/"
 
   [[menu.main]]
   name = "Tags"
-  weight = 4
+  weight = 500
   identifier = "tags"
   url = "/tags/"
 
   [[menu.main]]
   name = "CV"
-  weight = 6
+  weight = 600
   url = "https://sgibson91.github.io/cv/"
 
   [[menu.footer]]
