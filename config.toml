@@ -66,6 +66,18 @@ url = "https://linkedin.com/in/drsarahlgibson/"
   url = "/portfolio/"
 
   [[menu.main]]
+  name = "Adventures"
+  weight = 400
+  identifier = "adventures"
+  url = "/adventures/"
+
+  [[main.menu]]
+  name = "40 before 40"
+  weight = 410
+  url = "https://drsarahlgibson.notion.site/40-before-40-64ccbda85fdf47d18a5904f0ea56ceeb"
+  parent = "adventures"
+
+  [[menu.main]]
   name = "Tags"
   weight = 4
   identifier = "tags"
