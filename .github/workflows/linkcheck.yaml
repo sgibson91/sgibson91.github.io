@@ -31,7 +31,7 @@ jobs:
         run: hugo --minify --enableGitInfo
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           # Exclude linkedin.com: Returns "too many requests" error
           # Exclude turing.ac.uk: Always returns a 403
