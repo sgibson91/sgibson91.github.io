@@ -26,16 +26,15 @@ jobs:
         with:
           node-version: "latest"
 
-      - name: Install tailwind
-        run: |
-          npm install --save-dev tailwindcss @tailwindcss/cli
-          npm run build
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
+
+      - name: Install tailwind
+        run: |
+          npm install --save-dev tailwindcss @tailwindcss/cli
 
       - name: Build site with Hugo
         run: hugo --minify
