@@ -137,8 +137,8 @@ params:
     list:
       - title: The Turing Way
         url: "https://book.the-turing-way.org/"
+        role: Co-Lead of Infrastructure Working Group
         description: |1-
-          - Co-Lead of Infrastructure Working Group
           - Develop strategic plans for the implementation and maintenance of
             the infrastructure supporting the project
           - Prioritise which activities will bring the group towards its
@@ -148,6 +148,7 @@ params:
             and onboarding new members
       - title: JupyterHub and Binder
         url: "https://jupyterhub-team-compass.readthedocs.io/en/latest/"
+        role: Contributor
         description: |1-
           - Awarded [Jupyter Distinguished Contributor](https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68)
             in 2022
@@ -161,16 +162,19 @@ params:
             at the Turing Institute to share mybinder.org's traffic
           - Technical lead and maintainer for a private Binder service at the
             Turing Institute
-      - title: Paid Independent Consultancy, University of Edinburgh
+      - title: University of Edinburgh
+        role: Paid Independent Consultancy
         description: |1-
           - Developed and delivered lesson material on version control and code
             readability for a course on FAIR practices for research software
           - https://github.com/carpentries-incubator/fair-research-software
-      - title: Fellow, Software Sustainability Institute
+      - title: Software Sustainability Institute
         url: "https://www.software.ac.uk/blog/announcing-2020-software-sustainability-institute-fellows"
+        role: Fellow
         description: Built a community of practice around using cloud infrastructure to promote reproducible research
-      - title: Mentor, OLS
+      - title: OLS
         url: "https://we-are-ols.org/"
+        role: Mentor
         description: Mentored cohorts in developing open leadership skills for growing an open science project and community
   # skill:
   #   title: Skills

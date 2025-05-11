@@ -1,0 +1,13 @@
+{{ range.Site.Params.project.list }}
+<h4 style="text-decoration: underline;">{{ .role }}</h4>
+<p {{ if .description }}class="mb=0"{{ end }}>
+    {{ if .url }} <a href="{{ .url }}">{{ .title }}</a>
+    {{ else }} {{ .title }} {{ end }}
+</p>
+{{ if .description }}
+<div class="prose prose-stone dark:prose-invert max-w-none">
+{{ .description | markdownify }}
+</div>
+{{ end }}
+
+{{ end }}
