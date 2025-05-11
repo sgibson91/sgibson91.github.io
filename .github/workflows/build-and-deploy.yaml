@@ -40,6 +40,26 @@ jobs:
       - name: Build site with Hugo
         run: hugo --minify
 
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            public/**/*.html
+          # Fail action on broken links in Pull Requests
+          fail: ${{ github.event_name == 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue from file
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Linkcheck Report
+          content-filepath: ./lychee/out.md
+          labels: bug, website
+          issue-number: 232
+
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
