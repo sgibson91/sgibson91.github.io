@@ -1,5 +1,5 @@
 ---
-title: "luctus enim ultricies auctor pulvinar nam etiam"
+title: "luctus enim ultricies auctor pulvinar name etiam"
 date: 2018-01-06
 tags: ["mollis urna", "notes", "laoreet"]
 categories: ["diam aliqua", "fringilla"]
