@@ -46,7 +46,7 @@ params:
     - item: project
     - item: education
     # - item: skill
-    # - item: publication
+    - item: publication
     # - hobbies
   aboutme:
     title: About Me
@@ -106,42 +106,31 @@ params:
       - degree: MPhys Physics with Astrophysics
         college: University of Hull
         dates: 2010 - 2014
-  # publication:
-  #   title: Publications
-  #   icon: fas fa-book
-  #   format:
-  #     - date
-  #     - title
-  #     - authors
-  #     - journal
-  #   types:
-  #     - Journal Articles
-  #     - Proceedings
-  #   list:
-  #     - title: >-
-  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  #         eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  #       authors: "F Last, F Second, P secondary"
-  #       date: "2018"
-  #       journal: "Journal of Field 52 (16), 9033-9044"
-  #       url: "#"
-  #       type: Journal Articles
-  #     - title: >-
-  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  #         eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  #       authors: "F Last, F Second, P secondary"
-  #       date: "2018"
-  #       journal: "Journal of Field 52 (16), 9033-9044"
-  #       url: "#"
-  #       type: Journal Articles
-  #     - title: >-
-  #         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-  #         eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  #       authors: "F Last, F Second, P secondary"
-  #       date: "2018"
-  #       journal: "Journal of Field 52 (16), 9033-9044"
-  #       url: "#"
-  #       type: Proceedings
+  publication:
+    title: Publications
+    icon: fas fa-book
+    format:
+      - date
+      - title
+      - authors
+      - journal
+    types:
+      - Journal Articles
+    list:
+      - title: >-
+          Fallback accretion on to a newborn magnetar: long GRBs with giant X-ray flares
+        authors: "S.L. Gibson, G.A. Wynn, B.P. Gompertz, P.T. O'Brien"
+        date: "2018"
+        journal: "Monthly Notices of the Royal Astronomical Society 478 (4), 4323–4335"
+        url: "https://doi.org/10.1093/mnras/sty1363"
+        type: Journal Articles
+      - title: >-
+          Fallback accretion on to a newborn magnetar: short GRBs with extended emission
+        authors: "S.L. Gibson, G.A. Wynn, B.P. Gompertz, P.T. O'Brien"
+        date: "2017"
+        journal: "Monthly Notices of the Royal Astronomical Society 470 (4), 4925–4940"
+        url: "https://doi.org/10.1093/mnras/stx1531"
+        type: Journal Articles
   project:
     title: Projects
     icon: fas fa-project-diagram
