@@ -21,14 +21,43 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: "latest"
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "0.135.0"
+          hugo-version: "latest"
           extended: true
 
+      - name: Install tailwind
+        run: |
+          npm install tailwindcss @tailwindcss/cli
+
       - name: Build site with Hugo
-        run: hugo --minify --enableGitInfo
+        run: hugo --minify
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            public/**/*.html
+          # Fail action on broken links in Pull Requests
+          fail: ${{ github.event_name == 'pull_request' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue from file
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Linkcheck Report
+          content-filepath: ./lychee/out.md
+          labels: bug, website
+          issue-number: 232
 
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'

@@ -17,7 +17,7 @@ Later on in January, I was invited to a [PyData Cambridge Meetup](https://www.me
 I also ran my [Zero-to-Binder tutorial](https://bit.ly/zero-to-binder-python) with the attendees.
 I received a lot of lovely feedback about how having an interactive session as part of the talk was really fun!
 
-{{< tweet user="PyDataCambridge" id="1222607971227709444" >}}
+{{< x user="PyDataCambridge" id="1222607971227709444" >}}
 
 I kicked off February by travelling up to Manchester to attend the [SSI](https://software.ac.uk/) Inaugural Fellows Meeting.
 It was really wonderful to meet all the other [Fellows](https://software.ac.uk/about/fellows) in person, hear about our goals and figure out how to work together to achieve them.
@@ -25,13 +25,13 @@ It was really wonderful to meet all the other [Fellows](https://software.ac.uk/a
 In my free time, I visited the [Top Secret](https://www.sciencemuseum.org.uk/see-and-do/top-secret) exhibition at the [Science Museum](https://www.sciencemuseum.org.uk/).
 This exhibit explored ciphers and codebreaking through history, including the incredible work done by [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing) and others at [Bletchley Park](https://en.wikipedia.org/wiki/Bletchley_Park) during the Second World War.
 
-{{< tweet user="drsarahlgibson" id="1228681017558478848" >}}
+{{< x user="drsarahlgibson" id="1228681017558478848" >}}
 
-{{< tweet user="drsarahlgibson" id="1228644026519375872" >}}
+{{< x user="drsarahlgibson" id="1228644026519375872" >}}
 
 And lastly, I incorporated by hobby into my open source work by creating a cross stitch kit of the Binder logo to handout to attendees of _The Turing Way_ Book Dash :books::dash:
 
-{{< tweet user="drsarahlgibson" id="1229085926363738117" >}}
+{{< x user="drsarahlgibson" id="1229085926363738117" >}}
 
 The attendees loved this little thank you gift for their hard work and will hopefully provide something relaxing to do after an intense day book dashing!
 

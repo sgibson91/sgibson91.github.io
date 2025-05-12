@@ -1,0 +1,196 @@
+baseURL: https://sgibson91.github.io/
+theme: aafu
+languageCode: en-gb
+build:
+  writeStats: true
+params:
+  title: Sarah Gibson - CV
+  author: Sarah Gibson
+  description: CV
+  copyright: ""
+  theme:
+    mainTheme: dark
+    showAttribute: false
+    singlePage: false
+  favicons:
+    use: true
+    metas: |2-
+              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+              <link rel="manifest" href="site.webmanifest">
+              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+              <link rel="shortcut icon" href="favicon.ico">
+
+  profile:
+    name: "Sarah Gibson"
+    tagline: ""
+    location: "Corby, UK"
+    photo: profile.jpg
+  social:
+    title: Links
+    list:
+      - icon: fab fa-github
+        url: "https://github.com/sgibson91"
+        title: GitHub
+      - icon: fab fa-linkedin-in
+        url: "https://www.linkedin.com/in/drsarahlgibson"
+        title: LinkedIn
+      - icon: fab fa-orcid
+        url: "https://orcid.org/0000-0003-0356-2765"
+        title: Orcid
+  showInAccordion:
+    - item: aboutme
+      expand: true
+    - item: experience
+    - item: project
+    - item: education
+    # - item: skill
+    - item: publication
+    # - hobbies
+  aboutme:
+    title: About Me
+    icon: fas fa-user
+    description: >-
+      Sarah Gibson is a software and cloud infrastructure engineer, as well as a
+      contributor to and advocate for open software. She holds over 6 years of
+      experience at a research and education tech non-profit start-up, and at a
+      national institute for data science and artificial intelligence. Sarah is
+      passionate about working with domain experts to leverage cloud computing
+      in order to accelerate cutting-edge, data-intensive research and disseminating
+      the results in an open, reproducible and reusable manner.
+  experience:
+    title: Experience
+    icon: fas fa-briefcase
+    list:
+      - position: Open Source Infrastructure Engineer
+        dates: 2021 - *Present*
+        url: "https://2i2c.org"
+        company: 2i2c
+        details: |1-
+          - Deployed and managed complex systems of cloud-based architecture,
+            including Kubernetes clusters and other cloud solutions, across AWS,
+            Azure, and GCP
+          - Collaborated with stakeholders to determine system requirements and
+            architecture in order to provide tailored user experiences from a set
+            of product features
+          - Collaborated with upstream open source communities to contribute new
+            features and maintain the health of the software ecosystem
+          - Scoped, developed, and launched new product features based on
+            stakeholder user stories
+          - Effective team member collaborating in a globally distributed, agile
+            team
+          - Responded to incidents and customer support requests as part of a
+            highly available team
+      - position: Research Software Engineer
+        dates: 2018 - 2021
+        url: "https://turing.ac.uk"
+        company: The Alan Turing Institute
+        details: |1-
+          - Collaborated with stakeholders throughout the Turing network on
+            research projects linked to the Turing challenge areas
+          - Responsible for following best software practices throughout projects,
+            implementing required computational infrastructure or automated pipelines,
+            data wrangling and analysis, project documentation, project management,
+            and reporting via papers, presentations or blog posts
+          - Notable projects: [_The Turing Way_](https://www.turing.ac.uk/research/research-projects/turing-way)
+            and [Living with Machines](https://www.turing.ac.uk/research/research-projects/living-machines)
+  education:
+    title: Education
+    icon: fas fa-graduation-cap
+    list:
+      - degree: Astrophysics Ph.D.
+        college: University of Leicester
+        dates: 2015 - 2018
+        thesis_title: "Understanding the Most Powerful Explosions in the Universe"
+      - degree: MPhys Physics with Astrophysics
+        college: University of Hull
+        dates: 2010 - 2014
+  publication:
+    title: Publications
+    icon: fas fa-book
+    format:
+      - date
+      - title
+      - authors
+      - journal
+    types:
+      - Journal Articles
+    list:
+      - title: >-
+          Fallback accretion on to a newborn magnetar: long GRBs with giant X-ray flares
+        authors: "S.L. Gibson, G.A. Wynn, B.P. Gompertz, P.T. O'Brien"
+        date: "2018"
+        journal: "Monthly Notices of the Royal Astronomical Society 478 (4), 4323–4335"
+        url: "https://doi.org/10.1093/mnras/sty1363"
+        type: Journal Articles
+      - title: >-
+          Fallback accretion on to a newborn magnetar: short GRBs with extended emission
+        authors: "S.L. Gibson, G.A. Wynn, B.P. Gompertz, P.T. O'Brien"
+        date: "2017"
+        journal: "Monthly Notices of the Royal Astronomical Society 470 (4), 4925–4940"
+        url: "https://doi.org/10.1093/mnras/stx1531"
+        type: Journal Articles
+  project:
+    title: Projects
+    icon: fas fa-project-diagram
+    list:
+      - title: The Turing Way
+        url: "https://book.the-turing-way.org/"
+        role: Co-Lead of Infrastructure Working Group
+        description: |1-
+          - Develop strategic plans for the implementation and maintenance of
+            the infrastructure supporting the project
+          - Prioritise which activities will bring the group towards its
+            strategic goals
+          - Implemented an AGILE workflow for tracking and managing activities
+          - Collaborate with other Co-Leads in the running of the working group
+            and onboarding new members
+      - title: JupyterHub and Binder
+        url: "https://jupyterhub-team-compass.readthedocs.io/en/latest/"
+        role: Contributor
+        description: |1-
+          - Awarded [Jupyter Distinguished Contributor](https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68)
+            in 2022
+          - Facilitate monthly community calls
+          - Operationally managing and deploying a public cloud platform
+            facilitating reproducible computational environments for research
+            and education
+          - Automated and parallelised core processes that deploy the platform
+            using continuous deployment workflows
+          - Wrote a successful $10k grant to deploy and maintain cloud infrastructure
+            at the Turing Institute to share mybinder.org's traffic
+          - Technical lead and maintainer for a private Binder service at the
+            Turing Institute
+      - title: University of Edinburgh
+        role: Paid Independent Consultancy
+        description: |1-
+          - Developed and delivered lesson material on version control and code
+            readability for a course on FAIR practices for research software
+          - https://github.com/carpentries-incubator/fair-research-software
+      - title: Software Sustainability Institute
+        url: "https://www.software.ac.uk/blog/announcing-2020-software-sustainability-institute-fellows"
+        role: Fellow
+        description: Built a community of practice around using cloud infrastructure to promote reproducible research
+      - title: OLS
+        url: "https://we-are-ols.org/"
+        role: Mentor
+        description: Mentored cohorts in developing open leadership skills for growing an open science project and community
+  # skill:
+  #   title: Skills
+  #   panelId: skill-panel
+  #   icon: fas fa-cogs
+  #   list:
+  #     - skill: "Skill 1, Skill 2"
+  #       skillrating: 90
+  #     - skill: Skill 3
+  #       skillrating: 80
+  #     - skill: Skill 4
+  #       skillrating: 50
+  # hobby:
+  #   title: Hobbies
+  #   icon: fas fa-gamepad
+  #   list:
+  #     - hobby: Cooking
+  #     - hobby: Hiking
+  #     - hobby: Baking
