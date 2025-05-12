@@ -33,6 +33,7 @@ jobs:
           extended: true
 
       - name: Install tailwind
+        working-directory: themes/aafu
         run: |
           npm install --save-dev tailwindcss @tailwindcss/cli
 
