@@ -3,7 +3,6 @@
 /resources/_gen/
 .hugo_build.lock
 hugo_stats.json
-package-lock.json
 
 # Executable may be added to repository
 hugo.exe
