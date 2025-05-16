@@ -25,7 +25,7 @@ params:
   profile:
     name: "Sarah Gibson"
     tagline: ""
-    location: "Corby, UK"
+    location: "United Kingdom"
     photo: profile.jpg
   social:
     title: Links
