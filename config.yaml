@@ -25,7 +25,7 @@ params:
   profile:
     name: "Sarah Gibson"
     tagline: ""
-    location: "Corby, UK"
+    location: "United Kingdom"
     photo: profile.jpg
   social:
     title: Links
@@ -49,7 +49,7 @@ params:
     - item: publication
     # - hobbies
   aboutme:
-    title: About Me
+    title: About Sarah
     icon: fas fa-user
     description: >-
       Sarah Gibson is a software and cloud infrastructure engineer, as well as a
