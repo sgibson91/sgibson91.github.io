@@ -53,13 +53,15 @@ params:
     title: About Sarah
     icon: fas fa-fw fa-user
     description: >-
-      Sarah Gibson is a software and cloud infrastructure engineer, as well as a
-      contributor to and advocate for open software. She holds 6+ years of
-      experience at a research and education tech non-profit start-up, and at a
-      national institute for data science and artificial intelligence. Sarah is
-      passionate about working with domain experts to leverage cloud computing
-      in order to accelerate cutting-edge, data-intensive research and disseminating
-      the results in an open, reproducible and reusable manner.
+      Sarah Gibson is a highly skilled software and cloud infrastructure engineer with a strong track record of enabling open, data-driven research at scale.
+      With 6+ years of experience at the intersection of technology, research, and education — spanning a pioneering tech nonprofit and a leading national institute for data science and AI — Sarah brings both deep technical expertise and a passion for collaboration.
+
+      She specialises in designing and deploying cloud-based solutions that empower researchers to tackle complex, data-intensive challenges.
+      Her work accelerates scientific discovery by making cutting-edge tools more accessible, scalable, and reproducible.
+      An active contributor to the open-source community, Sarah champions open science practices and builds infrastructure that ensures research outputs are reusable and transparent.
+
+      Driven by a belief in the power of interdisciplinary collaboration, Sarah thrives on partnering with domain experts to turn ambitious research goals into reality.
+      Whether architecting robust cloud systems or advocating for open, equitable technology, she's committed to creating lasting impact across research and education.
   experience:
     title: Experience
     icon: fas fa-fw fa-briefcase
