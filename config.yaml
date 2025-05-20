@@ -7,7 +7,7 @@ params:
   title: Sarah Gibson - CV
   author: Sarah Gibson
   description: CV
-  copyright: ""
+  copyright: "Copyright Sarah Gibson, 2025"
   theme:
     mainTheme: dark
     showAttribute: false
@@ -24,7 +24,7 @@ params:
 
   profile:
     name: "Sarah Gibson"
-    tagline: ""
+    tagline: "Software developer, DevOps engineer, and crazy cat lady known for automating the boring stuff"
     location: "United Kingdom"
     photo: profile.jpg
   social:
@@ -45,6 +45,7 @@ params:
     - item: experience
     - item: project
     - item: education
+    - item: certifications
     # - item: skill
     - item: publication
     # - hobbies
@@ -53,7 +54,7 @@ params:
     icon: fas fa-user
     description: >-
       Sarah Gibson is a software and cloud infrastructure engineer, as well as a
-      contributor to and advocate for open software. She holds over 6 years of
+      contributor to and advocate for open software. She holds 6+ years of
       experience at a research and education tech non-profit start-up, and at a
       national institute for data science and artificial intelligence. Sarah is
       passionate about working with domain experts to leverage cloud computing
@@ -176,6 +177,20 @@ params:
         url: "https://we-are-ols.org/"
         role: Mentor
         description: Mentored cohorts in developing open leadership skills for growing an open science project and community
+  certifications:
+    title: Certifications
+    icon: fas fa-certificate
+    list:
+      - course: "LFS258 Kubernetes Fundamentals"
+        course_url: "https://www.credly.com/badges/5fcebe78-bcac-4f73-bd46-692782142e15/public_url"
+        org: The Linux Foundation
+        org_url: "https://www.linuxfoundation.org/"
+        awarded: "Aug. 20, 2024"
+      - course: "Scientific Community Engagement Fundamentals"
+        course_url: "https://api.badgr.io/public/assertions/OWeiqSTrQWy2od3P6GDQkA"
+        org: "Center for Scientific Collaboration and Community Engagement"
+        org_url: "https://www.cscce.org/"
+        awarded: "Nov. 14, 2022"
   # skill:
   #   title: Skills
   #   panelId: skill-panel

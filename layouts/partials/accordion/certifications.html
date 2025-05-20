@@ -1,0 +1,12 @@
+{{ range .Site.Params.certifications.list }}
+{{ if .course_url }}
+<h4 style="text-decoration: underline;"><a href="{{ .course_url }}">{{ .course }}</a></h4>
+{{ else }}
+<h4 style="text-decoration: underline;">{{ .course }}</h4>
+{{ end }}
+{{ if .org_url }}
+<p><a href="{{ .org_url }}">{{ .org }}</a> &middot; <i>Awarded:</i> {{ .awarded }}</p>
+{{ else }}
+<p>{{ .org }} &middot; Awarded: {{ .awarded }}</p>
+{{ end }}
+{{ end }}
