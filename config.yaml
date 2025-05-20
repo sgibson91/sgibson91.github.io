@@ -7,7 +7,7 @@ params:
   title: Sarah Gibson - CV
   author: Sarah Gibson
   description: CV
-  copyright: ""
+  copyright: "Copyright Sarah Gibson, 2025"
   theme:
     mainTheme: dark
     showAttribute: false
@@ -24,7 +24,7 @@ params:
 
   profile:
     name: "Sarah Gibson"
-    tagline: ""
+    tagline: "Software developer, DevOps engineer, and crazy cat lady known for automating the boring stuff"
     location: "United Kingdom"
     photo: profile.jpg
   social:
@@ -54,7 +54,7 @@ params:
     icon: fas fa-user
     description: >-
       Sarah Gibson is a software and cloud infrastructure engineer, as well as a
-      contributor to and advocate for open software. She holds over 6 years of
+      contributor to and advocate for open software. She holds 6+ years of
       experience at a research and education tech non-profit start-up, and at a
       national institute for data science and artificial intelligence. Sarah is
       passionate about working with domain experts to leverage cloud computing
