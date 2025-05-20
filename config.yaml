@@ -46,7 +46,7 @@ params:
     - item: project
     - item: education
     - item: certifications
-    # - item: skill
+    - item: skill
     - item: publication
     # - hobbies
   aboutme:
@@ -179,6 +179,7 @@ params:
         description: Mentored cohorts in developing open leadership skills for growing an open science project and community
   certifications:
     title: Certifications
+    panelId: certs-panel
     icon: fas fa-certificate
     list:
       - course: "LFS258 Kubernetes Fundamentals"
@@ -191,17 +192,67 @@ params:
         org: "Center for Scientific Collaboration and Community Engagement"
         org_url: "https://www.cscce.org/"
         awarded: "Nov. 14, 2022"
-  # skill:
-  #   title: Skills
-  #   panelId: skill-panel
-  #   icon: fas fa-cogs
-  #   list:
-  #     - skill: "Skill 1, Skill 2"
-  #       skillrating: 90
-  #     - skill: Skill 3
-  #       skillrating: 80
-  #     - skill: Skill 4
-  #       skillrating: 50
+  skill:
+    title: Skills
+    panelId: skill-panel
+    icon: fas fa-cogs
+    list:
+      - area: Technical
+        skills:
+          - name: Python
+            level: practitioner
+          - name: Kubernetes
+            level: working
+          - name: Docker
+            level: working
+          - name: git
+            level: practitioner
+          - name: GitHub
+            level: practitioner
+          - name: CI/CD
+            level: practitioner
+          - name: testing
+            level: working
+          - name: Terraform
+            level: working
+          - name: Google Cloud
+            level: working
+          - name: AWS
+            level: working
+          - name: Azure
+            level: working
+          - name: Grafana
+            level: awareness
+          - name: Prometheus
+            level: awareness
+          - name: Linux
+            level: working
+          - name: filesystem management
+            level: awareness
+          - name: Jupyter
+            level: practitioner
+          - name: Site Reliability Engineering
+            level: working
+          - name: DevOps Engineering
+            level: working
+      - area: Interpersonal
+        skills:
+          - name: mentorship
+          - name: AGILE workflows
+          - name: meeting facilitation
+          - name: presentation and representation at conferences and client meetings
+      - area: Communication
+        skills:
+          - name: spoken and written English
+            level: native
+          - name: papers and research deliverables
+          - name: internal and external technical documentation
+          - name: community outreach and blogging
+      - area: Community
+        skills:
+          - name: community management
+          - name: developing and running training workshops
+          - name: managing open source issues and pull requests
   # hobby:
   #   title: Hobbies
   #   icon: fas fa-gamepad
