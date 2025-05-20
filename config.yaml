@@ -51,7 +51,7 @@ params:
     # - hobbies
   aboutme:
     title: About Sarah
-    icon: fas fa-user
+    icon: fas fa-fw fa-user
     description: >-
       Sarah Gibson is a software and cloud infrastructure engineer, as well as a
       contributor to and advocate for open software. She holds 6+ years of
@@ -62,7 +62,7 @@ params:
       the results in an open, reproducible and reusable manner.
   experience:
     title: Experience
-    icon: fas fa-briefcase
+    icon: fas fa-fw fa-briefcase
     list:
       - position: Open Source Infrastructure Engineer
         dates: 2021 - *Present*
@@ -98,7 +98,7 @@ params:
             and [Living with Machines](https://www.turing.ac.uk/research/research-projects/living-machines)
   education:
     title: Education
-    icon: fas fa-graduation-cap
+    icon: fas fa-fw fa-graduation-cap
     list:
       - degree: Astrophysics Ph.D.
         college: University of Leicester
@@ -109,7 +109,7 @@ params:
         dates: 2010 - 2014
   publication:
     title: Publications
-    icon: fas fa-book
+    icon: fas fa-fw fa-book
     format:
       - date
       - title
@@ -134,7 +134,7 @@ params:
         type: Journal Articles
   project:
     title: Projects
-    icon: fas fa-project-diagram
+    icon: fas fa-fw fa-project-diagram
     list:
       - title: The Turing Way
         url: "https://book.the-turing-way.org/"
@@ -180,7 +180,7 @@ params:
   certifications:
     title: Certifications
     panelId: certs-panel
-    icon: fas fa-certificate
+    icon: fas fa-fw fa-certificate
     list:
       - course: "LFS258 Kubernetes Fundamentals"
         course_url: "https://www.credly.com/badges/5fcebe78-bcac-4f73-bd46-692782142e15/public_url"
@@ -195,7 +195,7 @@ params:
   skill:
     title: Skills
     panelId: skill-panel
-    icon: fas fa-cogs
+    icon: fas fa-fw fa-cogs
     list:
       - area: Technical
         skills:
