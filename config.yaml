@@ -185,46 +185,50 @@ params:
     list:
       - area: Technical
         skills:
-          - name: Python
-            level: practitioner
-          - name: Kubernetes
-            level: working
-          - name: Docker
-            level: working
-          - name: git
-            level: practitioner
-          - name: GitHub
-            level: practitioner
-          - name: CI/CD
-            level: practitioner
-          - name: testing
-            level: working
-          - name: Terraform
-            level: working
-          - name: Google Cloud
-            level: working
           - name: AWS
             level: working
           - name: Azure
             level: working
-          - name: Grafana
-            level: awareness
-          - name: Prometheus
-            level: awareness
-          - name: Linux
+          - name: CI/CD
+            level: practitioner
+          - name: DevOps Engineering
+            level: working
+          - name: Docker
             level: working
           - name: filesystem management
             level: awareness
+          - name: git
+            level: practitioner
+          - name: GitHub
+            level: practitioner
+          - name: GitHub Actions
+            level: practitioner
+          - name: Google Cloud
+            level: working
+          - name: Grafana
+            level: awareness
+          - name: Helm
+            level: working
           - name: Jupyter
+            level: practitioner
+          - name: Kubernetes
+            level: working
+          - name: Linux
+            level: working
+          - name: Prometheus
+            level: awareness
+          - name: Python
             level: practitioner
           - name: Site Reliability Engineering
             level: working
-          - name: DevOps Engineering
+          - name: Terraform
+            level: working
+          - name: testing
             level: working
       - area: Interpersonal
         skills:
           - name: mentorship
-          - name: AGILE workflows
+          - name: Agile workflows
           - name: meeting facilitation
           - name: presentation and representation at conferences and client meetings
       - area: Communication
