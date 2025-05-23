@@ -232,26 +232,30 @@ params:
             level: working
       - area: Interpersonal
         skills:
-          - name: mentorship
-          - name: Agile workflows
-          - name: meeting facilitation
-          - name: presentation and representation at conferences and client meetings
+          - name: "Actively support team development through mentoring and knowledge sharing"
+          - name: "Experienced in Agile methodologies, contributing to high-performing, iterative development"
+          - name: "Lead effective meetings, fostering collaboration and clarity"
+          - name: "Represents teams at conferences, stakeholder sessions, and client meetings with clarity and professionalism"
+          - name: "Cultivate positive team culture through collaboration, empathy, and accountability"
+          - name: "Excel in partnering across functional areas and disciplines"
+          - name: "Manage multiple, complex initiatives while maintaining attention to detail and strategic alignment"
       - area: Communication
         skills:
-          - name: spoken and written English
-            level: native
-          - name: papers and research deliverables
-          - name: internal and external technical documentation
-          - name: community outreach and blogging
-      - area: Community
-        skills:
-          - name: community management
-          - name: developing and running training workshops
-          - name: managing open source issues and pull requests
+          - name: "Exceptional verbal and written communicator demonstrated through delivery of"
+          - name: technical papers
+          - name: research publications
+          - name: clear and comprehensive documentation
+          - name: engaging conference presentations
+          - name: training sessions
+          - name: community outreach initiatives
+          - name: technical blog content
   # hobby:
   #   title: Hobbies
-  #   icon: fas fa-gamepad
+  #   icon: fas fa-fw fa-gamepad
   #   list:
-  #     - hobby: Cooking
+  #     - hobby: Reading
+  #     - hobby: Travelling
   #     - hobby: Hiking
-  #     - hobby: Baking
+  #     - hobby: Playing guitar
+  #     - hobby: Embroidery
+  
