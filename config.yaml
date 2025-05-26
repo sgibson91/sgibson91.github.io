@@ -24,7 +24,7 @@ params:
 
   profile:
     name: "Sarah Gibson"
-    tagline: "Software developer, DevOps engineer, and crazy cat lady known for automating the boring stuff"
+    tagline: "Software developer, cloud infrastructure engineer, and crazy cat lady known for automating the boring stuff"
     location: "United Kingdom"
     photo: profile.jpg
   social:
@@ -52,7 +52,7 @@ params:
   aboutme:
     title: About Sarah
     icon: fas fa-fw fa-user
-    description: >-
+    description: |-
       Sarah Gibson is a highly skilled software and cloud infrastructure engineer with a strong track record of enabling open, data-driven research at scale.
       With 6+ years of experience at the intersection of technology, research, and education — spanning a pioneering tech nonprofit and a leading national institute for data science and AI — Sarah brings both deep technical expertise and a passion for collaboration.
 
@@ -145,8 +145,8 @@ params:
         details: |1-
           - Recognised as a [Jupyter Distinguished Contributor](https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68)
             in 2022 for significant contributions to the Jupyter ecosystem and advancing open-source initiatives.
-          - Operated and maintained a public cloud platform delivering reproducible, containerized computing environments for research and education at scale.
-          - Automated and parallelized core deployment processes using CI/CD pipelines to enable fast, reliable, and consistent platform updates.
+          - Operated and maintained a public cloud platform delivering reproducible, containerised computing environments for research and education at scale.
+          - Automated and parallelised core deployment processes using CI/CD pipelines to enable fast, reliable, and consistent platform updates.
           - Served as technical lead and primary maintainer for a private BinderHub deployment at the Turing Institute, ensuring stability, scalability, and performance.
           - Secured and managed a $10K infrastructure grant to support the deployment and scaling of cloud resources, including traffic sharing with mybinder.org.
           - Facilitated monthly community calls, fostering collaboration, gathering feedback, and guiding technical priorities for ongoing platform development.
