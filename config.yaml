@@ -131,11 +131,11 @@ params:
     list:
       - title: The Turing Way
         url: "https://book.the-turing-way.org/"
-        role: Co-Lead of Infrastructure Working Group
+        role: Project Maintainer and Co-Lead of Infrastructure Working Group
         dates: 2018 - *Present*
         details: |1-
           - Designed and executed strategic roadmaps for implementing and maintaining scalable infrastructure aligned with long-term project goals.
-          - Assessed and prioritised team activities to maximise impact and drive progress toward the group’s strategic objectives.
+          - Assessed and prioritised team activities to maximise impact and drive progress toward the group's strategic objectives.
           - Introduced and led the adoption of Agile workflows, improving transparency, accountability, and team efficiency.
           - Co-led a cross-functional working group, contributing to strategic direction, operational management, and the successful onboarding of new members.
       - title: JupyterHub and Binder
