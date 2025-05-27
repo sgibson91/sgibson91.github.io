@@ -53,7 +53,7 @@ params:
     title: About Sarah
     icon: fas fa-fw fa-user
     description: |-
-      Sarah Gibson is a highly skilled software and cloud infrastructure engineer with a strong track record of enabling open, data-driven research at scale.
+      Sarah Gibson is a highly skilled software developer and cloud infrastructure engineer with a strong track record of enabling open, data-driven research at scale.
       With 6+ years of experience at the intersection of technology, research, and education — spanning a pioneering tech nonprofit and a leading national institute for data science and AI — Sarah brings both deep technical expertise and a passion for collaboration.
 
       She specialises in designing and deploying cloud-based solutions that empower researchers to tackle complex, data-intensive challenges.
@@ -71,23 +71,23 @@ params:
         url: "https://2i2c.org"
         company: 2i2c
         details: |1-
-          - Designed, deployed, and maintained resilient cloud infrastructure across AWS, Azure, and GCP, including production-grade Kubernetes clusters.
-          - Defined and implemented infrastructure as code (IaC) and CI/CD pipelines to automate deployments and improve system reliability and delivery speed.
-          - Collaborated with stakeholders to gather requirements and architect scalable, user-centric solutions aligned with operational and business goals.
-          - Contributed upstream to open-source projects, delivering new features and ensuring long-term sustainability of critical software ecosystems.
-          - Led end-to-end development and delivery of new product features, from scoping stakeholder needs to successful launch.
-          - Collaborated effectively within a globally distributed, agile team, driving progress across time zones and disciplines.
-          - Delivered high-quality operational support, resolving incidents and addressing customer issues in a high-availability environment.
+          - **Designed, deployed, and maintained resilient cloud infrastructure** across AWS, Azure, and GCP, including production-grade Kubernetes clusters.
+          - **Defined and implemented infrastructure as code and CI/CD pipelines** to automate deployments and improve system reliability and delivery speed.
+          - **Collaborated with stakeholders** to gather requirements and architect scalable, user-centric solutions aligned with operational and business goals.
+          - **Contributed upstream to open-source projects**, delivering new features and ensuring long-term sustainability of critical software ecosystems.
+          - **Led end-to-end development and delivery of new product features**, from scoping stakeholder needs to successful launch.
+          - **Collaborated effectively within a globally distributed, agile team**, driving progress across time zones and disciplines.
+          - **Delivered high-quality operational support**, resolving incidents and addressing customer issues in a high-availability environment.
       - position: Research Software Engineer
         dates: 2018 - 2021
         url: "https://turing.ac.uk"
         company: The Alan Turing Institute
         details: |1-
-          - Collaborated closely with researchers and stakeholders across the Turing network to develop software solutions for data-intensive research aligned with Turing Challenge Areas.
-          - Led the end-to-end delivery of research software projects, applying best practices in software engineering—including version control, modular design, and testing—to ensure maintainability and reproducibility.
-          - Built and automated computational infrastructure and data pipelines, performed data wrangling and analysis, and delivered insights through clear documentation, technical reports, presentations, and blog posts.
-          - Managed projects from inception to delivery, coordinating across multidisciplinary teams to align technical implementation with research goals.
-          - Notable projects: [_The Turing Way_](https://www.turing.ac.uk/research/research-projects/turing-way)
+          - **Collaborated closely with researchers and stakeholders** across the Turing network to develop software solutions for data-intensive research aligned with Turing Challenge Areas.
+          - **Led the end-to-end delivery of research software projects**, applying best practices in software engineering—including version control, modular design, and testing—to ensure maintainability and reproducibility.
+          - **Built and automated computational infrastructure and data pipelines**, performed data wrangling and analysis, and delivered insights through clear documentation, technical reports, presentations, and blog posts.
+          - **Managed projects from inception to delivery, coordinating across multidisciplinary teams** to align technical implementation with research goals.
+          - **Notable projects:** [_The Turing Way_](https://www.turing.ac.uk/research/research-projects/turing-way)
             and [Living with Machines](https://www.turing.ac.uk/research/research-projects/living-machines)
   education:
     title: Education
@@ -134,6 +134,10 @@ params:
         role: Project Maintainer and Co-Lead of Infrastructure Working Group
         dates: 2018 - *Present*
         details: |1-
+          - **Designed and executed strategic roadmaps** for implementing and maintaining scalable infrastructure aligned with long-term project goals.
+          - **Assessed and prioritised team activities to maximise impact** and drive progress toward the group's strategic objectives.
+          - **Introduced and led the adoption of Agile workflows**, improving transparency, accountability, and team efficiency.
+          - **Co-led a cross-functional working group**, contributing to strategic direction, operational management, and the successful onboarding of new members.
           - Designed and executed strategic roadmaps for implementing and maintaining scalable infrastructure aligned with long-term project goals.
           - Assessed and prioritised team activities to maximise impact and drive progress toward the group's strategic objectives.
           - Introduced and led the adoption of Agile workflows, improving transparency, accountability, and team efficiency.
@@ -143,31 +147,31 @@ params:
         role: Maintainer
         dates: 2019 - 2025
         details: |1-
-          - Recognised as a [Jupyter Distinguished Contributor](https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68)
+          - Recognised as a [**Jupyter Distinguished Contributor**](https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68)
             in 2022 for significant contributions to the Jupyter ecosystem and advancing open-source initiatives.
-          - Operated and maintained a public cloud platform delivering reproducible, containerised computing environments for research and education at scale.
-          - Automated and parallelised core deployment processes using CI/CD pipelines to enable fast, reliable, and consistent platform updates.
-          - Served as technical lead and primary maintainer for a private BinderHub deployment at the Turing Institute, ensuring stability, scalability, and performance.
-          - Secured and managed a $10K infrastructure grant to support the deployment and scaling of cloud resources, including traffic sharing with mybinder.org.
-          - Facilitated monthly community calls, fostering collaboration, gathering feedback, and guiding technical priorities for ongoing platform development.
+          - **Operated and maintained a public cloud platform** delivering reproducible, containerised computing environments for research and education at scale.
+          - **Automated and parallelised core deployment processes** using CI/CD pipelines to enable fast, reliable, and consistent platform updates.
+          - **Served as technical lead and primary maintainer** for a private BinderHub deployment at the Turing Institute, ensuring stability, scalability, and performance.
+          - **Secured and managed a $10K infrastructure grant** to support the deployment and scaling of cloud resources, including traffic sharing with mybinder.org.
+          - **Facilitated monthly community calls**, fostering collaboration, gathering feedback, and guiding technical priorities for ongoing platform development.
       - title: Software Sustainability Institute/University of Edinburgh
         role: Independent Consultancy
         dates: Oct. 2023 - Jun. 2024
         details: |1-
-          - Designed and delivered training on software engineering best practices - focusing on version control, code readability, and FAIR principles - for a research software course.
+          - **Designed and delivered training** on software engineering best practices - focusing on version control, code readability, and FAIR principles - for a research software course.
           - https://github.com/carpentries-incubator/fair-research-software
       - title: Software Sustainability Institute
         url: "https://www.software.ac.uk/blog/announcing-2020-software-sustainability-institute-fellows"
         role: Fellow
         dates: 2020
         details: |-
-          - Initiated and cultivated a community of practice focused on leveraging cloud infrastructure to enable reproducible research, fostering collaboration, knowledge sharing, and peer support across disciplines.
+          - **Initiated and cultivated a community of practice** focused on leveraging cloud infrastructure to enable reproducible research, fostering collaboration, knowledge sharing, and peer support across disciplines.
       - title: OLS
         url: "https://we-are-ols.org/"
         role: Mentor
         dates: Feb. 2021 - Jan. 2022
         details: |1-
-          - Mentored cohorts in open leadership development, guiding them in growing sustainable open science projects and fostering inclusive, collaborative communities.
+          - **Mentored cohorts in open leadership development**, guiding them in growing sustainable open science projects and fostering inclusive, collaborative communities.
   certifications:
     title: Certifications
     panelId: certs-panel
