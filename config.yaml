@@ -72,11 +72,16 @@ params:
         company: 2i2c
         details: |1-
           - **Designed, deployed, and maintained resilient cloud infrastructure** across AWS, Azure, and GCP, including production-grade Kubernetes clusters.
+          - **Designed and deployed a robust Python application** to automate backup creation and management for Google Filestore instances storing critical customer data, ensuring reliable disaster recovery in production environments.
+          - **Designed and deployed a Helm chart** to automate the creation and management of backups for Google Filestores containing customer data, ensuring reliable disaster recovery across production environments.
           - **Defined and implemented infrastructure as code and CI/CD pipelines** to automate deployments and improve system reliability and delivery speed.
+          - **Engineered Python-based automation** to detect file-level changes, enabling a smart CI/CD pipeline that selectively redeploys only impacted environments—significantly reducing deployment time and resource usage.
+          - **Implemented an intelligent CI/CD workflow using GitHub Actions** to analyse file changes and selectively redeploy only impacted environments, significantly improving deployment efficiency and reducing operational overhead.
           - **Collaborated with stakeholders** to gather requirements and architect scalable, user-centric solutions aligned with operational and business goals.
           - **Contributed upstream to open-source projects**, delivering new features and ensuring long-term sustainability of critical software ecosystems.
           - **Led end-to-end development and delivery of new product features**, from scoping stakeholder needs to successful launch.
           - **Collaborated effectively within a globally distributed, agile team**, driving progress across time zones and disciplines.
+          - **Maintained and enhanced a centralised Python utility library**, delivering reusable tools that improved operational efficiency across the engineering team and reduced redundant scripting efforts.
           - **Delivered high-quality operational support**, resolving incidents and addressing customer issues in a high-availability environment.
       - position: Research Software Engineer
         dates: 2018 - 2021
@@ -86,8 +91,10 @@ params:
           - **Collaborated closely with researchers and stakeholders** across the Turing network to develop software solutions for data-intensive research aligned with Turing Challenge Areas.
           - **Led the end-to-end delivery of research software projects**, applying best practices in software engineering—including version control, modular design, and testing—to ensure maintainability and reproducibility.
           - **Built and automated computational infrastructure and data pipelines**, performed data wrangling and analysis, and delivered insights through clear documentation, technical reports, presentations, and blog posts.
+          - **Automated infrastructure-as-code deployment processes** by implementing GitOps workflows with GitHub Actions and Azure Pipelines, enhancing consistency, reliability, and traceability across environments.
+          - **Built a high-performance Python library** to detect and eliminate duplicate files in data packet transfers using content hashing and an optimised lightweight database, improving data integrity and reducing storage overhead.
+          - **Developed an end-to-end Python workflow** to extract target keywords from OCR-processed text, retrieve contextual snippets, and generate clipped image segments from original scans—supporting a large-scale linguistic crowdsourcing initiative in a Data Humanities research project.
           - **Managed projects from inception to delivery, coordinating across multidisciplinary teams** to align technical implementation with research goals.
-          - **Notable projects:** [_The Turing Way_](https://www.turing.ac.uk/research/research-projects/turing-way)
             and [Living with Machines](https://www.turing.ac.uk/research/research-projects/living-machines)
   education:
     title: Education
@@ -138,10 +145,7 @@ params:
           - **Assessed and prioritised team activities to maximise impact** and drive progress toward the group's strategic objectives.
           - **Introduced and led the adoption of Agile workflows**, improving transparency, accountability, and team efficiency.
           - **Co-led a cross-functional working group**, contributing to strategic direction, operational management, and the successful onboarding of new members.
-          - Designed and executed strategic roadmaps for implementing and maintaining scalable infrastructure aligned with long-term project goals.
-          - Assessed and prioritised team activities to maximise impact and drive progress toward the group's strategic objectives.
-          - Introduced and led the adoption of Agile workflows, improving transparency, accountability, and team efficiency.
-          - Co-led a cross-functional working group, contributing to strategic direction, operational management, and the successful onboarding of new members.
+          - **Managed and maintained automated deployment** of the book from a Git repository using reproducible computational environments and CI/CD pipelines, ensuring consistency, reliability, and version control throughout the publication process.
       - title: JupyterHub and Binder
         url: "https://jupyterhub-team-compass.readthedocs.io/en/latest/"
         role: Maintainer
