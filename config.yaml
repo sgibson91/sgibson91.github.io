@@ -72,30 +72,29 @@ params:
         company: 2i2c
         details: |1-
           - **Designed, deployed, and maintained resilient cloud infrastructure** across AWS, Azure, and GCP, including production-grade Kubernetes clusters.
-          - **Designed and deployed a robust Python application** to automate backup creation and management for Google Filestore instances storing critical customer data, ensuring reliable disaster recovery in production environments.
-          - **Designed and deployed a Helm chart** to automate the creation and management of backups for Google Filestores containing customer data, ensuring reliable disaster recovery across production environments.
-          - **Defined and implemented infrastructure as code and CI/CD pipelines** to automate deployments and improve system reliability and delivery speed.
-          - **Engineered Python-based automation** to detect file-level changes, enabling a smart CI/CD pipeline that selectively redeploys only impacted environments—significantly reducing deployment time and resource usage.
-          - **Implemented an intelligent CI/CD workflow using GitHub Actions** to analyse file changes and selectively redeploy only impacted environments, significantly improving deployment efficiency and reducing operational overhead.
-          - **Collaborated with stakeholders** to gather requirements and architect scalable, user-centric solutions aligned with operational and business goals.
-          - **Contributed upstream to open-source projects**, delivering new features and ensuring long-term sustainability of critical software ecosystems.
-          - **Led end-to-end development and delivery of new product features**, from scoping stakeholder needs to successful launch.
+          - Enabled [**automatic backup creation and management** of Google Filestore instances](https://github.com/2i2c-org/gcp-filestore-backups) storing critical customer data, ensuring **reliable disaster recovery** in production environments, by designing a robust Python application deployed via a Helm chart.
+          - **Improved system reliability and delivery speed** by defining and implementing infrastructure as code and CI/CD pipelines to automate and parallelise deployments.
+          - **Significantly improved deployment efficiency and reduced operational overhead** by enabling an intelligent CI/CD pipeline that selectively redeploys only impacted environments through detection of file level changes in Python and GitHub Actions.
+            - https://github.com/2i2c-org/infrastructure/issues/879
+            - https://github.com/2i2c-org/infrastructure/issues/5186
+          - **Improved operational efficiency** across the engineering team by maintaining and enhancing a [centralised Python utility library](https://github.com/2i2c-org/infrastructure/tree/main/deployer) which delivered reusable tools.
           - **Collaborated effectively within a globally distributed, agile team**, driving progress across time zones and disciplines.
-          - **Maintained and enhanced a centralised Python utility library**, delivering reusable tools that improved operational efficiency across the engineering team and reduced redundant scripting efforts.
+          - **Led end-to-end development and delivery of new product features**, from scoping stakeholder needs to successful launch.
+          - **Collaborated with stakeholders** to gather requirements and architect scalable, user-centric solutions aligned with operational and business goals.
+          - **Ensured long-term sustainability of critical software ecosystems** by contributing upstream to open-source projects.
           - **Delivered high-quality operational support**, resolving incidents and addressing customer issues in a high-availability environment.
       - position: Research Software Engineer
         dates: 2018 - 2021
         url: "https://turing.ac.uk"
         company: The Alan Turing Institute
         details: |1-
-          - **Collaborated closely with researchers and stakeholders** across the Turing network to develop software solutions for data-intensive research aligned with Turing Challenge Areas.
-          - **Led the end-to-end delivery of research software projects**, applying best practices in software engineering—including version control, modular design, and testing—to ensure maintainability and reproducibility.
+          - **Improved data integrity and reduced storage overhead** by building a [Python library](https://github.com/Living-with-machines/deduplify) to detect and eliminate duplicate files in data packet transfers using content hashing and an optimised lightweight database.
+          - **Supported a large-scale linguistic crowdsourcing initiative** by developing a Python workflow that extracted target words from OCR processed text, retrieved contextual snippets, and generated clipped image segments from original scans to be uploaded to the crowdsourcing platform.
+          - [**Automated infrastructure as code deployment processes**](https://github.com/alan-turing-institute/bridge-data-platform) by implementing GitOps workflows with GitHub Actions and Azure Pipelines, enhancing consistency, reliability, and traceability across environments.
           - **Built and automated computational infrastructure and data pipelines**, performed data wrangling and analysis, and delivered insights through clear documentation, technical reports, presentations, and blog posts.
-          - **Automated infrastructure-as-code deployment processes** by implementing GitOps workflows with GitHub Actions and Azure Pipelines, enhancing consistency, reliability, and traceability across environments.
-          - **Built a high-performance Python library** to detect and eliminate duplicate files in data packet transfers using content hashing and an optimised lightweight database, improving data integrity and reducing storage overhead.
-          - **Developed an end-to-end Python workflow** to extract target keywords from OCR-processed text, retrieve contextual snippets, and generate clipped image segments from original scans—supporting a large-scale linguistic crowdsourcing initiative in a Data Humanities research project.
+          - **Led the end-to-end delivery of research software projects**, applying best practices in software engineering—including version control, modular design, and testing—to ensure maintainability and reproducibility.
+          - **Collaborated closely with researchers and stakeholders** across the Turing network to develop software solutions for data-intensive research aligned with Turing Challenge Areas.
           - **Managed projects from inception to delivery, coordinating across multidisciplinary teams** to align technical implementation with research goals.
-            and [Living with Machines](https://www.turing.ac.uk/research/research-projects/living-machines)
   education:
     title: Education
     icon: fas fa-fw fa-graduation-cap
