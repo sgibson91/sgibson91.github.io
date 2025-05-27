@@ -103,6 +103,7 @@ params:
         college: University of Leicester
         dates: 2015 - 2018
         thesis_title: "Understanding the Most Powerful Explosions in the Universe"
+        thesis_url: "https://hdl.handle.net/2381/43098"
       - degree: MPhys Physics with Astrophysics
         college: University of Hull
         dates: 2010 - 2014
