@@ -25,10 +25,10 @@ module.exports = {
             "code::before": false,
             "code::after": false,
             a: {
-              color: theme(`colors.blue.600`),
+              color: theme(`colors.fuschia.600`),
               textDecoration: "none",
               "&:hover": {
-                color: theme(`colors.blue.800`),
+                color: theme(`colors.fuschia.800`),
                 textDecoration: "underline",
               },
             },
@@ -43,8 +43,8 @@ module.exports = {
           css: {
             color: theme(`colors.gray.200`),
             a: {
-              color: theme(`colors.yellow.300`),
-              "&:hover": { color: theme(`colors.yellow.500`) },
+              color: theme(`colors.purple.300`),
+              "&:hover": { color: theme(`colors.purple.500`) },
             },
             h1: { color: theme(`colors.gray.200`) },
             h2: { color: theme(`colors.gray.200`) },
