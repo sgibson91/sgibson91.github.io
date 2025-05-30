@@ -1,6 +1,7 @@
 baseURL: https://sgibson91.github.io/
 theme: aafu
 languageCode: en-gb
+timeout: "300s"
 build:
   writeStats: true
 params:
