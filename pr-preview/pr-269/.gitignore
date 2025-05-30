@@ -1,0 +1,13 @@
+# Generated files by hugo
+/public/
+/resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# Ignore node modules
+/node_modules/

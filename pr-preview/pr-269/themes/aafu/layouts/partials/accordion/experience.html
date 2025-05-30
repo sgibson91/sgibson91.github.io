@@ -1,0 +1,14 @@
+{{ range.Site.Params.experience.list }}
+<h4 style="text-decoration: underline;">{{ .position }}</h4>
+<p {{if .details }}class="mb-0"{{ end }}>
+  {{ .dates | markdownify }} &middot; {{ if .url }}
+  <a href="{{ .url }}">{{ .company }}</a>
+  {{ else }} {{ .company }} {{ end }}
+</p>
+{{ if .details }}
+<div class="prose prose-stone dark:prose-invert max-w-none">
+{{ .details | markdownify }}
+</div>
+{{ end }}
+
+{{ end }}

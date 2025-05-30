@@ -1,0 +1,16 @@
+repos:
+  # Prevent known typos from being committed
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+      - id: codespell
+        args:
+          # Autofix known typos
+          - --write-changes
+          - --skip="./.archive,./public"
+        additional_dependencies:
+          - tomli
+
+# pre-commit.ci config reference: https://pre-commit.ci/#configuration
+ci:
+  autoupdate_schedule: monthly
