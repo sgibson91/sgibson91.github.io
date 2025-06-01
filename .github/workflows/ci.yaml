@@ -13,6 +13,9 @@ concurrency: deploy
 
 jobs:
   build-and-deploy:
+    permissions:
+      contents: write
+      issues: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
