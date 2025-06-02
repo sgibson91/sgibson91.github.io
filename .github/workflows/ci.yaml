@@ -53,14 +53,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create issue from file
-        uses: peter-evans/create-issue-from-file@v5
-        with:
-          title: Linkcheck Report
-          content-filepath: ./lychee/out.md
-          labels: bug, website
-          issue-number: 232
-
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v4
@@ -73,6 +65,15 @@ jobs:
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./public
+
+      - name: Create issue from file
+        if: always()
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "[DO NOT CLOSE] Linkcheck Report"
+          content-filepath: ./lychee/out.md
+          labels: bug, website
+          issue-number: 232
 
   checkfilesize:
     runs-on: ubuntu-latest
