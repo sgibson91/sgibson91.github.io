@@ -9,10 +9,9 @@ on:
     branches:
       - main
 
-concurrency: deploy
-
 jobs:
   build-and-deploy:
+    concurrency: deploy
     runs-on: ubuntu-latest
     permissions:
       issues: write
