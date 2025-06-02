@@ -1,4 +1,4 @@
-name: Build and Deploy the website
+name: Build, Deploy, and Check the Website
 
 on:
   workflow_dispatch:
