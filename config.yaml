@@ -68,7 +68,7 @@ params:
     icon: fas fa-fw fa-briefcase
     list:
       - position: Open Source Infrastructure Engineer
-        dates: 2021 - *Present*
+        dates: June 2021 - June 2025
         url: "https://2i2c.org"
         company: 2i2c
         details: |1-
@@ -84,7 +84,7 @@ params:
           - **Collaborated with stakeholders** to gather requirements and architect scalable, user-centric solutions aligned with operational and business goals.
           - **Ensured long-term sustainability of critical software ecosystems** by contributing upstream to open-source projects.
       - position: Research Software Engineer
-        dates: 2018 - 2021
+        dates: November 2018 - May 2021
         url: "https://turing.ac.uk"
         company: The Alan Turing Institute
         details: |1-
