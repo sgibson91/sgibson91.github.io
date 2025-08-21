@@ -72,13 +72,12 @@ params:
         url: "https://2i2c.org"
         company: 2i2c
         details: |1-
-          - **Designed, deployed, and maintained resilient cloud infrastructure** across AWS, Azure, and GCP, including production-grade Kubernetes clusters.
-          - Enabled [**automatic backup creation and management** of Google Filestore instances](https://github.com/2i2c-org/gcp-filestore-backups) storing critical customer data, ensuring **reliable disaster recovery** in production environments, by designing a robust Python application deployed via a Helm chart.
+          - **Designed, deployed, and maintained resilient cloud infrastructure** across AWS, Azure, and GCP, including production-grade Kubernetes clusters, managed with **Terraform** and **Helm**.
+          - Enabled **automatic backup creation and management** of Google Filestore instances storing critical customer data, ensuring **reliable disaster recovery** in production environments, by designing a robust Python application deployed via a Helm chart.
           - **Improved system reliability and delivery speed** by defining and implementing infrastructure as code and CI/CD pipelines to automate and parallelise deployments.
-          - **Significantly improved deployment efficiency and reduced operational overhead** by enabling an intelligent CI/CD pipeline that selectively redeploys only impacted environments through detection of file level changes in Python and GitHub Actions.
-            - https://github.com/2i2c-org/infrastructure/issues/879
-            - https://github.com/2i2c-org/infrastructure/issues/5186
-          - **Improved operational efficiency** across the engineering team by maintaining and enhancing a [centralised Python utility library](https://github.com/2i2c-org/infrastructure/tree/main/deployer) which delivered reusable tools.
+          - **Significantly improved deployment efficiency and reduced operational overhead** by enabling an intelligent CI/CD pipeline that selectively redeploys only impacted environments through detection of file level changes using Python and GitHub Actions.
+          - **Highly experienced building containerised applications with Docker**, including automating the build and push process with a GitOps flow so that images were properly versioned.
+          - **Improved operational efficiency** across the engineering team by maintaining and enhancing a centralised Python utility library which delivered reusable tools.
           - **Collaborated effectively within a globally distributed, agile team**, driving progress across time zones and disciplines.
           - **Led end-to-end development and delivery of new product features**, from scoping stakeholder needs to successful launch.
           - **Collaborated with stakeholders** to gather requirements and architect scalable, user-centric solutions aligned with operational and business goals.
