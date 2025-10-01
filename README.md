@@ -39,7 +39,3 @@ git submodule update --remote --merge
 ## Contributing
 
 Please read the [Contributing Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md) to get started making a contribution.
-
-## Attribution
-
-Thank you to the maintainers of the [Anatole](https://themes.gohugo.io/anatole/) Hugo theme.
