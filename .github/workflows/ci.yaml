@@ -9,38 +9,86 @@ on:
     branches:
       - main
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   build-and-deploy:
     concurrency: deploy
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
       issues: write
       pull-requests: write
+
+    env:
+      DART_SASS_VERSION: 1.93.2
+      HUGO_VERSION: 0.151.0
+      NODE_VERSION: 22.18.0
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v5
         with:
-          submodules: true
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v5
         with:
-          node-version: "latest"
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Create directory for user-specific executable files
+        run: |
+          mkdir -p "${HOME}/.local"
+
+      - name: Install Dart Sass
+        run: |
+          curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: "latest"
+          hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      - name: Install tailwind
+      - name: Verify installations
         run: |
-          npm install tailwindcss @tailwindcss/cli
+          echo "Dart Sass: $(sass --version)"
+          echo "Hugo: $(hugo version)"
+          echo "Node.js: $(node --version)"
+
+      - name: Install Node.js dependencies
+        run: |
+          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
+
+      - name: Cache restore
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: hugo-${{ github.run_id }}
+          restore-keys:
+            hugo-
 
       - name: Build site with Hugo
-        run: hugo --minify
+        run: |
+          hugo \
+            --gc \
+            --minify \
+            --cacheDir "${{ runner.temp }}/hugo_cache"
+
+      - name: Cache save
+        id: cache-save
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/hugo_cache
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
 
       - name: Check links
         uses: lycheeverse/lychee-action@v2
