@@ -24,7 +24,3 @@ I also hope to work with [_The Turing Way_](https://github.com/alan-turing-insti
 
 I'm really excited and privileged to be a part of this programme and have the opportunity to collaborate with a great group of Fellows!
 And stay tuned for more blog posts on what I get up to as a Fellow over the next year!
-
-You can see my video application below.
-
-{{< dropbox "kcf4s75zdk6hg54/sarah-gibson.mp4" >}}
