@@ -23,11 +23,16 @@ reversepagetitle = true # When set to 'true', the Window Title will be reversed 
 ## Social links
 # use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
 [[socialIcons]]
-icon = "fas fas-linkedin"
+icon = "fa-brands fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/drsarahlgibson"
 
 [[socialIcons]]
-icon = "fas fas-github"
+icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/sgibson91"
+
+[[socialIcons]]
+icon = "fa-brands fa-orcid"
+title = "ORCiD"
+url = "https://orcid.org/0000-0003-0356-2765"
