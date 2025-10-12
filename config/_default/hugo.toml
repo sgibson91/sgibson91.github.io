@@ -10,7 +10,7 @@ enableRobotsTXT = true
 localizedDates = false
 
 # Syntax highlighting
-pygmentsUseClasses = true   
+pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
@@ -19,28 +19,28 @@ pygmentsCodefencesGuessSyntax = true
 enable = true
 
 [markup]
-    [markup.goldmark]
-      [markup.goldmark.renderer]
-        unsafe=true
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['\(', '\)']]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
 
 [taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
+category = "categories"
+series = "series"
+tag = "tags"
 
 [related]
-  includeNewer = true
-  threshold = 80
-  toLower = true
+includeNewer = true
+threshold = 80
+toLower = true
 [[related.indices]]
-  name = 'keywords'
-  weight = 100
+name = 'keywords'
+weight = 100
 [[related.indices]]
-  name = 'tags'
-  weight = 80
+name = 'tags'
+weight = 80
