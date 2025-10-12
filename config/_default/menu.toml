@@ -1,0 +1,23 @@
+  [[main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[main]]
+  name = "Blog"
+  weight = 300
+  identifier = "blog"
+  url = "/blog/"
+
+  [[main]]
+  name = "Resume"
+  weight = 200
+  identifier = "resume"
+  url = "/resume/" 
+
+  [[main]]
+  name = "Tags"
+  weight = 300
+  identifier = "tags"
+  url = "/tags/"

@@ -1,0 +1,33 @@
+title = "Sarah Gibson"
+author = "Sarah Gibson"
+#copyright = "2020-2021"
+description = "DevOps/Platform Engineer"
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+mainSections = ["blog"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+singleDateFormat = "2006-02-01"
+indexDateFormat = "2006-02-01"
+listDateFormat = "2006-02-01"
+readMore = true
+# postSectionName = "blog"
+relatedPosts = true
+numberOfRelatedPosts = 3
+reversepagetitle = true # When set to 'true', the Window Title will be reversed to 'Title | Author' instead of the default 'Author | Title'
+
+# Sidebar/Content Ratio
+# contentratio = 0.6
+
+## Social links
+# use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
+[[socialIcons]]
+icon = "fas fas-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/drsarahlgibson"
+
+[[socialIcons]]
+icon = "fas fas-github"
+title = "GitHub"
+url = "https://github.com/sgibson91"
