@@ -1,0 +1,8 @@
+{{ if (eq .Site.Params.disableTitleCapitalization true) }}
+<h1>{{ .Site.Data.resume.profile.title }}</h1>
+{{ else }}
+<h1>{{ title .Site.Data.resume.profile.title }}</h1>
+{{ end }}
+<p class="markdownify">
+    {{ .Site.Data.resume.profile.description | markdownify }}
+</p>
