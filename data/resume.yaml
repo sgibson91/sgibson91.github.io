@@ -1,0 +1,65 @@
+profile:
+  type: "profile"
+  title: "Profile"
+  description: "Sarah Gibson is a DevOps/Platform Engineer."
+# professionalExperience:
+#   title:
+#   list:
+#     - company:
+#       url:
+#       location:
+#       roles:
+#         - position:
+#           dates:
+#           details:
+# openSourceExperience:
+#   title:
+#   list:
+#     - company:
+#       url:
+#       location:
+#       roles:
+#         - position:
+#           dates:
+#           details:
+# projects:
+#   title:
+#   list:
+#     - name:
+#       details:
+# education:
+#   title:
+#   list:
+#     - college:
+#       dates:
+#       degree:
+#       thesis_title:
+#       thesis_url:
+# courses:
+#   title:
+#   list:
+#     - org:
+#       org_url:
+#       course:
+#       course_url:
+#       awarded:
+# skills:
+#   title:
+#   list:
+#     - name:
+# publications:
+#   title:
+#   format:
+#     - date
+#     - title
+#     - authors
+#     - journal
+#   types:
+#     - Journal Articles
+#   list:
+#     - title:
+#       authors:
+#       date:
+#       journal:
+#       url:
+#       type:
