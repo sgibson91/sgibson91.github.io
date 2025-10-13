@@ -1,5 +1,13 @@
 {{ define "main" }}
+  <div
+    class="archive {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
     {{ range .Site.Data.resume }}
       <div>{{ partial (print "resume/" .type) $ }}</div>
     {{ end }}
+  </div>
 {{ end }}
