@@ -1,7 +1,10 @@
 showSections:
+  # The order of this list determines the order
+  # the sections are rendered on the site
   - profile
   - professionalExperience
   - openSourceExperience
+  - education
 profile:
   type: "profile"
   title: "Profile"
@@ -43,14 +46,18 @@ openSourceExperience:
 #   list:
 #     - name:
 #       details:
-# education:
-#   title:
-#   list:
-#     - college:
-#       dates:
-#       degree:
-#       thesis_title:
-#       thesis_url:
+education:
+  type: education
+  title: "Education"
+  list:
+    - college: "University of Leicester, UK"
+      dates: "Mar. 2015 - Sep. 2018"
+      degree: "Astrophysics Ph.D."
+      thesis_title: "Understanding the Most Powerful Explosions in the Universe"
+      thesis_url: "https://hdl.handle.net/2381/43098"
+    - college: "University of Hull, UK"
+      dates: "Sep. 2010 - May 2014"
+      degree: "MPhys Physics with Astrophysics"
 # courses:
 #   title:
 #   list:
