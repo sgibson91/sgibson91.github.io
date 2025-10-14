@@ -1,29 +1,43 @@
 showSections:
   - profile
+  - professionalExperience
+  - openSourceExperience
 profile:
   type: "profile"
   title: "Profile"
   description: "Sarah Gibson is a DevOps/Platform Engineer."
-# professionalExperience:
-#   title:
-#   list:
-#     - company:
-#       url:
-#       location:
-#       roles:
-#         - position:
-#           dates:
-#           details:
-# openSourceExperience:
-#   title:
-#   list:
-#     - company:
-#       url:
-#       location:
-#       roles:
-#         - position:
-#           dates:
-#           details:
+professionalExperience:
+  type: experience
+  title: "Professional Experience"
+  list:
+    - company: "The International Interactive Computing Collaboration, 2i2c"
+      url: "https://2i2c.org"
+      location: "Remote, UK"
+      roles:
+        - position: "Open Source Infrastructure Engineer"
+          dates: "Jun. 2021 - May 2025"
+          details: "foo"
+    - company: "The Alan Turing Institute"
+      url: "https://turing.ac.uk"
+      location: "London, UK"
+      roles:
+        - position: "Research Software Engineer"
+          dates: "Nov. 2018 - May 2021"
+          details: "bar"
+openSourceExperience:
+  type: experience
+  title: "Open Source Experience"
+  list:
+    - company: "The Turing Way"
+      url: "https://book.the-turing-way.org"
+      location: "Remote, UK"
+      roles:
+        - position: "Co-Lead Infrastructure Working Group"
+          dates: "Sep. 2022 - Present"
+          details: "baz"
+        - position: "Contributor"
+          dates: "Nov. 2018 - Sep. 2022"
+          details: "baz again"
 # projects:
 #   title:
 #   list:
