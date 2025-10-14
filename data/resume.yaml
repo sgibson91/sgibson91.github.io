@@ -1,3 +1,5 @@
+showSections:
+  - profile
 profile:
   type: "profile"
   title: "Profile"
