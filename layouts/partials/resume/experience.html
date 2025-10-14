@@ -1,0 +1,16 @@
+{{ if (eq .Site.Params.disableTitleCapitalization true) }}
+  <h2>{{ .title }}</h2>
+{{ else }}
+  <h2>{{ title .title }}</h2>
+{{ end }}
+{{ range .list }}
+  {{ if .url }}
+    <h3><a href="{{ .url }}">{{ .company }}</a>, <small><i>{{ .location }}</i></small></h3>
+  {{ else }}
+    <h3>{{ .company }}, <small><i>{{ .location }}</i></small></h3>
+  {{ end }}
+  {{ range .roles }}
+    <h4>{{ .position }}, <small><i>{{ .dates }}</i></small></h4>
+    <p>{{ .details | markdownify }}</p>
+  {{ end }}
+{{ end }}
