@@ -6,8 +6,10 @@
       animated fadeInDown
     {{ end }}"
   >
-    {{ range .Site.Data.resume }}
-      <div>{{ partial (print "resume/" .type) $ }}</div>
-    {{ end }}
+  {{ range $section := .Site.Data.resume.showSections }}
+    {{ $sectionKey := . }}
+    {{ $section := index $.Site.Data.resume $sectionKey }}
+    <div>{{ partial (print "resume/" $section.type) $section }}</div>
+  {{ end }}
   </div>
 {{ end }}
