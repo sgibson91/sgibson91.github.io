@@ -5,12 +5,12 @@
 {{ end }}
 {{ range .list }}
   {{ if .url }}
-    <h3><a href="{{ .url }}">{{ .company }}</a>, <small><i>{{ .location }}</i></small></h3>
+    <h3><a href="{{ .url }}">{{ .company }}</a> &middot; <small><i>{{ .location }}</i></small></h3>
   {{ else }}
-    <h3>{{ .company }}, <small><i>{{ .location }}</i></small></h3>
+    <h3>{{ .company }} &middot; <small><i>{{ .location }}</i></small></h3>
   {{ end }}
   {{ range .roles }}
-    <h4>{{ .position }}, <small><i>{{ .dates }}</i></small></h4>
+    <h4>{{ .position }} &middot; <small><i>{{ .dates }}</i></small></h4>
     <p>{{ .details | markdownify }}</p>
   {{ end }}
 {{ end }}
