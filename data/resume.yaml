@@ -6,6 +6,7 @@ showSections:
   - openSourceExperience
   - education
   - courses
+  - skills
 profile:
   type: profile
   title: "Profile"
@@ -74,23 +75,27 @@ courses:
       course: "Scientific Community Engagement Fundamentals"
       course_url: "https://api.badgr.io/public/assertions/OWeiqSTrQWy2od3P6GDQkA"
       awarded: "November 14, 2022"
-# skills:
-#   title:
-#   list:
-#     - name:
-# publications:
-#   title:
-#   format:
-#     - date
-#     - title
-#     - authors
-#     - journal
-#   types:
-#     - Journal Articles
-#   list:
-#     - title:
-#       authors:
-#       date:
-#       journal:
-#       url:
-#       type:
+skills:
+  type: skills
+  title: "Skills"
+  list:
+    - AWS
+    - Azure
+    - CI/CD
+    - DevOps
+    - Docker
+    - filesystem management
+    - git
+    - GitHub
+    - GitHub Actions
+    - GCP
+    - Grafana
+    - Helm
+    - Jupyter
+    - Kubernetes
+    - Linux
+    - Prometheus
+    - Python
+    - Site Reliability Engineering
+    - Terraform
+    - testing
