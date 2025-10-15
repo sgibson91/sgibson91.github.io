@@ -7,14 +7,14 @@ showSections:
   - education
   - courses
 profile:
-  type: "profile"
+  type: profile
   title: "Profile"
   description: "Sarah Gibson is a DevOps/Platform Engineer."
 professionalExperience:
   type: experience
   title: "Professional Experience"
   list:
-    - company: "The International Interactive Computing Collaboration, 2i2c"
+    - company: "2i2c: The International Interactive Computing Collaboration"
       url: "https://2i2c.org"
       location: "Remote, UK"
       roles:
@@ -46,17 +46,18 @@ openSourceExperience:
 #   title:
 #   list:
 #     - name:
+#       url:
 #       details:
 education:
   type: education
   title: "Education"
   list:
-    - college: "University of Leicester, UK"
+    - college: "University of Leicester"
       dates: "Mar. 2015 - Sep. 2018"
       degree: "Astrophysics Ph.D."
       thesis_title: "Understanding the Most Powerful Explosions in the Universe"
       thesis_url: "https://hdl.handle.net/2381/43098"
-    - college: "University of Hull, UK"
+    - college: "University of Hull"
       dates: "Sep. 2010 - May 2014"
       degree: "MPhys Physics with Astrophysics"
 courses:
