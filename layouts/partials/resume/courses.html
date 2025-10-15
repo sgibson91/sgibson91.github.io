@@ -3,17 +3,19 @@
 {{ else }}
   <h2>{{ title .title }}</h2>
 {{ end }}
+<div><ul>
 {{ range .list }}
-  <div>
+  <li>
   {{ if .course_url }}
-    <h4><a href="{{ .course_url }}">{{ .course }}</a> &middot; <i>awarded {{ .awarded }}</i></h4>
+    <b><a href="{{ .course_url }}">{{ .course }}</a></b> &middot; <i>awarded {{ .awarded }}</i> &middot; 
   {{ else }}
-    <h4>{{ .course }} &middot; <i>awarded {{ .awarded }}</i></h4>
+    <b>{{ .course }}</b> &middot; <i>awarded {{ .awarded }}</i> &middot; 
   {{ end }}
   {{ if .org_url }}
-    <p><a href="{{ .org_url }}">{{ .org }}</a></p>
+    <a href="{{ .org_url }}">{{ .org }}</a>
   {{ else }}
-    <p>{{ .org }}</p>
+    {{ .org }}
   {{ end }}
-  </div>
+  </li>
 {{ end }}
+</ul></div>
