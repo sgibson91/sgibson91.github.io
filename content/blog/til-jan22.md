@@ -1,5 +1,7 @@
 ---
 title: "Things I've Learned: January 2022"
+subtitle: " "
+summary: " "
 date: 2022-01-31
 description: "An Unordered Collection of Things I Learn over a Month"
 tags: ["learning"]
