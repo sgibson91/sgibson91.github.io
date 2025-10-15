@@ -3,14 +3,18 @@
 {{ else }}
   <h2>{{ title .title }}</h2>
 {{ end }}
+<ul>
 {{ range .list }}
   {{ if .url }}
-    <h3><a href="{{ .url }}">{{ .company }}</a> &middot; <small><i>{{ .location }}</i></small></h3>
+    <li><b><a href="{{ .url }}">{{ .company }}</a></b> &middot; <i>{{ .location }}</i></li>
   {{ else }}
-    <h3>{{ .company }} &middot; <small><i>{{ .location }}</i></small></h3>
+    <li><b>{{ .company }}</b> &middot; <i>{{ .location }}</i></li>
   {{ end }}
+  <ul>
   {{ range .roles }}
-    <h4>{{ .position }} &middot; <small><i>{{ .dates }}</i></small></h4>
-    <p>{{ .details | markdownify }}</p>
+    <li><b>{{ .position }}</b> &middot; <i>{{ .dates }}</i></li>
+    <ul><li>{{ .details | markdownify }}</li></ul>
   {{ end }}
+  </ul>
 {{ end }}
+</ul>

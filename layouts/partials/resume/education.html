@@ -3,14 +3,17 @@
 {{ else }}
   <h2>{{ title .title }}</h2>
 {{ end }}
+<ul>
 {{ range .list }}
-  <h3>{{ .college }} &middot; <small><i>{{ .dates }}</i></small></h3>
-  <p>{{ .degree }}</p>
+  <li><b>{{ .degree }}</b> &middot; {{ .college }} &middot; <i>{{ .dates }}</i></li>
   {{ if .thesis_title }}
+    <ul><li>
     {{ if .thesis_url }}
-      <p><small><i>Thesis:</i> <a href="{{ .thesis_url }}">{{ .thesis_title }}</a></small></p>
+      <i>Thesis:</i> <a href="{{ .thesis_url }}">{{ .thesis_title }}</a>
     {{ else }}
-      <p><small><i>Thesis:</i> {{ .thesis_title }}</small></p>
+      <i>Thesis:</i> {{ .thesis_title }}
     {{ end }}
+    </li></ul>
   {{ end }}
 {{ end }}
+</ul>
