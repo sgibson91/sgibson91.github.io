@@ -5,6 +5,7 @@ showSections:
   - professionalExperience
   - openSourceExperience
   - education
+  - courses
 profile:
   type: "profile"
   title: "Profile"
@@ -58,14 +59,20 @@ education:
     - college: "University of Hull, UK"
       dates: "Sep. 2010 - May 2014"
       degree: "MPhys Physics with Astrophysics"
-# courses:
-#   title:
-#   list:
-#     - org:
-#       org_url:
-#       course:
-#       course_url:
-#       awarded:
+courses:
+  type: courses
+  title: "Courses"
+  list:
+    - org: "The Linux Foundation"
+      org_url: "https://www.linuxfoundation.org/"
+      course: "LFS258 Kubernetes Fundamentals"
+      course_url: "https://www.credly.com/badges/5fcebe78-bcac-4f73-bd46-692782142e15/public_url"
+      awarded: "August 20, 2024"
+    - org: "Center for Scientific Collaboration and Community Engagement"
+      org_url: "https://www.cscce.org/"
+      course: "Scientific Community Engagement Fundamentals"
+      course_url: "https://api.badgr.io/public/assertions/OWeiqSTrQWy2od3P6GDQkA"
+      awarded: "November 14, 2022"
 # skills:
 #   title:
 #   list:
