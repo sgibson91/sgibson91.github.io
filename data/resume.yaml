@@ -6,6 +6,7 @@ showSections:
   - openSourceExperience
   - education
   - courses
+  - projects
   - skills
 profile:
   type: profile
@@ -43,12 +44,16 @@ openSourceExperience:
         - position: "Contributor"
           dates: "Nov. 2018 - Sep. 2022"
           details: "baz again"
-# projects:
-#   title:
-#   list:
-#     - name:
-#       url:
-#       details:
+projects:
+  type: projects
+  title: "Projects"
+  list:
+    - name: bump-helm-deps-action
+      url: "https://github.com/sgibson91/bump-helm-deps-action"
+      details: "foo"
+    - name: "Blogging with Hugo and GitHub Pages lesson"
+      url: "https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/"
+      details: "bar"
 education:
   type: education
   title: "Education"
