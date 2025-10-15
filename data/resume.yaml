@@ -54,6 +54,9 @@ projects:
     - name: "Blogging with Hugo and GitHub Pages lesson"
       url: "https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/"
       details: "bar"
+    - name: "GitHub Activity Dashboard"
+      url: "https://github.com/sgibson91/github-activity-dashboard"
+      details: "A set of dashboards to visualise my activity on GitHub"
 education:
   type: education
   title: "Education"
