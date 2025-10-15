@@ -5,19 +5,25 @@ weight = 100
 url = "/"
 
 [[main]]
-name = "Blog"
-weight = 300
-identifier = "blog"
-url = "/blog/"
-
-[[main]]
 name = "Resume"
 weight = 200
 identifier = "resume"
 url = "/resume/"
 
 [[main]]
-name = "Tags"
+name = "Bios"
 weight = 300
+identifier = "bios"
+url = "/bios/"
+
+[[main]]
+name = "Blog"
+weight = 400
+identifier = "blog"
+url = "/blog/"
+
+[[main]]
+name = "Tags"
+weight = 500
 identifier = "tags"
 url = "/tags/"
