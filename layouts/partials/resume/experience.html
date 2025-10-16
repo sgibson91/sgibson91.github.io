@@ -13,7 +13,7 @@
   <ul>
   {{ range .roles }}
     <li><b>{{ .position }}</b> &middot; <i>{{ .dates }}</i></li>
-    <ul><li>{{ .details | markdownify }}</li></ul>
+    {{ .details | markdownify }}
   {{ end }}
   </ul>
 {{ end }}
