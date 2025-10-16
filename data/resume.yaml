@@ -90,6 +90,7 @@ skills:
     - AWS
     - Azure
     - CI/CD
+    - containerisation
     - DevOps
     - Docker
     - filesystem management
@@ -99,11 +100,21 @@ skills:
     - GCP
     - Grafana
     - Helm
+    - infrastructure-as-code
     - Jupyter
     - Kubernetes
     - Linux
+    - monitoring
+    - networking
+    - observability
+    - PagerDuty
     - Prometheus
     - Python
+    - pytest
+    - scripting
     - Site Reliability Engineering
+    - technical writing
     - Terraform
+    - test driven development
     - testing
+    - version control
