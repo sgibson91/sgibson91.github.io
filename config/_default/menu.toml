@@ -23,7 +23,13 @@ identifier = "blog"
 url = "/blog/"
 
 [[main]]
-name = "Tags"
+name = "Series"
 weight = 500
+identifier = "series"
+url = "/series/"
+
+[[main]]
+name = "Tags"
+weight = 600
 identifier = "tags"
 url = "/tags/"
