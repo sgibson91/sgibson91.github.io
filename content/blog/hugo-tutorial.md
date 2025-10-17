@@ -2,11 +2,10 @@
 title: "Create a Blog with Hugo and GitHub Pages"
 date: 2021-06-24T16:28:20+01:00
 tags:
+  - ci-cd
   - lesson
-  - website
   - hugo
-  - continuous-integration
-  - continuous-deployment
+  - website
 ---
 
 As a scientist in today's ever connected, digital world, having a platform to talk about one's work can be a really useful tool.

@@ -2,10 +2,10 @@
 title: "Software Sustainability Institute Fellowship 2020"
 date: 2020-01-10T00:00:00Z
 tags:
-  - update
-  - community
   - binder
+  - community
   - ssi
+  - update
 ---
 
 So 2020 is off to an incredibly exciting start!
