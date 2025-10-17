@@ -1,1 +1,1 @@
-exclude = ['^https://www\.linkedin\.com', '.*/categories/.*', '.*/series/.*']
+exclude = ['^https://www\.linkedin\.com', '.*/series/.*']
