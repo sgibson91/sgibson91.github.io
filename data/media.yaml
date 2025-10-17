@@ -1,0 +1,189 @@
+articles:
+  - title: Make code accessible with these cloud services
+    date: 2019-11-09
+    url: https://www.nature.com/articles/d41586-019-03366-x
+    journal: Nature
+    volume: "575"
+    pages: "247-248"
+
+blogs:
+# === Template ===
+#   - title:
+#     date:
+#     url:
+# ================
+  - title: SSI Fellow Sarah Gibson recognised as a Jupyter Distinguished Contributor
+    date: 2022-03-22
+    url: https://www.software.ac.uk/news/ssi-fellow-sarah-gibson-recognised-jupyter-distinguished-contributor
+  - title: Jupyter Distinguished Contributor 2022 cohort announcement
+    date: 2022-03-16
+    url: https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68
+  - title: "Society of Research Software Engineering: Career Case Study"
+    date: 2021-11-26
+    url: https://society-rse.org/careers/rse-stories/sarah-gibson/
+  - title: "Mouse vs Python: PyDev of the Week"
+    date: 2021-11-08
+    url: https://www.blog.pythonlibrary.org/2021/11/08/pydev-of-the-week-sarah-gibson/
+  - title: "Announcing the 2020 Software Sustainability Institute Fellows!"
+    date: 2020-01-10
+    url: https://www.software.ac.uk/blog/announcing-2020-software-sustainability-institute-fellows
+  - title: Changing the culture of data science
+    date: 2019-10-31
+    url: https://www.turing.ac.uk/about-us/impact/changing-culture-data-science
+  - title: Exploring New Worlds interview
+    date: 2019-10-10
+    url: https://exploringnewworlds.home.blog/2019/10/10/interview-with-sarah-gibson-research-data-scientist-the-alan-turing-institute/
+  - title: "BinderHub is out of beta!"
+    date: 2019-04-26
+    url: https://blog.jupyter.org/binderhub-is-out-of-beta-fa2781a229d6
+
+podcasts:
+# === Template ===
+#    - show_title:
+#      show_url:
+#      episode_title:
+#      episode_url:
+#      date:
+# ================
+   - show_title: The Turing Podcast
+     show_url: https://www.turing.ac.uk/news/turing-podcast
+     episode_title: "Reproducible Data Science: How hard can it be?"
+     episode_url: https://turing.podbean.com/e/ttp15/
+     date: 2020-09-24
+
+talks:
+# === Template ===
+#   - event:
+#     event_url:
+#     date:
+#     title:
+#     resources:
+#       - alt_text:
+#         url:
+# ================
+  - event: AGU Fall Meeting 2021
+    event_url: https://www.agu.org/Fall-Meeting
+    date: 2021-12-13
+    title: From Zero to Binder
+    resources:
+      - alt_text: Slides and Video
+        url: https://doi.org/10.5281/zenodo.5767615
+  - event: SSI 2022 Fellowship Launch Webinar
+    event_url: https://software.ac.uk/fellowship-programme/2022/webinar
+    date: 2021-09-23
+    title: My Journey as an SSI Fellow
+    resources:
+      - alt_text: Slides
+        url: https://docs.google.com/presentation/d/1T5wEiE1NsADtojuraPxuJnwOFwGmzm9QdLVlB-2Vt3U/edit?usp=sharing
+  - event: Compute Research School, Lund University
+    event_url: https://compute.lu.se
+    date: 2021-03-22
+    title: "The Turing Way: Reproducible Research and Beyond"
+    resources:
+      - alt_text: Slides
+        url: https://doi.org/10.5281/zenodo.4625923
+      - alt_text: Tutorial
+        url: https://book.the-turing-way.org/communication/binder/zero-to-binder/
+  - event: Remote ReproHack 2021
+    event_url: https://openworking.wordpress.com/2020/08/05/remote-reprohacking/
+    date: 2021-03-09
+    title: Sharing Reproducible Computational Environments with Binder
+    resources:
+      - alt_text: Slides
+        url: https://doi.org/10.5281/zenodo.3826151
+  - event: SSI Research Software Camp
+    event_url: https://software.ac.uk/RSCamp-research-accessibility
+    date: 2021-02-22
+    title: Boost your Research Reproducibility with Binder
+    resources:
+      - alt_text: Intro Slides
+        url: https://doi.org/10.5281/zenodo.4570595
+      - alt_text: Why you need a Computational Environment
+        url: https://doi.org/10.5281/zenodo.4573145
+      - alt_text: Tutorial
+        url: https://book.the-turing-way.org/communication/binder/zero-to-binder/
+  - event: JuliaCon 2020
+    event_url: https://juliacon.org/2020/
+    date: 2020-07-29
+    title: "Binder and the Julia Community: How can we help each other and Planning for the Future"
+    resources:
+      - alt_text: Lightning Talk Slides and Video
+        url: https://live.juliacon.org/talk/GVFYUF
+      - alt_text: Birds of a Feather Abstract
+        url: https://live.juliacon.org/talk/QF8BC7
+      - alt_text: Birds of a Feather Slides
+        url: https://doi.org/10.5281/zenodo.3956320
+  - event: EuroPython 2020
+    event_url: https://ep2020.europython.eu/
+    date: 2020-07-23
+    title: Sharing Reproducible Python Environments with Binder
+    resources:
+      - alt_text: Abstract
+        url: https://ep2020.europython.eu/talks/BqQBN6J-sharing-reproducible-python-environments-with-binder/
+      - alt_text: Slides
+        url: https://doi.org/10.5281/zenodo.3937310
+  - event: e-Rum 2020
+    event_url: https://2020.erum.io
+    date: 2020-06-17
+    title: Supporting R in the Binder Community
+    resources:
+      - alt_text: Abstract
+        url: https://github.com/sgibson91/ssi-fellowship/blob/main/talks/abstracts/eRum2020.md
+      - alt_text: Slides
+        url: https://doi.org/10.5281/zenodo.3895699
+  - event: CogX 2020
+    event_url: https://www.cogxfestival.com/
+    date: 2020-06-08
+    title: Sharing Reproducible Analyses with Binder at Scale
+    resources:
+      - alt_text: Slides
+        url: https://doi.org/10.5281/zenodo.3885704
+  - event: Remote ReproHack 2020
+    event_url: https://n8cir.org.uk/events/remote-reprohack/
+    date: 2020-05-14
+    title: Sharing Reproducible Computational Environments with Binder
+    resources:
+      - alt_text: Slides
+        url: https://doi.org/10.5281/zenodo.3826152
+  - event: PyData Cambridge Meetup
+    event_url: https://www.meetup.com/PyData-Cambridge-Meetup/events/267902974/
+    date: 2020-01-29
+    title: "Reproducible Research: An Introduction to The Turing Way and Binder"
+    resources:
+      - alt_text: Slides
+        url: https://doi.org/10.5281/zenodo.3628296
+      - alt_text: Tutorial
+        url: https://book.the-turing-way.org/communication/binder/zero-to-binder/
+  - event: UK RSECon19
+    event_url: https://rse.ac.uk/conf2019/
+    date: 2019-09-17
+    title: Build a BinderHub for hosting Reproducible Software in the Cloud
+    resources:
+      - alt_text: Slides
+        url: https://zenodo.org/record/3404774#.XZzZVOdKgWo
+      - alt_text: Workshop
+        url: https://github.com/the-turing-way/build-a-BinderHub/blob/main/workshop-presentations/zero-to-binderhub.md
+  - event: UK RSECon19
+    event_url: https://rse.ac.uk/conf2019/
+    date: 2019-09-17
+    title: "RSE Worldwide: Collaborating Across Borders"
+    resources:
+      - alt_text: Slides
+        url: https://zenodo.org/record/3377380#.XZzZ3udKgWo
+  - event: UKRI Cloud Workshop
+    event_url: https://cloud.ac.uk/workshops/feb2019/
+    date: 2019-02-12
+    title: Reproducible, Reliable, Reusable Analyses with BinderHub on Cloud
+    resources:
+      - alt_text: Abstract
+        url: https://github.com/the-turing-way/conferences/blob/main/abstracts/UKRI-cloud-workshop-abstract.md
+      - alt_text: Slides
+        url: https://github.com/the-turing-way/conferences/blob/main/presentations/UKRI_cloud_2019-02-12/UKRI_cloud_demo_2019-02-12.md
+
+videos:
+# === Template ===
+#   - title:
+#     youtube_id:
+# ================
+  - title: CogX 2020 Tools, Practices, and Systems panel
+    youtube_id: yjtLKjTHCI0
