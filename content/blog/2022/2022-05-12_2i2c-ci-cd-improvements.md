@@ -1,5 +1,5 @@
 ---
-title: "Tech update: Multiple JupyterHubs, multiple clusters, one repository."
+title: "Tech update: Multiple JupyterHubs, multiple clusters, one repository"
 subtitle: "How we optimised and parallelised deployments of multiple JupyterHubs across multiple clusters in GitHub."
 summary: ""
 date: 2022-05-12T11:51:52+01:00
@@ -106,4 +106,5 @@ We hope that this is a useful resource for others to follow if they also maintai
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to [manage a hub for your community](https://2i2c.org/service/), please [send us an email](mailto:hello@2i2c.org).
 
-_**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](https://2i2c.org/team), and this post was edited by [Chris Holdgraf](https://2i2c.org/author/chris-holdgraf)._
+{{< notice info >}}**Acknowledgements**
+The infrastructure described in this post was developed by [the 2i2c engineering team](https://2i2c.org/team), and this post was edited by [Chris Holdgraf](https://2i2c.org/author/chris-holdgraf).{{< /notice>}}
