@@ -1,5 +1,6 @@
 ---
 title: Biographies
+type: bios
 ---
 
 ## Headline

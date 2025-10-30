@@ -17,7 +17,7 @@
       {{ else }}
         <h1>{{ title .Title }}</h1>
       {{ end }}
-      {{ if or (eq .Type "post") (eq .Type .Site.Params.postSectionName) }}
+      {{ if or (eq .Type "blog") (eq .Type .Site.Params.postSectionName) }}
         <ul class="post__meta">
           <li class="post__meta-item">
             <em class="fas fa-calendar-day post__meta-icon"></em>
@@ -44,9 +44,10 @@
             <span class="post__meta-text">{{ i18n "reading_time" .ReadingTime }}</span>
           </li>
         </ul>
-      {{ end }}
 
-      {{- partial "expirationnote" . -}}
+        {{- partial "expirationnote" . -}}
+
+      {{ end }}
 
       {{ .Content }}
 
