@@ -6,6 +6,7 @@ tags:
   - ci-cd
   - devops
   - github-actions
+disableComments: true
 ---
 
 {{< notice info >}}This blog was originally posted on the Jupyter blog: <https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32>{{< /notice >}}

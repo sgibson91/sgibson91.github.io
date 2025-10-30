@@ -37,3 +37,9 @@ url = "https://github.com/sgibson91"
 icon = "fa-brands fa-orcid"
 title = "ORCiD"
 url = "https://orcid.org/0000-0003-0356-2765"
+
+[giscus]
+repo = "sgibson91/sgibson91.github.io"
+repoID = "MDEwOlJlcG9zaXRvcnkyMTM2NDE3NTg="
+category = "Blog Comments"
+categoryID = "DIC_kwDODLvqHs4CxI0U"
