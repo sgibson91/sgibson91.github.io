@@ -3,7 +3,7 @@ showSections:
   # the sections are rendered on the site
   - profile
   - professionalExperience
-  - openSourceExperience
+  - extraExperience
   - education
   - courses
   - projects
@@ -11,7 +11,10 @@ showSections:
 profile:
   type: profile
   title: "Profile"
-  description: "Sarah Gibson is a DevOps/Platform Engineer."
+  description: |1-
+    Sarah Gibson is a Platform Engineer with seven years' experience in Kubernetes
+    and cloud environments. She builds robust systems for research and education,
+    and has supported public infrastructure for sharing environments.
 professionalExperience:
   type: experience
   title: "Professional Experience"
@@ -22,41 +25,179 @@ professionalExperience:
       roles:
         - position: "Open Source Infrastructure Engineer"
           dates: "Jun. 2021 - May 2025"
-          details: "foo"
+          details: |1-
+            - Designed and deployed infrastructure across multiple cloud vendors
+              using Infrastructure-as-Code principles with Terraform, reducing
+              provisioning time for new client services to under one day.
+            - Developed a Python-based application to create and manage Google
+              Filestore backups, ensuring all clients on GCP infrastructure
+              maintained up-to-date backups of critical data.
+              [[_blog_](https://2i2c.org/blog/2025/gcp-filestore-backups/)]
+            - Automated the build of containerised software environments from
+              version control using Docker and GitHub Actions, enabling researchers
+              to self-serve and customise their own environments efficiently.
+            - Designed an intelligent CI/CD pipeline using Python logic to create
+              dynamic upgrade strategies that targeted only necessary infrastructure,
+              reducing pipeline runtimes, isolating application upgrades, and
+              increasing confidence in deployment workflows.
+              [[_blog_](https://2i2c.org/blog/2022/ci-cd-improvements/)|[_talk_](https://www.youtube.com/watch?v=b7CCUHYOaK4)]
+            - Built core functions for a central Python utility library to automate
+              DevOps tasks, boosting efficiency.
+              [[_repo_](https://github.com/2i2c-org/infrastructure/tree/main/deployer)]
+            - Collaborated effectively within a globally distributed, agile team,
+              driving progress across time zones and disciplines.
+            - Led end-to-end development and delivery of new product features,
+              from scoping stakeholder needs to successful launch.
+            - Collaborated with stakeholders to gather requirements and architect
+              scalable, user-centric solutions aligned with operational and business goals.
+            - Delivered high-quality operational support, resolving incidents
+              and addressing customer issues in a high-availability environment.
     - company: "The Alan Turing Institute"
       url: "https://turing.ac.uk"
       location: "London, UK"
       roles:
         - position: "Research Software Engineer"
           dates: "Nov. 2018 - May 2021"
-          details: "bar"
-openSourceExperience:
+          details: |1-
+            - Designed Helm configuration and a CI/CD pipeline to deploy a
+              customised JupyterHub to Azure Kubernetes Service, enabling
+              researchers access to datasets stored in cloud object stores.
+            - Developed Ansible configurations to reliably and reproducibly
+              provision infrastructure for a machine learning competition
+              platform, accelerating the platform's development and deployment
+              process.
+            - Wrote a Python CLI tool to compare file content hashes and identify
+              duplicate files in large data dumps, automating cleanup and ensuring
+              researchers had access to clean, de-duplicated datasets.
+            - Built a Python tool to extract keyword-based image snippets from
+              OCR text, powering content generation for a large-scale crowdsourcing
+              effort in a multi-million-pound digital humanities project.
+            - Built and automated computational infrastructure and data pipelines,
+              performed data wrangling and analysis, and delivered insights through
+              clear documentation, technical reports, presentations, and blog posts.
+            - Led the end-to-end delivery of research software projects, applying
+              best practices in software engineering—including version control,
+              modular design, and testing—to ensure maintainability and reproducibility.
+            - Collaborated closely with researchers and stakeholders across the
+              Turing network to develop software solutions for data-intensive
+              research aligned with Turing Challenge Areas.
+            - Managed projects from inception to delivery, coordinating across
+              multidisciplinary teams to align technical implementation with
+              research goals.
+extraExperience:
   type: experience
-  title: "Open Source Experience"
+  title: "Voluntary Experience"
   list:
     - company: "The Turing Way"
       url: "https://book.the-turing-way.org"
       location: "Remote, UK"
       roles:
-        - position: "Co-Lead Infrastructure Working Group"
+        - position: "Infrastructure Working Group Co-Lead"
           dates: "Sep. 2022 - Present"
-          details: "baz"
-        - position: "Contributor"
+          details: |1-
+            - Designed strategic infrastructure roadmaps outlining project goals
+              and requirements, establishing a single source of truth to guide
+              decision-making and priority setting.
+            - Introduced agile workflows into core working group operations,
+              enhancing visibility, accountability, and ownership of tasks while
+              enabling strategic focus on long-term goals.
+            - Assessed and prioritised team activities to maximise impact and
+              drive progress toward the group's strategic objectives.
+            - Co-leads a cross-functional working group, contributing to strategic
+              direction, operational management, and the successful onboarding of
+              new members.
+        - position: "Maintainer"
           dates: "Nov. 2018 - Sep. 2022"
-          details: "baz again"
+          details: |1-
+            - Created content on computational reproducibility, delivering
+              structured tutorials to over 6,000 monthly users and supporting
+              widespread skill development.
+            - Designed and facilitated workshops on computational reproducibility
+              at multiple conferences, training hundreds of researchers across
+              diverse domains to integrate reproducible practices into their work.
+            - Developed an automated test suite in Python and Bash to verify links,
+              enforce style guides, and control file size, ensuring site integrity
+              and maintainable repo size.
+    - company: "JupyterHub"
+      url: "https://jupyterhub.readthedocs.io"
+      location: "Remote, UK"
+      roles:
+        - position: "Maintainer"
+          dates: "Apr. 2019 - May 2025"
+          details: |1-
+            - Recognised as a [Jupyter Distinguished Contributor in 2022](https://blog.jupyter.org/congratulations-distinguished-contributors-bc349fa60d68)
+              for significant contributions to the Jupyter ecosystem and advancing
+              open-source initiatives.
+            - Secured a $10K infrastructure grant from the Alan Turing Institute
+              to add a federation member to mybinder.org, increasing the platform's
+              capacity to host reproducible computational environments and support
+              global research and education.
+            - Administered federated Kubernetes clusters across multi-cloud
+              environments to deliver a public platform for sharing reproducible
+              computational environments, supporting over 140,000 weekly launches
+              as of Q2 2020.
+            - Authored technical documentation for deploying BinderHub to Azure,
+              transforming an under-documented setup into a clear, user-friendly guide.
+            - Automated and parallelised core deployment processes using CI/CD
+              pipelines to enable fast, reliable, and consistent platform updates.
+            - Served as technical lead and primary maintainer for a private
+              BinderHub deployment at the Turing Institute, ensuring stability,
+              scalability, and performance.
+            - Facilitated monthly community calls, fostering collaboration,
+              gathering feedback, and guiding technical priorities for ongoing
+              platform development.
+    - company: "Software Sustainability Institute"
+      url: "https://software.ac.uk"
+      location: "Remote, UK"
+      roles:
+        - position: "Independent Consultancy (<i>paid</i>)"
+          dates: "Oct. 2023 - Jun. 2024"
+          details: |1-
+            - Designed training on software engineering best practices-focusing
+              on version control, code readability, and FAIR principles-for a
+              research software course.
+              [[_original repo_](https://github.com/carpentries-incubator/fair-research-software)|[_new location_](https://carpentries-incubator.github.io/better-research-software/)]
+        - position: "Fellow"
+          dates: "awarded Jan. 2020"
+          details: |1-
+            - Initiated and cultivated a community of practice focused on
+              leveraging cloud infrastructure to enable reproducible research,
+              fostering collaboration, knowledge sharing, and peer support
+              across disciplines.
+              [[_blog_](https://www.software.ac.uk/blog/announcing-2020-software-sustainability-institute-fellows)]
+    - company: "OLS"
+      url: "https://we-are-ols.org/"
+      location: "Remote, UK"
+      roles:
+        - position: "Mentor"
+          dates: "Feb. 2021 - Jan. 2022"
+          details: |1-
+            - Mentored cohorts from under-represented communities in open
+              leadership development, guiding them in growing sustainable open
+              science projects and fostering inclusive, collaborative communities.
 projects:
   type: projects
   title: "Projects"
   list:
-    - name: bump-helm-deps-action
-      url: "https://github.com/sgibson91/bump-helm-deps-action"
-      details: "foo"
-    - name: "Blogging with Hugo and GitHub Pages lesson"
-      url: "https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/"
-      details: "bar"
     - name: "GitHub Activity Dashboard"
       url: "https://github.com/sgibson91/github-activity-dashboard"
-      details: "A set of dashboards to visualise my activity on GitHub"
+      details: |1-
+        A set of dashboards to visualise my activity on GitHub, and assist me in
+        generating reports and invoicing work done.
+    - name: "Blogging with Hugo and GitHub Pages lesson"
+      url: "https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/"
+      details: |1-
+        A [Carpentries](https://carpentries.org/)-style lesson guiding users
+        through building a blogging website using Hugo and GitHub Pages. It
+        covers CI/CD methodology and testing to verify and deploy the website.
+        A video walkthrough of the lesson has >6k views on YouTube.
+        [[_lesson_](https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/)|[_video_](https://www.youtube.com/watch?v=_STFQc9Y2zY)|[_blog_](https://sgibson91.github.io/blog/hugo-tutorial/)]
+    - name: bump-helm-deps-action
+      url: "https://github.com/sgibson91/bump-helm-deps-action"
+      details: |1-
+        A GitHub Action, written in Python, that opens automated Pull Requests
+        bumping the versions of sub-charts defined in a Helm chart in the chosen
+        repository. [[_repo_](https://github.com/sgibson91/bump-helm-deps-action)]
 education:
   type: education
   title: "Education"
