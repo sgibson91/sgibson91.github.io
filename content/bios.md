@@ -3,32 +3,22 @@ title: Biographies
 type: bios
 ---
 
-## Headline
-
-_TBA_
+Please use this [up-to-date headshot](/images/profile.jpg)
+if needed.
 
 ## Short bio
 
-_TBA_
+Sarah Gibson is a Platform Engineer with seven years' experience in Kubernetes
+and cloud environments. She builds robust systems for research and education,
+and has supported public infrastructure for sharing environments.
 
 ## Long bio
 
-Sarah Gibson is a highly skilled software developer and cloud infrastructure
-engineer with a strong track record of enabling open, data-driven research at
-scale. With 6+ years of experience at the intersection of technology, research,
-and education — spanning a pioneering tech nonprofit and a leading national
-institute for data science and AI — Sarah brings both deep technical expertise
-and a passion for collaboration.
-
-She specialises in designing and deploying cloud-based solutions that empower
-researchers to tackle complex, data-intensive challenges. Her work accelerates
-scientific discovery by making cutting-edge tools more accessible, scalable, and
-reproducible. An active contributor to the open-source community, Sarah champions
-open science practices and builds infrastructure that ensures research outputs
-are reusable and transparent.
-
-Driven by a belief in the power of interdisciplinary collaboration, Sarah thrives
-on partnering with domain experts to turn ambitious research goals into reality.
-Whether architecting robust cloud systems or advocating for open, equitable
-technology, she’s committed to creating lasting impact across research and
-education.
+Sarah Gibson is an accomplished Platform Engineer, specialising in Kubernetes
+and cloud environments. She has seven years' experience of deploying and managing
+cloud environments for research and educational initiatives. She focuses on
+building robust, maintainable systems that empower teams. She has supported public
+infrastructure running ~140k sessions a month, enabling shareable and reproducible
+computational environments. Read more about Sarah's interests on
+[her blog]({{% relref "/blog" %}}) and connect with her on
+[LinkedIn](https://www.linkedin.com/in/drsarahlgibson).
