@@ -5,7 +5,7 @@ weight = 100
 url = "/"
 
 [[main]]
-name = "Resume"
+name = "Resumé"
 weight = 200
 identifier = "resume"
 url = "/resume/"
