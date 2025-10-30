@@ -2,7 +2,7 @@
 
 ## Repo Overview
 
-* Blog posts are hosted in `content/blog`
+* Blog posts are hosted in `content/blog/YYYY/`
 
 ## Building the website locally
 

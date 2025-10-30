@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div
+    class="archive {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+  >
+  {{ range $section := .Site.Data.resume.showSections }}
+    {{ $sectionKey := . }}
+    {{ $section := index $.Site.Data.resume $sectionKey }}
+    <div>{{ partial (print "resume/" $section.type) $section }}</div>
+  {{ end }}
+  </div>
+{{ end }}

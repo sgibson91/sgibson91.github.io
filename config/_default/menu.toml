@@ -1,0 +1,35 @@
+[[main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[main]]
+name = "Resumé"
+weight = 200
+identifier = "resume"
+url = "/resume/"
+
+[[main]]
+name = "Bios"
+weight = 300
+identifier = "bios"
+url = "/bios/"
+
+[[main]]
+name = "Blog"
+weight = 400
+identifier = "blog"
+url = "/blog/"
+
+[[main]]
+name = "Series"
+weight = 500
+identifier = "series"
+url = "/series/"
+
+[[main]]
+name = "Tags"
+weight = 600
+identifier = "tags"
+url = "/tags/"

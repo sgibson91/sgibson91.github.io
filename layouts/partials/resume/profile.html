@@ -1,0 +1,8 @@
+{{ if (eq .Site.Params.disableTitleCapitalization true) }}
+  <h2>{{ .title }}</h2>
+{{ else }}
+  <h2>{{ title .title }}</h2>
+{{ end }}
+<p class="markdownify">
+  {{ .description | markdownify }}
+</p>

@@ -1,0 +1,45 @@
+title = "Sarah Gibson"
+author = "Sarah Gibson"
+#copyright = "2020-2021"
+description = "DevOps/Platform Engineer"
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+mainSections = ["blog"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+singleDateFormat = "2006-01-02"  # YYYY-MM-DD
+indexDateFormat = "2006-01-02"  # YYYY-MM-DD
+listDateFormat = "2006-01-02"  # YYYY-MM-DD
+readMore = true
+# postSectionName = "blog"
+relatedPosts = true
+numberOfRelatedPosts = 3
+reversepagetitle = true  # When set to 'true', the Window Title will be reversed to 'Title | Author' instead of the default 'Author | Title'
+oldContentWarning = true
+
+# Sidebar/Content Ratio
+contentratio = 0.75
+
+## Social links
+# use 'fa-brands' when brand icons, use 'fas' when standard solid icons.
+[[socialIcons]]
+icon = "fa-brands fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/drsarahlgibson"
+
+[[socialIcons]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/sgibson91"
+
+[[socialIcons]]
+icon = "fa-brands fa-orcid"
+title = "ORCiD"
+url = "https://orcid.org/0000-0003-0356-2765"
+
+[giscus]
+repo = "sgibson91/sgibson91.github.io"
+repoID = "MDEwOlJlcG9zaXRvcnkyMTM2NDE3NTg="
+category = "Blog Comments"
+categoryID = "DIC_kwDODLvqHs4CxI0U"

@@ -1,0 +1,19 @@
+{{ if (eq .Site.Params.oldContentWarning true) }}
+  {{ $published := time .Date }}
+  {{ $publishedYear := $published.Year }}
+  {{ $currentYear := now.Year }}
+  {{ $yearsSince := sub $currentYear $publishedYear}}
+  {{ if ge $yearsSince 5 }}
+    <div class="notice notice--warning">
+      <span class="notice__title notice__title--warning">Warning</span>
+      <div class="notice__content">
+        This post is now more than {{ $yearsSince }} years old and is likely out
+        of date. A lot of change, in both myself and the world, has happened in
+        that time, and my present self may 100% disagree with what past me has
+        written. However, this post shall remain as a historical archive. I
+        rarely edit my posts, but if there is something here that is particularly
+        offensive or breaches someone's privacy, please contact me.
+      </div>
+    </div>
+  {{ end }}
+{{ end }}

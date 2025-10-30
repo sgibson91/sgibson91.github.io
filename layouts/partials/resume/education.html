@@ -1,0 +1,19 @@
+{{ if (eq .Site.Params.disableTitleCapitalization true) }}
+  <h2>{{ .title }}</h2>
+{{ else }}
+  <h2>{{ title .title }}</h2>
+{{ end }}
+<ul>
+{{ range .list }}
+  <li><b>{{ .degree }}</b> &middot; {{ .college }} &middot; <i>{{ .dates }}</i></li>
+  {{ if .thesis_title }}
+    <ul><li>
+    {{ if .thesis_url }}
+      <i>Thesis:</i> <a href="{{ .thesis_url }}">{{ .thesis_title }}</a>
+    {{ else }}
+      <i>Thesis:</i> {{ .thesis_title }}
+    {{ end }}
+    </li></ul>
+  {{ end }}
+{{ end }}
+</ul>

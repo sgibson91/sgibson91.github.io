@@ -1,0 +1,45 @@
+baseURL = "https://sgibson91.github.io"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Sarah Gibson"
+theme = "anatole"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+localizedDates = false
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+# Mermaid
+[params.mermaid]
+enable = true
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['\[', '\]'], ['$$', '$$']]
+inline = [['\(', '\)']]
+
+[taxonomies]
+series = "series"
+tag = "tags"
+
+[related]
+includeNewer = true
+threshold = 80
+toLower = true
+[[related.indices]]
+name = 'keywords'
+weight = 100
+[[related.indices]]
+name = 'tags'
+weight = 80
