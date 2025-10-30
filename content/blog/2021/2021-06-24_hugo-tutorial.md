@@ -6,6 +6,7 @@ tags:
   - lesson
   - hugo
   - website
+disableComments: true
 ---
 
 As a scientist in today's ever connected, digital world, having a platform to talk about one's work can be a really useful tool.

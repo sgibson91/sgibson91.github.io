@@ -2,6 +2,7 @@
 title: "2019: Seasons of Reflection"
 date: 2019-12-19T00:00:00Z
 tags: ["update"]
+disableComments: true
 ---
 
 As 2019 comes to a close, I have spent a full year as a Research Software Engineer (RSE) at The Alan Turing Institute.

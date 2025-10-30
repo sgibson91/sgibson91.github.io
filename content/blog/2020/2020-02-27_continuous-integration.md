@@ -6,6 +6,7 @@ tags:
   - ci-cd
   - devops
   - tools
+disableComments: true
 ---
 
 Sarah and Graham have different career backgrounds - Sarah having come through academia whereas Graham earned his stripes in industry. However in their current roles, they often find themselves using the same tools, for example Continuous Integration. They have written this blog post to identify how academia and industry may use Continuous Integration in different ways, and what they might learn from one another.

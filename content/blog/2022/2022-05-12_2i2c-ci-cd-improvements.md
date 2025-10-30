@@ -8,6 +8,7 @@ tags:
   - devops
   - github-actions
 draft: false
+disableComments: true
 ---
 
 {{< notice info >}}This blog was [originally posted by 2i2c](https://2i2c.org/blog/2022/ci-cd-improvements/) and represents a project Sarah lead and developed.{{< /notice >}}
