@@ -11,6 +11,7 @@ tags:
   - leadership
   - microsoft
   - sprint
+disableComments: true
 ---
 
 _"Hi everyone, I'm Sarah! I'm a Research Data Scientist at the Alan Turing Institute and I'm also an operator of mybinder.org. It's really cool seeing how many people here are interested in BinderHub!"_
