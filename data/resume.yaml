@@ -11,7 +11,10 @@ showSections:
 profile:
   type: profile
   title: "Profile"
-  description: "Sarah Gibson is a DevOps/Platform Engineer."
+  description: |1-
+    Sarah Gibson is a Platform Engineer with seven years' experience in Kubernetes
+    and cloud environments. She builds robust systems for research and education,
+    and has supported public infrastructure for sharing environments.
 professionalExperience:
   type: experience
   title: "Professional Experience"
