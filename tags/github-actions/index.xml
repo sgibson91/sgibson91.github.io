@@ -15,7 +15,7 @@ class="notice"
 &lt;span
 class="notice__title"
 &gt;Info&lt;/span&gt;&lt;div class="notice__content"&gt;
-This blog was originally posted on the Jupyter blog: &lt;a href="https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32"&gt;https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32&lt;/a&gt;
+This blog was &lt;a href="https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32"&gt;originally posted on the Jupyter blog&lt;/a&gt;.
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;I recently did some work on the mybinder.org deployment infrastructure to solve a problem with testing Pull Requests before deployment.
