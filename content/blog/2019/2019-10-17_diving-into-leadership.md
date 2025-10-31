@@ -38,7 +38,7 @@ Sounds like magic, right? You can even combine Binder with [Jupyter Books](https
 
 [BinderHub](https://binderhub.readthedocs.io/en/latest/index.html) is the technology powering Binder (or where the magic happens). It is a multi-user server that can create a custom, user-specified computing environment and make it accessible via a URL. It utilises different tools to make this possible and can be deployed onto either a cloud provider or an on-premise compute cluster. These tools are depicted in the below illustration.
 
-| {{< figure src="https://zenodo.org/api/iiif/v2/e4125eaf-b456-4097-85fc-6a2e80482d1c:96c70193-2f9e-442d-8cf8-21485d8864e1:1728_TURI_Book%20sprint_45%20repo2docker_040619_v2_MK.jpg/full/750,/0/default.jpg" alt="BinderHub tools" >}} |
+| {{< figure src="https://book.the-turing-way.org/build/binderhub-2ffef093161194cdf486d095c9fda7e8.svg" alt="BinderHub tools" >}} |
 | :---: |
 | A pictorial representation of the different tools constituting BinderHub. This image was created by [Scriberia](http://www.scriberia.co.uk/) for [The Turing Way](https://github.com/alan-turing-institute/the-turing-way) community and is used under a CC-BY licence. [Zenodo record](https://doi.org/10.5281/zenodo.3332808). |
 

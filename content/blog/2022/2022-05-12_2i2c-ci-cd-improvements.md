@@ -78,7 +78,7 @@ Here are the major jobs in this workflow, and what each does:
    - A **human-readable table** including information on _why_ a given deployment requires an upgrade (using the excellent [Rich library](https://github.com/Textualize/rich)).
    - **JSON outputs** that can be interpreted by GitHub Actions as sets of matrix jobs to run.
 
-   {{< figure src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_q75_h2_lanczos_3.webp" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
+   {{< figure src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_1200x1200_fit_q75_h2_lanczos_3.webp" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
 2. `upgrade-support-and-staging`: Update the support and staging Helm charts on each cluster. These are "shared infrastructure" Helm charts that control services that are shared across all hubs.
    - Accepts the JSON list described above to determine what to do next
    - Parallelises over clusters
