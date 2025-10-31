@@ -150,7 +150,7 @@ extraExperience:
       url: "https://software.ac.uk"
       location: "Remote, UK"
       roles:
-        - position: "Independent Consultancy (<i>paid</i>)"
+        - position: "Independent Consultancy (paid)"
           dates: "Oct. 2023 - Jun. 2024"
           details: |1-
             - Designed training on software engineering best practices-focusing
@@ -191,7 +191,7 @@ projects:
         through building a blogging website using Hugo and GitHub Pages. It
         covers CI/CD methodology and testing to verify and deploy the website.
         A video walkthrough of the lesson has >6k views on YouTube.
-        [[_lesson_](https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/)|[_video_](https://www.youtube.com/watch?v=_STFQc9Y2zY)|[_blog_](https://sgibson91.github.io/blog/hugo-tutorial/)]
+        [[_lesson_](https://carpentries-incubator.github.io/blogging-with-hugo-and-github-pages/)|[_video_](https://www.youtube.com/watch?v=_STFQc9Y2zY)|[_blog_]({{% relref "/blog/2021/2021-06-24_hugo-tutorial" %}})]
     - name: bump-helm-deps-action
       url: "https://github.com/sgibson91/bump-helm-deps-action"
       details: |1-
