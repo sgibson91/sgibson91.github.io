@@ -7,9 +7,9 @@
 {{ range .list }}
   <li>
   {{ if .course_url }}
-    <b><a href="{{ .course_url }}">{{ .course }}</a></b> &middot; <i>awarded {{ .awarded }}</i> &middot; 
+    <b><a href="{{ .course_url }}">{{ .course }}</a></b> &middot; <i>awarded {{ .awarded }}</i> &middot;
   {{ else }}
-    <b>{{ .course }}</b> &middot; <i>awarded {{ .awarded }}</i> &middot; 
+    <b>{{ .course }}</b> &middot; <i>awarded {{ .awarded }}</i> &middot;
   {{ end }}
   {{ if .org_url }}
     <a href="{{ .org_url }}">{{ .org }}</a>
