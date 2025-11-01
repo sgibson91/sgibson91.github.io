@@ -94,8 +94,10 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
-            --verbose
+            --config './lychee.toml'
             --no-progress
+            --offline
+            --root-dir $GITHUB_WORKSPACE/public/
             public/**/*.html
           # Fail action on broken links in Pull Requests
           fail: ${{ github.event_name == 'pull_request' }}
