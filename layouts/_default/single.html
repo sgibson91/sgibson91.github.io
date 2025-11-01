@@ -49,6 +49,10 @@
 
       {{ end }}
 
+      {{- if (eq .Params.toc true) -}}
+        {{- partial "toc.html" . -}}
+      {{- end -}}
+
       {{ .Content }}
 
       {{- if isset .Params "series" -}}
