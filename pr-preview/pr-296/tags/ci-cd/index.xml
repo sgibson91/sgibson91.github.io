@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ci-Cd on Sarah Gibson</title><link>https://sgibson91.github.io/tags/ci-cd/</link><description>Recent content in Ci-Cd on Sarah Gibson</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 12 May 2022 11:51:52 +0100</lastBuildDate><atom:link href="https://sgibson91.github.io/tags/ci-cd/index.xml" rel="self" type="application/rss+xml"/><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository</title><link>https://sgibson91.github.io/blog/2022/2022-05-12_2i2c-ci-cd-improvements/</link><pubDate>Thu, 12 May 2022 11:51:52 +0100</pubDate><guid>https://sgibson91.github.io/blog/2022/2022-05-12_2i2c-ci-cd-improvements/</guid><description>&lt;div
+class="notice"
+&gt;
+&lt;span
+class="notice__title"
+&gt;Info&lt;/span&gt;&lt;div class="notice__content"&gt;
+This blog was &lt;a href="https://2i2c.org/blog/2022/ci-cd-improvements/"&gt;originally posted by 2i2c&lt;/a&gt; and represents a project Sarah lead and developed.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from &lt;a href="https://github.com/2i2c-org/infrastructure"&gt;a single open infrastructure repository&lt;/a&gt;.
+This is a challenging problem, as it requires us to centralize information about a number of &lt;em&gt;independent&lt;/em&gt; cloud services, and deploy them in an efficient and reliable manner.
+Our initial attempt at this had a number of inefficiencies, and we recently completed an overhaul of its configuration and deployment infrastructure.&lt;/p&gt;</description></item><item><title>How I automated authorised cloud deployments from Pull Requests with GitHub Actions</title><link>https://sgibson91.github.io/blog/2021/2021-11-22_test-this-pr/</link><pubDate>Mon, 22 Nov 2021 19:35:00 +0000</pubDate><guid>https://sgibson91.github.io/blog/2021/2021-11-22_test-this-pr/</guid><description>&lt;div
+class="notice"
+&gt;
+&lt;span
+class="notice__title"
+&gt;Info&lt;/span&gt;&lt;div class="notice__content"&gt;
+This blog was &lt;a href="https://blog.jupyter.org/how-i-automated-authorised-cloud-deployments-from-pull-requests-with-github-actions-13f890538e32"&gt;originally posted on the Jupyter blog&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I recently did some work on the mybinder.org deployment infrastructure to solve a problem with testing Pull Requests before deployment.
+It had not been possible to test Pull Requests on our staging deployment because our automated workflows don&amp;rsquo;t have access to secrets.
+This resulted in my writing the &lt;a href="https://github.com/sgibson91/test-this-pr-action"&gt;&lt;code&gt;test-this-pr&lt;/code&gt; action&lt;/a&gt; and this blog is a retrospective of what I learned over that process.&lt;/p&gt;</description></item><item><title>Create a Blog with Hugo and GitHub Pages</title><link>https://sgibson91.github.io/blog/2021/2021-06-24_hugo-tutorial/</link><pubDate>Thu, 24 Jun 2021 16:28:20 +0100</pubDate><guid>https://sgibson91.github.io/blog/2021/2021-06-24_hugo-tutorial/</guid><description>&lt;p&gt;As a scientist in today&amp;rsquo;s ever connected, digital world, having a platform to talk about one&amp;rsquo;s work can be a really useful tool.
+Whether you&amp;rsquo;re looking to strike up new collaborations or promote your freshly published paper, a blog can help signal boost your work and function as an archive of your ideas (the developed and forgotten).&lt;/p&gt;</description></item><item><title>Continuous Integration: Fail Fast and Fail First</title><link>https://sgibson91.github.io/blog/2020/2020-02-27_continuous-integration/</link><pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate><guid>https://sgibson91.github.io/blog/2020/2020-02-27_continuous-integration/</guid><description>How to industry and academia take advantage of shared tools</description></item></channel></rss>
