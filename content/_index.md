@@ -14,7 +14,7 @@ To learn more about my interests and how I think, check out the
 browse by [topic tag]({{% relref "/tags/" %}}) or [series]({{% relref "/series/" %}})
 as well.
 
-{{< notice info >}}The views expressed on this site are mine alone and not represented of any institute or organisation I may be affiliated with past, present, or future.{{< /notice >}}
+{{< notice info >}}The views expressed on this site are mine alone and not representative of any institute or organisation I may be affiliated with past, present, or future.{{< /notice >}}
 
 ---
 
