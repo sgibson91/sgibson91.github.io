@@ -27,6 +27,9 @@ Also after burning out earlier on in 2025, I made some promises to myself regard
 - Don't take an opportunity just because you're flattered to be asked
 - Don't take an opportunity just because people who know you think you'll be good at it, _especially_ if these are people you respect (they are probably right, but see previous promise)
 
+To be clear, it is totally fine to feel flattered if you've been approached for a job rather than applying, and to listen to the advice of people you respect when making career decisions.
+I just didn't want these feelings to be the driving factor of my decisions, as I'm trying to break free of my people pleasing patterns and make decisions that make sense for me.
+
 Does this whole situation make the anxious goblin side of me that's driven by an aversion to scarcity screech in terror?
 Absolutely, and that's okay.
 But maybe that's what growth looks like as well?
