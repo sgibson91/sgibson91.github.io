@@ -14,6 +14,10 @@ pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 
+[author]
+name = "Sarah Gibson"
+email = ""
+
 # Mermaid
 [params.mermaid]
 enable = true
