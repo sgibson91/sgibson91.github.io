@@ -45,6 +45,11 @@ podcasts:
 #      episode_url:
 #      date:
 # ================
+   - show_title: Code for Thought
+     show_url: https://codeforthought.buzzsprout.com/
+     episode_title: "ByteSized: create your web-site with GitHub Pages"
+     episode_url: https://codeforthought.buzzsprout.com/1326658/episodes/19133793-en-bytesized-create-your-web-site-with-github-pages-j-cohen-s-gibson
+     date: 2026-05-19
    - show_title: The Turing Podcast
      show_url: https://www.turing.ac.uk/news/turing-podcast
      episode_title: "Reproducible Data Science: How hard can it be?"
