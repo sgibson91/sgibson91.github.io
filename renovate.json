@@ -2,5 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended"
+  ],
+  "enabledManagers": ["custom.regex"],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": ["*"],
+      "matchStrings": [
+        "#\\s*renovate:\\s*datasource=(?<datasource>[^\\s]+)(?:\\s+registryUrl=(?<registryUrl>[^\\s]+))?(?:\\s+depName=(?<depName>[^\\s]+))?(?:\\s+packageName=(?<packageName>[^\\s]+))?\\n\\s+\\w+:\\s*\"(?<currentValue>[^\"]+)\""
+      ]
+    }
   ]
 }
