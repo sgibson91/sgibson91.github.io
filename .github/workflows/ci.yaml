@@ -27,7 +27,7 @@ jobs:
       # renovate: datasource=github-releases depName=sass/dart-sass
       DART_SASS_VERSION: "1.102.0"
       # renovate: datasource=github-releases depName=gohugoio/hugo
-      HUGO_VERSION: "0.164.0"
+      HUGO_VERSION: "0.165.0"
       # renovate: datasource=node-version depName=node
       NODE_VERSION: "24.19.0"
 
